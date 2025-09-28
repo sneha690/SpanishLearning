@@ -1,0 +1,62 @@
+[
+    { "spanish": "manzana", "hint": "Fruit (Apple)" },
+    { "spanish": "pera", "hint": "Fruit (Pear)" },
+    { "spanish": "plátano", "hint": "Fruit (Banana)" },
+    { "spanish": "naranja", "hint": "Fruit (Orange)" },
+    { "spanish": "uva", "hint": "Fruit (Grape)" },
+  
+    { "spanish": "perro", "hint": "Animal (Dog)" },
+    { "spanish": "gato", "hint": "Animal (Cat)" },
+    { "spanish": "pájaro", "hint": "Animal (Bird)" },
+    { "spanish": "pez", "hint": "Animal (Fish)" },
+    { "spanish": "vaca", "hint": "Animal (Cow)" },
+  
+    { "spanish": "escuela", "hint": "Place (School)" },
+    { "spanish": "biblioteca", "hint": "Place (Library)" },
+    { "spanish": "casa", "hint": "Place (House)" },
+    { "spanish": "hospital", "hint": "Place (Hospital)" },
+    { "spanish": "tienda", "hint": "Place (Store)" },
+  
+    { "spanish": "hermano", "hint": "Family (Brother)" },
+    { "spanish": "madre", "hint": "Family (Mother)" },
+    { "spanish": "padre", "hint": "Family (Father)" },
+    { "spanish": "abuelo", "hint": "Family (Grandfather)" },
+    { "spanish": "tía", "hint": "Family (Aunt)" },
+  
+    { "spanish": "sol", "hint": "Nature (Sun)" },
+    { "spanish": "luna", "hint": "Nature (Moon)" },
+    { "spanish": "estrella", "hint": "Nature (Star)" },
+    { "spanish": "cielo", "hint": "Nature (Sky)" },
+    { "spanish": "nube", "hint": "Nature (Cloud)" },
+  
+    { "spanish": "camisa", "hint": "Clothing (Shirt)" },
+    { "spanish": "zapato", "hint": "Clothing (Shoe)" },
+    { "spanish": "pantalón", "hint": "Clothing (Pants)" },
+    { "spanish": "chaqueta", "hint": "Clothing (Jacket)" },
+    { "spanish": "sombrero", "hint": "Clothing (Hat)" },
+  
+    { "spanish": "libro", "hint": "Object (Book)" },
+    { "spanish": "mesa", "hint": "Object (Table)" },
+    { "spanish": "silla", "hint": "Object (Chair)" },
+    { "spanish": "ventana", "hint": "Object (Window)" },
+    { "spanish": "puerta", "hint": "Object (Door)" },
+  
+    { "spanish": "azul", "hint": "Color (Blue)" },
+    { "spanish": "rojo", "hint": "Color (Red)" },
+    { "spanish": "verde", "hint": "Color (Green)" },
+    { "spanish": "amarillo", "hint": "Color (Yellow)" },
+    { "spanish": "negro", "hint": "Color (Black)" },
+  
+    { "spanish": "lunes", "hint": "Time (Monday)" },
+    { "spanish": "martes", "hint": "Time (Tuesday)" },
+    { "spanish": "miércoles", "hint": "Time (Wednesday)" },
+    { "spanish": "jueves", "hint": "Time (Thursday)" },
+    { "spanish": "viernes", "hint": "Time (Friday)" },
+  
+    { "spanish": "feliz", "hint": "Emotion (Happy)" },
+    { "spanish": "triste", "hint": "Emotion (Sad)" },
+    { "spanish": "enojado", "hint": "Emotion (Angry)" },
+    { "spanish": "asustado", "hint": "Emotion (Scared)" },
+    { "spanish": "cansado", "hint": "Emotion (Tired)" }
+  ]
+  

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="login-container">
+        <form class="login-form" action="/login" method="POST">
+            <h2>Login</h2>
+            
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            
+            <div class="input-group password-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <i class="fa-solid fa-eye" id="togglePassword"></i>
+            </div>
+            
+            <div class="options">
+                <label><input type="checkbox" name="remember"> Remember Me</label>
+                <a href="reset-password.html" class="forgot-password">Forgot Password?</a>
+            </div>
+            
+            <button type="submit" class="login-btn">Login</button>
+            
+            <div class="social-login">
+                <p>Or login with</p>
+                <button class="google-btn"><i class="fa-brands fa-google"></i> Google</button>
+                <button class="facebook-btn"><i class="fa-brands fa-facebook"></i> Facebook</button>
+            </div>
+            
+            <div class="links">
+                <a href="register.html" class="create-account">Create New Account</a>
+            </div>
+        </form>
+    </div>
+    
+    <!-- Dark Mode Toggle -->
+    <button id="dark-mode-toggle">🌙</button>
+
+    <script>
+        // Particles.js Initialization
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 100, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                opacity: { value: 0.5, random: true },
+                size: { value: 3, random: true },
+                move: { enable: true, speed: 2 }
+            },
+            interactivity: {
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" }
+                }
+            },
+            retina_detect: true
+        });
+
+        // Show/Hide Password Toggle
+        document.getElementById("togglePassword").addEventListener("click", function () {
+            let passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                this.classList.add("active");
+            } else {
+                passwordField.type = "password";
+                this.classList.remove("active");
+            }
+        });
+
+        // Dark Mode Toggle
+        document.getElementById("dark-mode-toggle").addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+        });
+    </script>
+</body>
+</html>

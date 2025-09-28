@@ -1,0 +1,154 @@
+[
+    {
+        "question": "What does 'ahora' mean in English?",
+        "choice1": "Later",
+        "choice2": "Now",
+        "choice3": "Tomorrow",
+        "choice4": "Yesterday",
+        "answer": 2
+    },
+    {
+        "question": "Which word means 'letter' in Spanish?",
+        "choice1": "Carta",
+        "choice2": "Correo electrónico",
+        "choice3": "Escribe",
+        "choice4": "Jefa",
+        "answer": 1
+    },
+    {
+        "question": "'Correo electrónico' refers to what in English?",
+        "choice1": "Electronic mail",
+        "choice2": "Postcard",
+        "choice3": "Text message",
+        "choice4": "Letter",
+        "answer": 1
+    },
+    {
+        "question": "Which of these means 'Which' in Spanish?",
+        "choice1": "Cual",
+        "choice2": "Carta",
+        "choice3": "Leo",
+        "choice4": "Negocio",
+        "answer": 1
+    },
+    {
+        "question": "'Escribe' is the conjugation for which verb?",
+        "choice1": "Escribir",
+        "choice2": "Leer",
+        "choice3": "Tener",
+        "choice4": "Trabajos",
+        "answer": 1
+    },
+    {
+        "question": "'Jefa' refers to what in English?",
+        "choice1": "Boss (female)",
+        "choice2": "Secretary",
+        "choice3": "Employee",
+        "choice4": "Office",
+        "answer": 1
+    },
+    {
+        "question": "What is the plural form of 'jefa'?",
+        "choice1": "Jefas",
+        "choice2": "Jefes",
+        "choice3": "Jefasos",
+        "choice4": "Jefamos",
+        "answer": 1
+    },
+    {
+        "question": "Which word is used to refer to 'the' in a plural feminine form?",
+        "choice1": "Las",
+        "choice2": "Los",
+        "choice3": "La",
+        "choice4": "El",
+        "answer": 1
+    },
+    {
+        "question": "'Leer' means what in English?",
+        "choice1": "To write",
+        "choice2": "To read",
+        "choice3": "To speak",
+        "choice4": "To listen",
+        "answer": 2
+    },
+    {
+        "question": "If someone says 'Leo' in Spanish, what are they saying?",
+        "choice1": "I write",
+        "choice2": "I read",
+        "choice3": "I run",
+        "choice4": "I talk",
+        "answer": 2
+    },
+    {
+        "question": "What does 'mucho' mean?",
+        "choice1": "A lot",
+        "choice2": "A little",
+        "choice3": "Too much",
+        "choice4": "Enough",
+        "answer": 1
+    },
+    {
+        "question": "'Negocio' refers to which of the following?",
+        "choice1": "Business",
+        "choice2": "Meeting",
+        "choice3": "Conversation",
+        "choice4": "Customer",
+        "answer": 1
+    },
+    {
+        "question": "'Nueva' is used to describe what?",
+        "choice1": "Something old",
+        "choice2": "Something new (feminine)",
+        "choice3": "Something broken",
+        "choice4": "Something borrowed",
+        "answer": 2
+    },
+    {
+        "question": "Which word means 'new' in its masculine form?",
+        "choice1": "Nueva",
+        "choice2": "Nuevo",
+        "choice3": "Negocios",
+        "choice4": "Poco",
+        "answer": 2
+    },
+    {
+        "question": "'Poco' means what in English?",
+        "choice1": "A lot",
+        "choice2": "A little",
+        "choice3": "Some",
+        "choice4": "None",
+        "answer": 2
+    },
+    {
+        "question": "If someone says 'problema', they are talking about a?",
+        "choice1": "Solution",
+        "choice2": "Problem",
+        "choice3": "Challenge",
+        "choice4": "Success",
+        "answer": 2
+    },
+    {
+        "question": "What does 'secretaria' mean in English?",
+        "choice1": "Boss",
+        "choice2": "Manager",
+        "choice3": "Secretary",
+        "choice4": "Business",
+        "answer": 3
+    },
+    {
+        "question": "Which word means 'to have' in Spanish?",
+        "choice1": "Trabajos",
+        "choice2": "Escribir",
+        "choice3": "Tener",
+        "choice4": "Jefa",
+        "answer": 3
+    },
+    {
+        "question": "'Trabajos' refers to what?",
+        "choice1": "Offices",
+        "choice2": "Jobs",
+        "choice3": "Books",
+        "choice4": "Classes",
+        "answer": 2
+    }
+]

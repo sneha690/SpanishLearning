@@ -1,0 +1,83 @@
+[
+    {
+      "question": "What is the Spanish word for 'mother'?",
+      "choice1": "Padre",
+      "choice2": "Hermana",
+      "choice3": "Madre",
+      "choice4": "Tío",
+      "answer": 3
+    },
+    {
+      "question": "How do you say 'uncle' in Spanish?",
+      "choice1": "Tío",
+      "choice2": "Primo",
+      "choice3": "Hermano",
+      "choice4": "Padre",
+      "answer": 1
+    },
+    {
+      "question": "Which of these means 'cousin' (male) in Spanish?",
+      "choice1": "Tío",
+      "choice2": "Primo",
+      "choice3": "Sobrino",
+      "choice4": "Abuelo",
+      "answer": 2
+    },
+    {
+      "question": "What does 'abuela' mean?",
+      "choice1": "Grandmother",
+      "choice2": "Mother",
+      "choice3": "Aunt",
+      "choice4": "Sister",
+      "answer": 1
+    },
+    {
+      "question": "Which word refers to 'daughter' in Spanish?",
+      "choice1": "Hija",
+      "choice2": "Hermana",
+      "choice3": "Madre",
+      "choice4": "Prima",
+      "answer": 1
+    },
+    {
+      "question": "What is the Spanish term for 'brother'?",
+      "choice1": "Hermano",
+      "choice2": "Padre",
+      "choice3": "Primo",
+      "choice4": "Tío",
+      "answer": 1
+    },
+    {
+      "question": "How do you say 'nephew' in Spanish?",
+      "choice1": "Sobrino",
+      "choice2": "Nieto",
+      "choice3": "Cuñado",
+      "choice4": "Yerno",
+      "answer": 1
+    },
+    {
+      "question": "What does 'nieto' mean in English?",
+      "choice1": "Nephew",
+      "choice2": "Grandson",
+      "choice3": "Son-in-law",
+      "choice4": "Stepbrother",
+      "answer": 2
+    },
+    {
+      "question": "Which of these means 'father-in-law' in Spanish?",
+      "choice1": "Suegro",
+      "choice2": "Cuñado",
+      "choice3": "Yerno",
+      "choice4": "Padrastro",
+      "answer": 1
+    },
+    {
+      "question": "How do you say 'stepmother' in Spanish?",
+      "choice1": "Madrasta",
+      "choice2": "Abuela",
+      "choice3": "Prima",
+      "choice4": "Suegra",
+      "answer": 1
+    }
+  ]
+  

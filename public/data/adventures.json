@@ -1,0 +1,83 @@
+[
+    {
+      "question": "What is the translation of 'aún así'?",
+      "choice1": "Even so",
+      "choice2": "Although",
+      "choice3": "In addition",
+      "choice4": "But",
+      "answer": 1
+    },
+    {
+      "question": "What does 'nadie más' mean?",
+      "choice1": "No one else",
+      "choice2": "Everyone else",
+      "choice3": "Only me",
+      "choice4": "Somebody else",
+      "answer": 1
+    },
+    {
+      "question": "What is the meaning of 'senderismo'?",
+      "choice1": "Mountain climbing",
+      "choice2": "Hiking",
+      "choice3": "Skiing",
+      "choice4": "Surfing",
+      "answer": 2
+    },
+    {
+      "question": "What does 'sí o sí' mean?",
+      "choice1": "Yes or no",
+      "choice2": "Yes for sure",
+      "choice3": "Yes or yes",
+      "choice4": "Yes, maybe",
+      "answer": 3
+    },
+    {
+      "question": "What is the meaning of 'snowboard'?",
+      "choice1": "Surfing",
+      "choice2": "Skiing",
+      "choice3": "Snowboarding",
+      "choice4": "Mountain biking",
+      "answer": 3
+    },
+    {
+      "question": "What does 'sobre todo' mean?",
+      "choice1": "In particular",
+      "choice2": "Above all",
+      "choice3": "Therefore",
+      "choice4": "Besides",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'y después'?",
+      "choice1": "Before",
+      "choice2": "And then",
+      "choice3": "Now",
+      "choice4": "Later",
+      "answer": 2
+    },
+    {
+      "question": "What does 'ya que' mean?",
+      "choice1": "Until",
+      "choice2": "Since",
+      "choice3": "So",
+      "choice4": "After",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'yo no'?",
+      "choice1": "I don't",
+      "choice2": "I do",
+      "choice3": "I can",
+      "choice4": "I won't",
+      "answer": 1
+    },
+    {
+      "question": "What does 'yo sí' mean?",
+      "choice1": "I don't",
+      "choice2": "I can",
+      "choice3": "I will",
+      "choice4": "I do",
+      "answer": 4
+    }
+  ]
+  

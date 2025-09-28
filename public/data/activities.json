@@ -1,0 +1,259 @@
+[
+    {
+      "question": "What is the English translation of 'abren'?",
+      "choice1": "They open",
+      "choice2": "We open",
+      "choice3": "I open",
+      "choice4": "He/She opens",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'abrimos'?",
+      "choice1": "We open",
+      "choice2": "They open",
+      "choice3": "You open",
+      "choice4": "I open",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'aprendemos'?",
+      "choice1": "They learn",
+      "choice2": "We learn",
+      "choice3": "I learn",
+      "choice4": "You learn",
+      "answer": 2
+    },
+    {
+      "question": "What is the English translation of 'aprenden'?",
+      "choice1": "I learn",
+      "choice2": "You learn",
+      "choice3": "They are learning",
+      "choice4": "They learn",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'beben'?",
+      "choice1": "They drink",
+      "choice2": "You drink",
+      "choice3": "They are drinking",
+      "choice4": "We drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'comer'?",
+      "choice1": "To eat",
+      "choice2": "To drink",
+      "choice3": "To learn",
+      "choice4": "To speak",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'compramos'?",
+      "choice1": "We buy",
+      "choice2": "We eat",
+      "choice3": "We speak",
+      "choice4": "We drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'ella come'?",
+      "choice1": "She eats",
+      "choice2": "She drinks",
+      "choice3": "She buys",
+      "choice4": "She speaks",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'ellas escriben'?",
+      "choice1": "They eat",
+      "choice2": "They speak",
+      "choice3": "They write",
+      "choice4": "They drink",
+      "answer": 3
+    },
+    {
+      "question": "What is the English translation of 'ellos hablan'?",
+      "choice1": "They speak",
+      "choice2": "They eat",
+      "choice3": "They write",
+      "choice4": "They drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'ellos leen'?",
+      "choice1": "They speak",
+      "choice2": "They eat",
+      "choice3": "They drink",
+      "choice4": "They read",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'hablar español'?",
+      "choice1": "To speak English",
+      "choice2": "To read Spanish",
+      "choice3": "To speak Spanish",
+      "choice4": "To write Spanish",
+      "answer": 3
+    },
+    {
+      "question": "What is the English translation of 'leer este'?",
+      "choice1": "To write this",
+      "choice2": "To read this",
+      "choice3": "To speak this",
+      "choice4": "To drink this",
+      "answer": 2
+    },
+    {
+      "question": "What is the English translation of 'necesita escribir'?",
+      "choice1": "He/She needs to drink",
+      "choice2": "He/She needs to speak",
+      "choice3": "He/She needs to write",
+      "choice4": "He/She needs to eat",
+      "answer": 3
+    },
+    {
+      "question": "What is the English translation of 'necesitamos abrir'?",
+      "choice1": "We need to open",
+      "choice2": "We need to write",
+      "choice3": "We need to speak",
+      "choice4": "We need to drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'necesito comprar'?",
+      "choice1": "I need to eat",
+      "choice2": "I need to speak",
+      "choice3": "I need to write",
+      "choice4": "I need to buy",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'nosotras vivimos'?",
+      "choice1": "We live",
+      "choice2": "We eat",
+      "choice3": "We speak",
+      "choice4": "We drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'nosotros comemos'?",
+      "choice1": "We eat",
+      "choice2": "We drink",
+      "choice3": "We write",
+      "choice4": "We speak",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'nosotros leemos'?",
+      "choice1": "We speak",
+      "choice2": "We read",
+      "choice3": "We write",
+      "choice4": "We drink",
+      "answer": 2
+    },
+    {
+      "question": "What is the English translation of 'quiere aprender'?",
+      "choice1": "He/She wants to learn",
+      "choice2": "He/She wants to eat",
+      "choice3": "He/She wants to speak",
+      "choice4": "He/She wants to write",
+      "answer": 1
+    },
+    {
+      "question": "Which action is described by 'quiero beber'?",
+      "choice1": "I want to eat",
+      "choice2": "I want to speak",
+      "choice3": "I want to write",
+      "choice4": "I want to drink",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'salen'?",
+      "choice1": "They are leaving",
+      "choice2": "They go out",
+      "choice3": "They leave",
+      "choice4": "All of these",
+      "answer": 4
+    },
+    {
+      "question": "What is the meaning of the verb 'salir'?",
+      "choice1": "To leave",
+      "choice2": "To drink",
+      "choice3": "To speak",
+      "choice4": "To eat",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'toma'?",
+      "choice1": "He/She takes",
+      "choice2": "He/She drinks",
+      "choice3": "He/She eats",
+      "choice4": "He/She speaks",
+      "answer": 1
+    },
+    {
+      "question": "Which phrase translates to 'we take'?",
+      "choice1": "tomamos",
+      "choice2": "tomas",
+      "choice3": "toma",
+      "choice4": "tomar",
+      "answer": 1
+    },
+    {
+      "question": "What is the meaning of 'trabajamos'?",
+      "choice1": "We work",
+      "choice2": "We speak",
+      "choice3": "We eat",
+      "choice4": "We write",
+      "answer": 1
+    },
+    {
+      "question": "What is the meaning of 'trabajar en'?",
+      "choice1": "To work in",
+      "choice2": "To work on",
+      "choice3": "To work at",
+      "choice4": "To work with",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'tú bebes'?",
+      "choice1": "You eat",
+      "choice2": "You drink",
+      "choice3": "You write",
+      "choice4": "You speak",
+      "answer": 2
+    },
+    {
+      "question": "What is the English translation of 'tú escribes'?",
+      "choice1": "You read",
+      "choice2": "You eat",
+      "choice3": "You speak",
+      "choice4": "You write",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'tú hablas'?",
+      "choice1": "You speak",
+      "choice2": "You eat",
+      "choice3": "You write",
+      "choice4": "You drink",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'usted vive'?",
+      "choice1": "You live",
+      "choice2": "He/She lives",
+      "choice3": "They live",
+      "choice4": "You (formal) live",
+      "answer": 4
+    },
+    {
+      "question": "What is the English translation of 'vivir en'?",
+      "choice1": "To live in",
+      "choice2": "To speak in",
+      "choice3": "To eat in",
+      "choice4": "To drink in",
+      "answer": 1
+    }
+  ]
+  

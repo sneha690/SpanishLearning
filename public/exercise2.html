@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Definite Articles and Nouns</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f3e5f5; /* Pastel purple background */
+      color: #5A3E85; /* Purple text */
+    }
+    h2 {
+      color: #5A3E85; /* Dark purple for headings */
+      transition: color 0.3s ease;
+    }
+    h2:hover {
+      color: #7b1fa2; /* Lighter purple on hover */
+    }
+    .section {
+      margin-bottom: 25px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .section:hover {
+      transform: translateY(-5px); /* Lift effect on hover */
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    }
+    input, select {
+      margin: 5px 10px 5px 0;
+      padding: 6px;
+      border: 1px solid #ba68c8; /* Light purple border */
+      border-radius: 5px;
+      transition: border-color 0.3s ease;
+    }
+    input:focus, select:focus {
+      border-color: #8e24aa; /* Rich purple on focus */
+    }
+    .feedback {
+      font-size: 0.9em;
+      margin-top: 2px;
+      margin-left: 10px;
+      color: #7b1fa2; /* Lighter purple for feedback */
+    }
+    .correct {
+      color: green;
+    }
+    .incorrect {
+      color: red;
+    }
+    .hint {
+      font-size: 0.9em;
+      color: #7b1fa2; /* Purple color for hint */
+      margin-top: -5px;
+      margin-bottom: 10px;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+    .hint:hover {
+      opacity: 1; /* Highlight hint on hover */
+    }
+    .grouped {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .grouped input, .grouped select {
+      margin-right: 10px;
+    }
+    button {
+  padding: 10px 20px;
+  background-color: #8e24aa; /* Pastel purple */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #9c4dcc; /* Lighter purple on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(142, 36, 170, 0.7); /* Soft glow on focus */
+}
+
+</style>
+
+</head>
+<body>
+
+  <h1>📘 Definite Articles and Nouns</h1>
+
+  <div class="section">
+    <h2>I. Vocabulario nuevo / New Vocabulary</h2>
+
+<table border="1" cellpadding="6">
+  <tr><th>Spanish</th><th>Meaning</th></tr>
+  <tr><td>el</td><td>the [masculine, singular]</td></tr>
+  <tr><td>los</td><td>the [masculine, plural]</td></tr>
+  <tr><td>la</td><td>the [feminine, singular]</td></tr>
+  <tr><td>las</td><td>the [feminine, plural]</td></tr>
+  <tr><td>el libro</td><td>book</td></tr>
+  <tr><td>la mano</td><td>hand</td></tr>
+  <tr><td>la silla</td><td>chair</td></tr>
+  <tr><td>el mapa</td><td>map</td></tr>
+  <tr><td>la mesa</td><td>table</td></tr>
+  <tr><td>el problema</td><td>problem</td></tr>
+  <tr><td>la casa</td><td>house</td></tr>
+  <tr><td>el sistema</td><td>system</td></tr>
+  <tr><td>la clase</td><td>class</td></tr>
+  <tr><td>el día</td><td>day</td></tr>
+  <tr><td>el reloj</td><td>watch, clock</td></tr>
+  <tr><td>el cuaderno</td><td>notebook, workbook</td></tr>
+  <tr><td>el lápiz</td><td>pencil</td></tr>
+  <tr><td>el agua</td><td>water [feminine]</td></tr>
+  <tr><td>la pared</td><td>wall</td></tr>
+  <tr><td>la letra</td><td>letter</td></tr>
+  <tr><td>la música</td><td>music</td></tr>
+  <tr><td>el hotel</td><td>hotel</td></tr>
+  <tr><td>el televisor</td><td>television set</td></tr>
+  <tr><td>la familia</td><td>family</td></tr>
+  <tr><td>el papel</td><td>paper</td></tr>
+  <tr><td>interesante</td><td>interesting</td></tr>
+  <tr><td>clásico</td><td>classical</td></tr>
+  <tr><td>popular</td><td>popular</td></tr>
+  <tr><td>central</td><td>central</td></tr>
+  <tr><td>inteligente</td><td>intelligent</td></tr>
+  <tr><td>la educación</td><td>education</td></tr>
+  <tr><td>la libertad</td><td>liberty, freedom</td></tr>
+  <tr><td>la nación</td><td>nation</td></tr>
+  <tr><td>la posibilidad</td><td>possibility</td></tr>
+  <tr><td>la lección</td><td>lesson</td></tr>
+  <tr><td>la actitud</td><td>attitude</td></tr>
+  <tr><td>la universidad</td><td>university</td></tr>
+  <tr><td>la virtud</td><td>virtue</td></tr>
+  <tr><td>el pianista</td><td>male pianist</td></tr>
+  <tr><td>la pianista</td><td>female pianist</td></tr>
+  <tr><td>el dentista</td><td>male dentist</td></tr>
+  <tr><td>la dentista</td><td>female dentist</td></tr>
+  <tr><td>el futbolista</td><td>male soccer player</td></tr>
+  <tr><td>la futbolista</td><td>female soccer player</td></tr>
+  <tr><td>el señor</td><td>Mr., man</td></tr>
+  <tr><td>la señora</td><td>Mrs., woman</td></tr>
+  <tr><td>la señorita</td><td>Miss, young woman</td></tr>
+  <tr><td>el profesor</td><td>male professor</td></tr>
+  <tr><td>la profesora</td><td>female professor</td></tr>
+  <tr><td>el doctor</td><td>male doctor</td></tr>
+  <tr><td>la doctora</td><td>female doctor</td></tr>
+  <tr><td>el chico</td><td>boy</td></tr>
+  <tr><td>la chica</td><td>girl</td></tr>
+  <tr><td>llamar</td><td>to call</td></tr>
+  <tr><td>en</td><td>in</td></tr>
+  <tr><td>hay</td><td>there is, there are</td></tr>
+  <tr><td>de</td><td>of, from</td></tr>
+  <tr><td>el norte</td><td>north</td></tr>
+  <tr><td>el sur</td><td>south</td></tr>
+  <tr><td>el oeste</td><td>west</td></tr>
+  <tr><td>el este</td><td>east</td></tr>
+</table>  
+
+
+  </div>
+
+  <div class="section">
+    <h2>III. Actividades</h2>
+
+    <h2>I. Vocabulario nuevo / New Vocabulary – Summary Notes</h2>
+
+    <h3>A. 🌍 Geography of Spanish-Speaking World</h3>
+    <p>Spanish is spoken in Europe (Spain), North America (Mexico), Central America, Caribbean, South America, and Africa (Equatorial Guinea).</p>
+    <p>U.S. has the second-largest population of Spanish speakers (after Mexico).</p>
+    <p>Spanish is also spoken in Canada, Belize, and the Philippines.</p>
+    
+    <h3>B. 🧠 Nouns (Sustantivos)</h3>
+    <p>All nouns have gender: masculine or feminine.</p>
+    <p>Most nouns ending in -o are masculine.</p>
+    <p>Most ending in -a are feminine.</p>
+    <p>Nouns also have number: singular or plural.</p>
+    
+    <h3>C. 📰 Definite Articles (the)</h3>
+    <p>Spanish has 4 forms:</p>
+    <ul>
+      <li>el (masculine, singular)</li>
+      <li>la (feminine, singular)</li>
+      <li>los (masculine, plural)</li>
+      <li>las (feminine, plural)</li>
+    </ul>
+    <p>Example: el libro, la mesa, los cuadernos, las señoras</p>
+    <p>de + el = del (e.g., el cuaderno del curso)</p>
+    <p>Articles are also used in general and with titles (e.g., La profesora Ana Cano).</p>
+    
+    <h3>D. 👩‍🏫 Gender of Nouns</h3>
+    <p>Feminine suffixes: -a, -ión, -ad, -tud (e.g., la lección, la posibilidad)</p>
+    <p>Masculine suffixes: -o, -r, -l (e.g., el televisor, el hotel)</p>
+    <p>-ista endings can be both (e.g., el dentista, la dentista)</p>
+    <p>Words ending in -ma often masculine: el sistema, el problema</p>
+    <p>Exceptions: el día, el mapa (masculine), la mano (feminine)</p>
+    <p>Feminine nouns starting with stressed a use el (e.g., el agua), but are still feminine.</p>
+    
+    <h3>E. 🔢 Making Nouns Plural</h3>
+    <ul>
+      <li>Ends in vowel → add -s (e.g., la silla → las sillas)</li>
+      <li>Ends in consonant (except z) → add -es (el papel → los papeles)</li>
+      <li>Ends in z → change z to c and add -es (el lápiz → los lápices)</li>
+    </ul>
+    
+    <h3>F. 🔤 Alphabet</h3>
+    <p>Spanish has 27 letters (A-Z + Ñ)</p>
+    <p>Ñ is a unique letter, comes after N (e.g., España)</p>
+    
+    <h3>G. 🔊 Pronunciation Tips</h3>
+    <ul>
+      <li>f, l, m, n → same as in English</li>
+      <li>s always sounds like s (never like z)</li>
+      <li>h is silent (e.g., hotel → otel)</li>
+      <li>ch (as in chica) makes a “ch” sound</li>
+      <li>t → not aspirated (no puff of air)</li>
+      <li>r sounds like a soft d</li>
+      <li>j (in José, Juan) has no English equivalent—like a strong “h”</li>
+    </ul>
+    
+
+
+    <h3>a. Add the correct definite article</h3>
+    <p class="hint">Hint: Check the gender and singular/plural form of each noun.</p>
+    <ol>
+      <li class="grouped"><input id="a1"> universidad <span class="feedback" id="f_a1"></span></li>
+      <li class="grouped"><input id="a2"> libros <span class="feedback" id="f_a2"></span></li>
+      <li class="grouped"><input id="a3"> día <span class="feedback" id="f_a3"></span></li>
+      <li class="grouped"><input id="a4"> lápices <span class="feedback" id="f_a4"></span></li>
+      <li class="grouped"><input id="a5"> sistema <span class="feedback" id="f_a5"></span></li>
+      <li class="grouped"><input id="a6"> cuadernos <span class="feedback" id="f_a6"></span></li>
+      <li class="grouped"><input id="a7"> mapas <span class="feedback" id="f_a7"></span></li>
+      <li class="grouped"><input id="a8"> educación <span class="feedback" id="f_a8"></span></li>
+      <li class="grouped"><input id="a9"> actitud <span class="feedback" id="f_a9"></span></li>
+    </ol>
+    <button onclick="checkSection('a')">✔️ Check Answers (a)</button>
+
+    <h3>b. Add the correct article for home items</h3>
+    <p class="hint">Hint: Think about whether the item is masculine/feminine and singular/plural.</p>
+    <ol>
+      <li class="grouped"><input id="b1"> televisor <span class="feedback" id="f_b1"></span></li>
+      <li class="grouped"><input id="b2"> mesas <span class="feedback" id="f_b2"></span></li>
+      <li class="grouped"><input id="b3"> lámparas <span class="feedback" id="f_b3"></span></li>
+      <li class="grouped"><input id="b4"> papeles <span class="feedback" id="f_b4"></span></li>
+      <li class="grouped"><input id="b5"> computadora <span class="feedback" id="f_b5"></span></li>
+      <li class="grouped"><input id="b6"> alfombra <span class="feedback" id="f_b6"></span></li>
+      <li class="grouped"><input id="b7"> cuadernos <span class="feedback" id="f_b7"></span></li>
+      <li class="grouped"><input id="b8"> mapas <span class="feedback" id="f_b8"></span></li>
+      <li class="grouped"><input id="b9"> libros <span class="feedback" id="f_b9"></span></li>
+      <li class="grouped"><input id="b10"> mesas <span class="feedback" id="f_b10"></span></li>
+    </ol>
+    <button onclick="checkSection('b')">✔️ Check Answers (b)</button>
+
+    <h3>c. Make these plural</h3>
+    <p class="hint">Hint: Add -s or -es to the noun and change the article accordingly.</p>
+    <ol>
+      <li class="grouped">el cuaderno → <input id="c1"> <span class="feedback" id="f_c1"></span></li>
+      <li class="grouped">la lámpara → <input id="c2"> <span class="feedback" id="f_c2"></span></li>
+      <li class="grouped">el televisor → <input id="c3"> <span class="feedback" id="f_c3"></span></li>
+      <li class="grouped">el zapato → <input id="c4"> <span class="feedback" id="f_c4"></span></li>
+      <li class="grouped">el mapa → <input id="c5"> <span class="feedback" id="f_c5"></span></li>
+      <li class="grouped">la alfombra → <input id="c6"> <span class="feedback" id="f_c6"></span></li>
+    </ol>
+    <button onclick="checkSection('c')">✔️ Check Answers (c)</button>
+
+    <h3>d. Choose the correct answer</h3>
+    <ol>
+    <li>¿Cuál es el plural de <i>reloj</i>?<br>
+        <select id="d1" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) relojes</option>
+        <option>b) relojs</option>
+        <option>c) relojeces</option>
+        </select>
+        <span class="feedback" id="f_d1"></span>
+    </li>
+    <li>¿Cuál es el singular de <i>televisores</i>?<br>
+        <select id="d2" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) televiso</option>
+        <option>b) televisor</option>
+        <option>c) televisore</option>
+        </select>
+        <span class="feedback" id="f_d2"></span>
+    </li>
+    <li>¿Cuál es el plural de <i>hotel</i>?<br>
+        <select id="d3" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) hotel</option>
+        <option>b) hoteles</option>
+        <option>c) hotels</option>
+        </select>
+        <span class="feedback" id="f_d3"></span>
+    </li>
+    <li>¿Cuál es el singular de <i>doctoras</i>?<br>
+        <select id="d4" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) doctor</option>
+        <option>b) doctoras</option>
+        <option>c) doctora</option>
+        </select>
+        <span class="feedback" id="f_d4"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>sistema</i>?<br>
+        <select id="d5" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) la</option>
+        <option>b) las</option>
+        <option>c) el</option>
+        </select>
+        <span class="feedback" id="f_d5"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>mano</i>?<br>
+        <select id="d6" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) el</option>
+        <option>b) la</option>
+        <option>c) los</option>
+        </select>
+        <span class="feedback" id="f_d6"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>problemas</i>?<br>
+        <select id="d7" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) los</option>
+        <option>b) las</option>
+        <option>c) el</option>
+        </select>
+        <span class="feedback" id="f_d7"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>dentistas</i>?<br>
+        <select id="d8" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) los</option>
+        <option>b) las</option>
+        <option>c) la</option>
+        </select>
+        <span class="feedback" id="f_d8"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>futbolistas</i>?<br>
+        <select id="d9" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) los</option>
+        <option>b) las</option>
+        <option>c) la</option>
+        </select>
+        <span class="feedback" id="f_d9"></span>
+    </li>
+    <li>¿Cuál es el artículo definido de <i>papel</i>?<br>
+        <select id="d10" translate="no">
+        <option value="">-- Select --</option>
+        <option>a) la</option>
+        <option>b) el</option>
+        <option>c) las</option>
+        </select>
+        <span class="feedback" id="f_d10"></span>
+    </li>
+    </ol>
+    <button onclick="checkSection('d')">✔️ Check Answers (d)</button>
+
+  </div>
+
+  <script>
+    const answers = {
+      a1: "la", a2: "los", a3: "el", a4: "los", a5: "el", a6: "los", a7: "los", a8: "la", a9: "la",
+      b1: "el", b2: "las", b3: "las", b4: "los", b5: "la", b6: "la", b7: "los", b8: "los", b9: "los", b10: "las",
+      c1: "los cuadernos", c2: "las lámparas", c3: "los televisores", c4: "los zapatos", c5: "los mapas", c6: "las alfombras",
+      d1: "a) relojes", d2: "b) televisor", d3: "b) hoteles", d4: "c) doctora", d5: "c) el", d6: "b) la",
+  d7: "a) los", d8: "a) los", d9: "a) los", d10: "b) el"
+    };
+
+    function checkSection(prefix) {
+      Object.keys(answers).forEach(id => {
+        if (id.startsWith(prefix)) {
+          const elem = document.getElementById(id);
+          const feedback = document.getElementById(`f_${id}`);
+          if (elem.value.trim().toLowerCase() === answers[id].toLowerCase()) {
+            elem.style.borderColor = "green";
+            feedback.textContent = "✔ Correcto";
+            feedback.className = "feedback correct";
+          } else {
+            elem.style.borderColor = "red";
+            feedback.textContent = `✘ Incorrecto — Correcto: "${answers[id]}"`;
+            feedback.className = "feedback incorrect";
+          }
+        }
+      });
+    }
+  </script>
+
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/02/02/15/20250202152007-XC1SNJN7.js"></script>
+
+<!-- Notepad Button & Modal -->
+<style>
+  /* Floating Button */
+  #notepadButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    z-index: 9999;
+    transition: background 0.3s ease;
+  }
+
+  #notepadButton:hover {
+    background: linear-gradient(135deg, #ccb6ff, #8145d5);
+  }
+
+  /* Modal Background */
+  #modalContainer {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+    backdrop-filter: blur(6px);
+  }
+
+  /* Modal Box */
+  .modal {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 520px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    cursor: move;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #000;
+  }
+
+  .modal header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .buttons, .editor-toolbar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .buttons button, .editor-toolbar button {
+    background: rgba(255, 255, 255, 0.25);
+    color: #000;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .buttons button:hover, .editor-toolbar button:hover {
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  #notepad {
+    width: 100%;
+    max-height: 400px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    color: #000;
+    font-size: 15px;
+  }
+
+  /* Dark Mode */
+  .dark-mode .modal {
+    background: rgba(34, 34, 34, 0.8);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .dark-mode #notepad {
+    background-color: rgba(60, 60, 60, 0.5);
+    color: #fff;
+  }
+
+  .dark-mode .buttons button,
+  .dark-mode .editor-toolbar button {
+    background: rgba(100, 100, 100, 0.3);
+    color: #fff;
+  }
+
+  .dark-mode .buttons button:hover,
+  .dark-mode .editor-toolbar button:hover {
+    background: rgba(150, 150, 150, 0.4);
+  }
+</style>
+
+
+<!-- Button -->
+<button id="notepadButton">
+  <img src="dasgbrd/sticky notes.png" alt="Note" style="width: 30px; height: 30px;">
+</button>
+
+
+<!-- Modal -->
+<div id="modalContainer">
+  <div class="modal" id="notepadModal">
+    <header>
+      <h1>Notepad</h1>
+      <div class="buttons">
+        <button id="saveNote">Save</button>
+        <button id="loadNote">Load</button>
+        <button id="toggleMode">Dark Mode</button>
+        <button id="closeModal">Close</button>
+      </div>
+    </header>
+    <div class="editor-toolbar">
+      <button id="boldBtn">B</button>
+      <button id="italicBtn">I</button>
+      <button id="underlineBtn">U</button>
+      <button id="highlightBtn">Highlight</button>
+    </div>
+    <div id="notepad" contenteditable="true" placeholder="Start typing your notes here..."></div>
+  </div>
+</div>
+
+<script>
+  const notepadButton = document.getElementById("notepadButton");
+  const modalContainer = document.getElementById("modalContainer");
+  const notepadModal = document.getElementById("notepadModal");
+  const closeModalButton = document.getElementById("closeModal");
+  const toggleModeButton = document.getElementById("toggleMode");
+
+  notepadButton.onclick = () => {
+    modalContainer.style.display = "flex";
+    const savedNote = localStorage.getItem("note");
+    if (savedNote) {
+      document.getElementById("notepad").innerHTML = savedNote;
+    }
+  };
+
+  closeModalButton.onclick = () => {
+    modalContainer.style.display = "none";
+  };
+
+  let isDragging = false, offsetX, offsetY;
+  notepadModal.addEventListener('mousedown', e => {
+    isDragging = true;
+    offsetX = e.clientX - notepadModal.getBoundingClientRect().left;
+    offsetY = e.clientY - notepadModal.getBoundingClientRect().top;
+  });
+
+  window.addEventListener('mousemove', e => {
+    if (isDragging) {
+      notepadModal.style.left = `${e.clientX - offsetX}px`;
+      notepadModal.style.top = `${e.clientY - offsetY}px`;
+    }
+  });
+
+  window.addEventListener('mouseup', () => isDragging = false);
+
+  toggleModeButton.onclick = function() {
+    document.body.classList.toggle("dark-mode");
+    this.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+  };
+
+  // Save note to MongoDB
+    document.getElementById("saveNote").onclick = async () => {
+      const noteContent = document.getElementById("notepad").innerHTML;
+      if (noteContent.trim()) {
+        const response = await fetch('/api/save-note', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content: noteContent })
+        });
+        const result = await response.json();
+        alert(result.message || "Note saved!");
+      } else {
+        alert("Cannot save an empty note!");
+      }
+    };
+
+    // Load note from MongoDB
+    document.getElementById("loadNote").onclick = async () => {
+      const response = await fetch('/api/load-note');
+      const data = await response.json();
+      document.getElementById("notepad").innerHTML = data.note || '';
+    };
+
+  document.getElementById("boldBtn").onclick = () => document.execCommand('bold');
+  document.getElementById("italicBtn").onclick = () => document.execCommand('italic');
+  document.getElementById("underlineBtn").onclick = () => document.execCommand('underline');
+  document.getElementById("highlightBtn").onclick = () => document.execCommand('backColor', false, 'yellow');
+</script>
+
+
+</body>
+</html>

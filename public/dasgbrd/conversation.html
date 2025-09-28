@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Spanish - Fill in the Blanks</title>
+    <link rel="stylesheet" href="conversation.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Home Page -->
+        <div id="home">
+            <h1>Learn Spanish</h1>
+            <button id="play-btn" class="btn">Play</button>
+        </div>
+
+        <!-- Categories Page -->
+        <div id="categories" class="hidden">
+            <h2>Select Category</h2>
+            <div class="category-buttons-container">
+                <button id="basicconversation-btn" class="category-btn">Basic Conversations</button>
+                <button id="commonsituations-btn" class="category-btn">Common Situations</button>
+                <button id="practicedialogues-btn" class="category-btn">Practice Dialogues</button>
+            </div>
+        </div>
+
+        <!-- Conversations Page -->
+        <div id="conversations" class="hidden">
+            <h2>Select Conversation</h2>
+            <div id="conversations-container" class="cards-container"></div>
+            <button id="go-home-btn" class="btn" style="margin-top: 20px;">Go Home</button>
+        </div>
+
+        <!-- Practice Container -->
+        <div id="practice-container" class="hidden">
+            <div class="vocabulary-preview"></div>
+            <div class="dialogue-box" id="dialogue-box"></div>
+            <div class="translation-box" id="translation-box"></div>
+            <div class="controls">
+                <button id="speak-button" class="btn">🔊 Listen</button>
+                <button id="next-button" class="btn">Next →</button>
+                <button id="mic-button" class="btn">🎤 Speak Answer</button>
+                <button id="practice-again-button" class="btn">Practice Again</button>
+            </div>
+            <div class="repeat-dialogue-section" style="margin-top: 20px; text-align: center;">
+                <button id="repeat-dialogue-button" class="btn">🎤 Repeat Whole Line</button>
+                <div id="dialogue-speech-result" class="speech-result" style="margin-top: 10px; font-style: italic;"></div>
+                <div id="dialogue-feedback" style="margin-top: 5px; font-weight: bold;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="conversation.js"></script>
+</body>
+</html>

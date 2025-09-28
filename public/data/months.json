@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What is the Spanish word for 'January'?",
+        "choice1": "Enero",
+        "choice2": "Febrero",
+        "choice3": "Marzo",
+        "choice4": "Abril",
+        "answer": 1
+    },
+    {
+        "question": "Which month is 'Julio' in English?",
+        "choice1": "June",
+        "choice2": "July",
+        "choice3": "August",
+        "choice4": "May",
+        "answer": 2
+    },
+    {
+        "question": "'Diciembre' is associated with which holiday?",
+        "choice1": "Christmas",
+        "choice2": "Halloween",
+        "choice3": "Easter",
+        "choice4": "New Year",
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT a summer month in the Northern Hemisphere?",
+        "choice1": "Julio",
+        "choice2": "Junio",
+        "choice3": "Diciembre",
+        "choice4": "Agosto",
+        "answer": 3
+    },
+    {
+        "question": "What is the first month of the year in Spanish?",
+        "choice1": "Enero",
+        "choice2": "Febrero",
+        "choice3": "Marzo",
+        "choice4": "Abril",
+        "answer": 1
+    },
+    {
+        "question": "'Abril' is which month in English?",
+        "choice1": "April",
+        "choice2": "May",
+        "choice3": "June",
+        "choice4": "August",
+        "answer": 1
+    },
+    {
+        "question": "Which month comes before 'Mayo'?",
+        "choice1": "Abril",
+        "choice2": "Junio",
+        "choice3": "Julio",
+        "choice4": "Marzo",
+        "answer": 1
+    },
+    {
+        "question": "Which season does 'Septiembre' start in the Northern Hemisphere?",
+        "choice1": "Winter",
+        "choice2": "Spring",
+        "choice3": "Autumn",
+        "choice4": "Summer",
+        "answer": 3
+    },
+    {
+        "question": "If today is 'Octubre', which month comes next?",
+        "choice1": "Noviembre",
+        "choice2": "Diciembre",
+        "choice3": "Enero",
+        "choice4": "Septiembre",
+        "answer": 1
+    },
+    {
+        "question": "Which month is known as the shortest month of the year?",
+        "choice1": "Febrero",
+        "choice2": "Marzo",
+        "choice3": "Abril",
+        "choice4": "Mayo",
+        "answer": 1
+    },
+    {
+        "question": "Which month marks the start of summer in the Northern Hemisphere?",
+        "choice1": "Marzo",
+        "choice2": "Mayo",
+        "choice3": "Junio",
+        "choice4": "Julio",
+        "answer": 3
+    },
+    {
+        "question": "'Noviembre' is which month in English?",
+        "choice1": "October",
+        "choice2": "November",
+        "choice3": "December",
+        "choice4": "September",
+        "answer": 2
+    }
+]

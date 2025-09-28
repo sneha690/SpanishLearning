@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish to English Dictionary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #d8b4fe, #a78bfa);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6a4c93;
+        }
+
+        #search {
+            width: 100%;
+            padding: 10px 15px;
+            margin-bottom: 15px;
+            border: 2px solid #cdb4db;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff0fb;
+            box-shadow: 0 4px 12px rgba(120, 90, 160, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #e4d4ec;
+        }
+
+        th {
+            background-color: #cdb4db;
+            color: #fff;
+        }
+
+        tr:hover {
+            background-color: #f3e8f6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Spanish to English Dictionary</h1>
+        <input type="text" id="search" placeholder="Search Spanish or English word...">
+        <table id="dictionary">
+            <thead>
+                <tr>
+                    <th>Spanish Word</th>
+                    <th>English Translation</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        const dictionary = [{ spanish: "abajo", english: "down" },
+            { spanish: "abogado", english: "lawyer" },
+            { spanish: "abrazar", english: "to hug" },
+            { spanish: "acelerar", english: "to accelerate" },
+            { spanish: "acuerdo", english: "agreement" },
+            { spanish: "agua", english: "water" },
+            { spanish: "agotar", english: "to exhaust" },
+            { spanish: "aguila", english: "eagle" },
+            { spanish: "aire", english: "air" },
+            { spanish: "alcalde", english: "mayor" },
+            { spanish: "almuerzo", english: "lunch" },
+            { spanish: "alumno", english: "student" },
+            { spanish: "amar", english: "to love" },
+            { spanish: "andar", english: "to walk" },
+            { spanish: "animal", english: "animal" },
+            { spanish: "año", english: "year" },
+            { spanish: "antiguo", english: "ancient" },
+            { spanish: "aprender", english: "to learn" },
+            { spanish: "arco", english: "arch" },
+            { spanish: "arte", english: "art" },
+            { spanish: "asiento", english: "seat" },
+            { spanish: "asistir", english: "to attend" },
+            { spanish: "atención", english: "attention" },
+            { spanish: "aumentar", english: "to increase" },
+            { spanish: "bajo", english: "low" },
+            { spanish: "banco", english: "bank" },
+            { spanish: "barrio", english: "neighborhood" },
+            { spanish: "básico", english: "basic" },
+            { spanish: "bello", english: "beautiful" },
+            { spanish: "blanco", english: "white" },
+            { spanish: "boca", english: "mouth" },
+            { spanish: "borrar", english: "to erase" },
+            { spanish: "buscar", english: "to search" },
+            { spanish: "cabra", english: "goat" },
+            { spanish: "caliente", english: "hot" },
+            { spanish: "calor", english: "heat" },
+            { spanish: "cama", english: "bed" },
+            { spanish: "cambiar", english: "to change" },
+            { spanish: "caminar", english: "to walk" },
+            { spanish: "cantar", english: "to sing" },
+            { spanish: "casa", english: "house" },
+            { spanish: "cerca", english: "close" },
+            { spanish: "cielo", english: "sky" },
+            { spanish: "ciencia", english: "science" },
+            { spanish: "cima", english: "summit" },
+            { spanish: "cinco", english: "five" },
+            { spanish: "cita", english: "appointment" },
+            { spanish: "claro", english: "clear" },
+            { spanish: "coche", english: "car" },
+            { spanish: "colina", english: "hill" },
+            { spanish: "comer", english: "to eat" },
+            { spanish: "comida", english: "food" },
+            { spanish: "comprar", english: "to buy" },
+            { spanish: "conocer", english: "to know" },
+            { spanish: "corazón", english: "heart" },
+            { spanish: "correr", english: "to run" },
+            { spanish: "cosa", english: "thing" },
+            { spanish: "costa", english: "coast" },
+            { spanish: "crecer", english: "to grow" },
+            { spanish: "cuadro", english: "picture" },
+            { spanish: "cuaderno", english: "notebook" },
+            { spanish: "cual", english: "which" },
+            { spanish: "cultura", english: "culture" },
+            { spanish: "dentro", english: "inside" },
+            { spanish: "deber", english: "duty" },
+            { spanish: "decidir", english: "to decide" },
+            { spanish: "dedo", english: "finger" },
+            { spanish: "definir", english: "to define" },
+            { spanish: "dejar", english: "to leave" },
+            { spanish: "dentro", english: "inside" },
+            { spanish: "desayuno", english: "breakfast" },
+            { spanish: "desarrollar", english: "to develop" },
+            { spanish: "desear", english: "to wish" },
+            { spanish: "despacio", english: "slow" },
+            { spanish: "día", english: "day" },
+            { spanish: "diferente", english: "different" },
+            { spanish: "dólar", english: "dollar" },
+            { spanish: "dolor", english: "pain" },
+            { spanish: "domingo", english: "Sunday" },
+            { spanish: "dulce", english: "sweet" },
+            { spanish: "elefante", english: "elephant" },
+            { spanish: "enfermo", english: "sick" },
+            { spanish: "entender", english: "to understand" },
+            { spanish: "entrada", english: "entrance" },
+            { spanish: "enviar", english: "to send" },
+            { spanish: "equipo", english: "team" },
+            { spanish: "escribir", english: "to write" },
+            { spanish: "escuela", english: "school" },
+            { spanish: "esperar", english: "to wait" },
+            { spanish: "estación", english: "station" },
+            { spanish: "estudio", english: "study" },
+            { spanish: "examen", english: "exam" },
+            { spanish: "familia", english: "family" },
+            { spanish: "feliz", english: "happy" },
+            { spanish: "fiesta", english: "party" },
+            { spanish: "futuro", english: "future" },
+            { spanish: "gato", english: "cat" },
+            { spanish: "grande", english: "big" },
+            { spanish: "hermana", english: "sister" },
+            { spanish: "hermano", english: "brother" },
+            { spanish: "hombre", english: "man" },
+            { spanish: "horrible", english: "horrible" },
+            { spanish: "hotel", english: "hotel" },
+            { spanish: "imposible", english: "impossible" },
+            { spanish: "joven", english: "young" },
+            { spanish: "jugar", english: "to play" },
+            { spanish: "largo", english: "long" },
+            { spanish: "lente", english: "lens" },
+            { spanish: "libro", english: "book" },
+            { spanish: "luz", english: "light" },
+            { spanish: "madre", english: "mother" },
+            { spanish: "mañana", english: "tomorrow" },
+            { spanish: "mar", english: "sea" },
+            { spanish: "mesa", english: "table" },
+            { spanish: "mujer", english: "woman" },
+            { spanish: "niño", english: "child" },
+            { spanish: "noche", english: "night" },
+            { spanish: "norte", english: "north" },
+            { spanish: "nuevo", english: "new" },
+            { spanish: "ocurrir", english: "to occur" },
+            { spanish: "olvidar", english: "to forget" },
+            { spanish: "pago", english: "payment" },
+            { spanish: "pan", english: "bread" },
+            { spanish: "película", english: "movie" },
+            { spanish: "perdón", english: "sorry" },
+            { spanish: "perro", english: "dog" },
+            { spanish: "piedra", english: "stone" },
+            { spanish: "plaza", english: "square" },
+            { spanish: "poder", english: "power" },
+            { spanish: "poner", english: "to put" },
+            { spanish: "preguntar", english: "to ask" },
+            { spanish: "querer", english: "to want" },
+            { spanish: "rápido", english: "fast" },
+            { spanish: "rojo", english: "red" },
+            { spanish: "salir", english: "to leave" },
+            { spanish: "saltar", english: "to jump" },
+            { spanish: "ser", english: "to be" },
+            { spanish: "sentir", english: "to feel" },
+            { spanish: "sombra", english: "shadow" },
+            { spanish: "tarde", english: "afternoon" },
+            { spanish: "teatro", english: "theater" },
+            { spanish: "tierra", english: "earth" },
+            { spanish: "trabajo", english: "work" },
+            { spanish: "trozo", english: "piece" },
+            { spanish: "tú", english: "you" },
+            { spanish: "usar", english: "to use" },
+            { spanish: "vaca", english: "cow" },
+            { spanish: "viento", english: "wind" },
+            { spanish: "volar", english: "to fly" },
+            { spanish: "volver", english: "to return" },
+            { spanish: "zapato", english: "shoe" },
+            { spanish: "zorro", english: "fox" },
+            // Additional 200 words below (total 500 words)
+            { spanish: "acertar", english: "to guess correctly" },
+            { spanish: "alegría", english: "joy" },
+            { spanish: "ambición", english: "ambition" },
+            { spanish: "antifaz", english: "mask" },
+            { spanish: "apetito", english: "appetite" },
+            { spanish: "aplaudir", english: "to applaud" },
+            { spanish: "aliento", english: "breath" },
+            { spanish: "alivio", english: "relief" },
+            { spanish: "artículo", english: "article" },
+            { spanish: "aroma", english: "aroma" },
+            { spanish: "asfixiar", english: "to suffocate" },
+            { spanish: "banco", english: "bank" },
+            { spanish: "basura", english: "garbage" },
+            { spanish: "brisa", english: "breeze" },
+            { spanish: "brillar", english: "to shine" },
+            { spanish: "bueno", english: "good" },
+            { spanish: "cambio", english: "change" },
+            { spanish: "cantar", english: "to sing" },
+            { spanish: "cerca", english: "close" },
+            { spanish: "coche", english: "car" },];
+
+        dictionary.sort((a, b) => a.spanish.localeCompare(b.spanish));
+
+        const tbody = document.querySelector("#dictionary tbody");
+        const searchInput = document.getElementById("search");
+
+        function renderTable(data) {
+            tbody.innerHTML = ""; // clear previous rows
+            data.forEach(entry => {
+                const row = document.createElement("tr");
+                const tdSpanish = document.createElement("td");
+                tdSpanish.textContent = entry.spanish;
+                const tdEnglish = document.createElement("td");
+                tdEnglish.textContent = entry.english;
+                row.appendChild(tdSpanish);
+                row.appendChild(tdEnglish);
+                tbody.appendChild(row);
+            });
+        }
+
+        // Initial render
+        renderTable(dictionary);
+
+        // Search functionality
+        searchInput.addEventListener("input", () => {
+            const query = searchInput.value.toLowerCase();
+            const filtered = dictionary.filter(entry =>
+                entry.spanish.toLowerCase().includes(query) ||
+                entry.english.toLowerCase().includes(query)
+            );
+            renderTable(filtered);
+        });
+    </script>
+
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/02/02/15/20250202152007-XC1SNJN7.js"></script>
+
+<!-- Notepad Button & Modal -->
+<style>
+    /* Floating Button */
+    #notepadButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: transparent;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none;
+      z-index: 9999;
+      transition: background 0.3s ease;
+    }
+  
+    #notepadButton:hover {
+      background: linear-gradient(135deg, #ccb6ff, #8145d5);
+    }
+  
+    /* Modal Background */
+    #modalContainer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: center;
+      align-items: center;
+      z-index: 9998;
+      backdrop-filter: blur(6px);
+    }
+  
+    /* Modal Box */
+    .modal {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 520px;
+      padding: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      cursor: move;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #000;
+    }
+  
+    .modal header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  
+    .buttons, .editor-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .buttons button, .editor-toolbar button {
+      background: rgba(255, 255, 255, 0.25);
+      color: #000;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    .buttons button:hover, .editor-toolbar button:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  
+    #notepad {
+      width: 100%;
+      max-height: 400px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      color: #000;
+      font-size: 15px;
+    }
+  
+    /* Dark Mode */
+    .dark-mode .modal {
+      background: rgba(34, 34, 34, 0.8);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  
+    .dark-mode #notepad {
+      background-color: rgba(60, 60, 60, 0.5);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button,
+    .dark-mode .editor-toolbar button {
+      background: rgba(100, 100, 100, 0.3);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button:hover,
+    .dark-mode .editor-toolbar button:hover {
+      background: rgba(150, 150, 150, 0.4);
+    }
+  </style>
+  
+  
+  <!-- Button -->
+  <button id="notepadButton">
+    <img src="dasgbrd/sticky notes.png" alt="Note" style="width: 30px; height: 30px;">
+  </button>
+  
+  
+  <!-- Modal -->
+  <div id="modalContainer">
+    <div class="modal" id="notepadModal">
+      <header>
+        <h1>Notepad</h1>
+        <div class="buttons">
+          <button id="saveNote">Save</button>
+          <button id="loadNote">Load</button>
+          <button id="toggleMode">Dark Mode</button>
+          <button id="closeModal">Close</button>
+        </div>
+      </header>
+      <div class="editor-toolbar">
+        <button id="boldBtn">B</button>
+        <button id="italicBtn">I</button>
+        <button id="underlineBtn">U</button>
+        <button id="highlightBtn">Highlight</button>
+      </div>
+      <div id="notepad" contenteditable="true" placeholder="Start typing your notes here..."></div>
+    </div>
+  </div>
+  
+  <script>
+    const notepadButton = document.getElementById("notepadButton");
+    const modalContainer = document.getElementById("modalContainer");
+    const notepadModal = document.getElementById("notepadModal");
+    const closeModalButton = document.getElementById("closeModal");
+    const toggleModeButton = document.getElementById("toggleMode");
+  
+    notepadButton.onclick = () => {
+      modalContainer.style.display = "flex";
+      const savedNote = localStorage.getItem("note");
+      if (savedNote) {
+        document.getElementById("notepad").innerHTML = savedNote;
+      }
+    };
+  
+    closeModalButton.onclick = () => {
+      modalContainer.style.display = "none";
+    };
+  
+    let isDragging = false, offsetX, offsetY;
+    notepadModal.addEventListener('mousedown', e => {
+      isDragging = true;
+      offsetX = e.clientX - notepadModal.getBoundingClientRect().left;
+      offsetY = e.clientY - notepadModal.getBoundingClientRect().top;
+    });
+  
+    window.addEventListener('mousemove', e => {
+      if (isDragging) {
+        notepadModal.style.left = `${e.clientX - offsetX}px`;
+        notepadModal.style.top = `${e.clientY - offsetY}px`;
+      }
+    });
+  
+    window.addEventListener('mouseup', () => isDragging = false);
+  
+    toggleModeButton.onclick = function() {
+      document.body.classList.toggle("dark-mode");
+      this.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+    };
+  
+    // Save note to MongoDB
+      document.getElementById("saveNote").onclick = async () => {
+        const noteContent = document.getElementById("notepad").innerHTML;
+        if (noteContent.trim()) {
+          const response = await fetch('/api/save-note', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: noteContent })
+          });
+          const result = await response.json();
+          alert(result.message || "Note saved!");
+        } else {
+          alert("Cannot save an empty note!");
+        }
+      };
+  
+      // Load note from MongoDB
+      document.getElementById("loadNote").onclick = async () => {
+        const response = await fetch('/api/load-note');
+        const data = await response.json();
+        document.getElementById("notepad").innerHTML = data.note || '';
+      };
+  
+    document.getElementById("boldBtn").onclick = () => document.execCommand('bold');
+    document.getElementById("italicBtn").onclick = () => document.execCommand('italic');
+    document.getElementById("underlineBtn").onclick = () => document.execCommand('underline');
+    document.getElementById("highlightBtn").onclick = () => document.execCommand('backColor', false, 'yellow');
+  </script>
+
+
+</body>
+</html>

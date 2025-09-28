@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Verb Conjugation Archer</title>
+    <style>
+       body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #D8B4FE; /* Soft pastel purple */
+        color: white;
+        }
+
+        .game-container {
+            margin-top: 50px;
+        }
+
+        .verb-box {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px;
+            color: #6f10b3; /* Dark Purple */
+        }
+
+        .options {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .option {
+            background: linear-gradient(to right, #D8B4FE, #A78BFA); 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+            border-radius: 6px;
+        }
+
+        .option:hover {
+            background: linear-gradient(to right, #A78BFA, #B5A3E6);
+        }
+
+        .wrong {
+            background-color: #E74C3C !important; /* Red color for wrong answers */
+        }
+
+        .score {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #6f10b3; /* Dark Purple */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Spanish Verb Conjugation Archer 🎯</h1>
+        <p>Click the correct conjugation!</p>
+        <div class="verb-box" id="verb"></div>
+        <div class="options" id="options"></div>
+        <p class="score">Score: <span id="score">0</span></p>
+        <button onclick="resetGame()" class="option">🔁 Restart</button>
+
+    </div>
+    
+    <script>
+        let verbs = [];
+        let score = 0;
+        let currentVerb;
+        let usedVerbs = new Set();
+        
+        async function loadVerbs() {
+            try {
+                const response = await fetch('data/verbs.json');
+                const data = await response.json();
+                verbs = data.verbs;
+                loadGame();
+            } catch (error) {
+                console.error('Error loading verbs:', error);
+            }
+        }
+
+        function getRandomVerb() {
+            if (usedVerbs.size >= verbs.length) {
+                usedVerbs.clear(); // Reset if all verbs have been used
+            }
+            
+            let availableVerbs = verbs.filter(verb => !usedVerbs.has(verb.base));
+            let randomVerb = availableVerbs[Math.floor(Math.random() * availableVerbs.length)];
+            usedVerbs.add(randomVerb.base);
+            return randomVerb;
+        }
+        
+        function loadGame() {
+            currentVerb = getRandomVerb();
+            document.getElementById("verb").innerText = `Conjugate: ${currentVerb.base}`;
+            
+            let optionsContainer = document.getElementById("options");
+            optionsContainer.innerHTML = "";
+            
+            currentVerb.options.sort(() => Math.random() - 0.5); 
+            currentVerb.options.forEach(option => {
+                let btn = document.createElement("button");
+                btn.innerText = option;
+                btn.classList.add("option");
+                btn.onclick = () => checkAnswer(option, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+        
+        function checkAnswer(answer, btn) {
+            if (answer === currentVerb.correct) {
+                score++;
+                document.getElementById("score").innerText = score;
+
+                if (score >= 10) {
+                    alert(`🎉 You completed the game! Final score: ${score}`);
+                    submitScore(score);
+                } else {
+                    loadGame();
+                }
+            } else {
+                btn.classList.add("wrong");
+                setTimeout(() => btn.classList.remove("wrong"), 500);
+            }
+        }
+
+        function resetGame() {
+            score = 0;
+            usedVerbs.clear();
+            document.getElementById("score").innerText = score;
+            loadGame();
+        }
+
+        async function submitScore(score) {
+            try {
+                const res = await fetch('/api/score/verb', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ score })
+                });
+
+                if (res.ok) {
+                    console.log('Score submitted!');
+                } else {
+                    console.error('Failed to submit score');
+                }
+            } catch (err) {
+                console.error('Error submitting score:', err);
+            }
+        }
+        
+        loadVerbs();
+    </script>
+
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/02/02/15/20250202152007-XC1SNJN7.js"></script>
+
+
+<!-- Notepad Button & Modal -->
+<style>
+    /* Floating Button */
+    #notepadButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: transparent;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none;
+      z-index: 9999;
+      transition: background 0.3s ease;
+    }
+  
+    #notepadButton:hover {
+      background: linear-gradient(135deg, #ccb6ff, #8145d5);
+    }
+  
+    /* Modal Background */
+    #modalContainer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: center;
+      align-items: center;
+      z-index: 9998;
+      backdrop-filter: blur(6px);
+    }
+  
+    /* Modal Box */
+    .modal {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 520px;
+      padding: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      cursor: move;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #000;
+    }
+  
+    .modal header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  
+    .buttons, .editor-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .buttons button, .editor-toolbar button {
+      background: rgba(255, 255, 255, 0.25);
+      color: #000;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    .buttons button:hover, .editor-toolbar button:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  
+    #notepad {
+      width: 100%;
+      max-height: 400px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      color: #000;
+      font-size: 15px;
+    }
+  
+    /* Dark Mode */
+    .dark-mode .modal {
+      background: rgba(34, 34, 34, 0.8);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  
+    .dark-mode #notepad {
+      background-color: rgba(60, 60, 60, 0.5);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button,
+    .dark-mode .editor-toolbar button {
+      background: rgba(100, 100, 100, 0.3);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button:hover,
+    .dark-mode .editor-toolbar button:hover {
+      background: rgba(150, 150, 150, 0.4);
+    }
+  </style>
+  
+  
+  <!-- Button -->
+  <button id="notepadButton">
+    <img src="dasgbrd/sticky notes.png" alt="Note" style="width: 30px; height: 30px;">
+  </button>
+  
+  
+  <!-- Modal -->
+  <div id="modalContainer">
+    <div class="modal" id="notepadModal">
+      <header>
+        <h1>Notepad</h1>
+        <div class="buttons">
+          <button id="saveNote">Save</button>
+          <button id="loadNote">Load</button>
+          <button id="toggleMode">Dark Mode</button>
+          <button id="closeModal">Close</button>
+        </div>
+      </header>
+      <div class="editor-toolbar">
+        <button id="boldBtn">B</button>
+        <button id="italicBtn">I</button>
+        <button id="underlineBtn">U</button>
+        <button id="highlightBtn">Highlight</button>
+      </div>
+      <div id="notepad" contenteditable="true" placeholder="Start typing your notes here..."></div>
+    </div>
+  </div>
+  
+  <script>
+    const notepadButton = document.getElementById("notepadButton");
+    const modalContainer = document.getElementById("modalContainer");
+    const notepadModal = document.getElementById("notepadModal");
+    const closeModalButton = document.getElementById("closeModal");
+    const toggleModeButton = document.getElementById("toggleMode");
+  
+    notepadButton.onclick = () => {
+      modalContainer.style.display = "flex";
+      const savedNote = localStorage.getItem("note");
+      if (savedNote) {
+        document.getElementById("notepad").innerHTML = savedNote;
+      }
+    };
+  
+    closeModalButton.onclick = () => {
+      modalContainer.style.display = "none";
+    };
+  
+    let isDragging = false, offsetX, offsetY;
+    notepadModal.addEventListener('mousedown', e => {
+      isDragging = true;
+      offsetX = e.clientX - notepadModal.getBoundingClientRect().left;
+      offsetY = e.clientY - notepadModal.getBoundingClientRect().top;
+    });
+  
+    window.addEventListener('mousemove', e => {
+      if (isDragging) {
+        notepadModal.style.left = `${e.clientX - offsetX}px`;
+        notepadModal.style.top = `${e.clientY - offsetY}px`;
+      }
+    });
+  
+    window.addEventListener('mouseup', () => isDragging = false);
+  
+    toggleModeButton.onclick = function() {
+      document.body.classList.toggle("dark-mode");
+      this.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+    };
+  
+    // Save note to MongoDB
+      document.getElementById("saveNote").onclick = async () => {
+        const noteContent = document.getElementById("notepad").innerHTML;
+        if (noteContent.trim()) {
+          const response = await fetch('/api/save-note', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: noteContent })
+          });
+          const result = await response.json();
+          alert(result.message || "Note saved!");
+        } else {
+          alert("Cannot save an empty note!");
+        }
+      };
+  
+      // Load note from MongoDB
+      document.getElementById("loadNote").onclick = async () => {
+        const response = await fetch('/api/load-note');
+        const data = await response.json();
+        document.getElementById("notepad").innerHTML = data.note || '';
+      };
+  
+    document.getElementById("boldBtn").onclick = () => document.execCommand('bold');
+    document.getElementById("italicBtn").onclick = () => document.execCommand('italic');
+    document.getElementById("underlineBtn").onclick = () => document.execCommand('underline');
+    document.getElementById("highlightBtn").onclick = () => document.execCommand('backColor', false, 'yellow');
+  </script>
+
+
+</body>
+</html>

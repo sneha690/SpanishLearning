@@ -1,0 +1,158 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d8b4fe, #a78bfa);
+    color: #4a148c; /* Dark Purple */
+    transition: background 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper {
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.text-input .to-text {
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.text-input textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: transparent;
+    font-size: 18px;
+    padding: 12px 16px;
+    color: #4a148c; /* Dark Purple */
+}
+
+.text-input textarea::placeholder {
+    color: rgba(74, 20, 140, 0.6); /* Dark Purple with opacity */
+}
+
+.controls, li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row .icons  {
+    width: 38%;
+}
+
+.controls .row .icons i {
+    width: 50px;
+    color: #4a148c; /* Dark Purple */
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    justify-content: center;
+}
+
+.controls .row select {
+    color: #4a148c; /* Dark Purple */
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.text-input textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+.text-input textarea::-webkit-scrollbar-thumb {
+    background: #4a148c;
+    border-radius: 8px;
+}
+
+.controls .exchange {
+    color: #4a148c; /* Dark Purple */
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.controls i:active {
+    transform: scale(0.9);
+}
+
+.container button {
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border: none;
+    color: #4a148c; /* Dark Purple */
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #a78bfa;
+    transition: background 0.3s;
+}
+
+.container button:hover {
+    background: #6d28d9;
+}
+
+@media (max-width: 660px) {
+    .container  {
+        padding: 20px;
+    }
+    .wrapper .text-input {
+        flex-direction: column;
+    }
+
+    .text-input .to-text {
+        border-left: 0px;
+        border-top: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .text-input textarea {
+        height: 200px;
+    }
+
+    .controls .row .icons{
+        display: none;
+    }
+
+    .container button{
+        padding: 13px;
+        font-size: 16px;
+    }
+}

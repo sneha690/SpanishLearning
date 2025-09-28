@@ -1,0 +1,55 @@
+/* CSS Section (styles.css) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffe3;
+    z-index: -1;
+}
+
+.learning-hub {
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 12px;
+    width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.progress-bar {
+    background: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    background: #4CAF50;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.flashcard {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #000; /* Optional: background color */
+}

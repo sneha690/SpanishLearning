@@ -1,0 +1,4059 @@
+{
+    "basicConversations": [
+        {
+            "title": "Greetings and Introductions",
+            "context": "Two people meeting for the first time",
+            "vocabularyPreview": "Key words to remember: Hola (Hello), Bien (Good), Gracias (Thank you), Me llamo (My name is), Mucho gusto (Nice to meet you)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Hola! ¿Cómo estás?", 
+                    "translation": "Hello! How are you?",
+                    "blank": false
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Bien, gracias! ¿Y ___?", 
+                    "translation": "Good, thank you! And you?",
+                    "blank": true,
+                    "answer": "tú",
+                    "options": ["tú", "él", "ella", "usted"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Muy bien. Me ___ Ana.", 
+                    "translation": "Very good. My name is Ana.",
+                    "blank": true,
+                    "answer": "llamo",
+                    "options": ["llamo", "llama", "llamas", "llamamos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Mucho gusto, Ana. ___ Carlos.", 
+                    "translation": "Nice to meet you, Ana. I'm Carlos.",
+                    "blank": true,
+                    "answer": "Soy",
+                    "options": ["Soy", "Eres", "Es", "Son"]
+                }
+            ]
+        },
+        {
+            "title": "Ordering at a Café",
+            "context": "At a local coffee shop",
+            "vocabularyPreview": "Key words to remember: Café (Coffee), Leche (Milk), Por favor (Please), Gracias (Thank you), Cuánto (How much)",
+            "dialogue": [
+                { 
+                    "speaker": "Server", 
+                    "line": "¡Buenos días! ¿Qué ___?", 
+                    "translation": "Good morning! What would you like?",
+                    "blank": true,
+                    "answer": "desea",
+                    "options": ["desea", "quiere", "tiene", "puede"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "Un café ___ leche, por favor.", 
+                    "translation": "A coffee with milk, please.",
+                    "blank": true,
+                    "answer": "con",
+                    "options": ["con", "sin", "y", "de"]
+                },
+                { 
+                    "speaker": "Server", 
+                    "line": "¿Algo ___?", 
+                    "translation": "Anything else?",
+                    "blank": true,
+                    "answer": "más",
+                    "options": ["más", "menos", "otro", "todo"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "No, gracias. ¿___ es?", 
+                    "translation": "No, thank you. How much is it?",
+                    "blank": true,
+                    "answer": "Cuánto",
+                    "options": ["Cuánto", "Dónde", "Cuándo", "Quién"]
+                }
+            ]
+        },
+        {
+            "title": "At the Market",
+            "context": "Buying fruits and vegetables",
+            "vocabularyPreview": "Key words to remember: Manzanas (Apples), Naranjas (Oranges), Plátanos (Bananas), Cuánto cuesta (How much does it cost), Quiero (I want)",
+            "dialogue": [
+                { 
+                    "speaker": "Customer", 
+                    "line": "Buenos días, ¿___ manzanas?", 
+                    "translation": "Good morning, do you have apples?",
+                    "blank": true,
+                    "answer": "tiene",
+                    "options": ["tiene", "quiere", "necesita", "vende"]
+                },
+                { 
+                    "speaker": "Vendor", 
+                    "line": "Sí, tenemos manzanas ___ y rojas.", 
+                    "translation": "Yes, we have green and red apples.",
+                    "blank": true,
+                    "answer": "verdes",
+                    "options": ["verdes", "azules", "negras", "blancas"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "Quiero ___ kilos, por favor.", 
+                    "translation": "I want two kilos, please.",
+                    "blank": true,
+                    "answer": "dos",
+                    "options": ["dos", "tres", "cuatro", "cinco"]
+                },
+                { 
+                    "speaker": "Vendor", 
+                    "line": "¿___ más?", 
+                    "translation": "Anything else?",
+                    "blank": true,
+                    "answer": "Algo",
+                    "options": ["Algo", "Nada", "Todo", "Mucho"]
+                }
+            ]
+        },
+        {
+            "title": "Making Plans",
+            "context": "Planning to meet with a friend",
+            "vocabularyPreview": "Key words to remember: Quieres (Do you want), Podemos (We can), Dónde (Where), Cuándo (When), Qué hora (What time)",
+            "dialogue": [
+                { 
+                    "speaker": "Friend A", 
+                    "line": "¿___ ir al cine mañana?", 
+                    "translation": "Do you want to go to the movies tomorrow?",
+                    "blank": true,
+                    "answer": "Quieres",
+                    "options": ["Quieres", "Puedes", "Debes", "Necesitas"]
+                },
+                { 
+                    "speaker": "Friend B", 
+                    "line": "Sí, ¿a qué ___?", 
+                    "translation": "Yes, at what time?",
+                    "blank": true,
+                    "answer": "hora",
+                    "options": ["hora", "día", "lugar", "película"]
+                },
+                { 
+                    "speaker": "Friend A", 
+                    "line": "¿___ a las 7?", 
+                    "translation": "Shall we meet at 7?",
+                    "blank": true,
+                    "answer": "Quedamos",
+                    "options": ["Quedamos", "Vamos", "Estamos", "Llegamos"]
+                },
+                { 
+                    "speaker": "Friend B", 
+                    "line": "Perfecto, nos ___ en el cine.", 
+                    "translation": "Perfect, we'll see each other at the cinema.",
+                    "blank": true,
+                    "answer": "vemos",
+                    "options": ["vemos", "encontramos", "quedamos", "vamos"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Age",
+            "context": "Two friends discussing their ages",
+            "vocabularyPreview": "Key words to remember: Años (Years), Tienes (You have), Iguales (Same), Verdad (True), Qué bien (How nice)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cuántos ___ tienes?", 
+                    "translation": "How old are you?",
+                    "blank": true,
+                    "answer": "años",
+                    "options": ["años", "meses", "días", "horas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Tengo ___ años.", 
+                    "translation": "I am 12 years old.",
+                    "blank": true,
+                    "answer": "12",
+                    "options": ["12", "13", "14", "15"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Yo tengo ___.", 
+                    "translation": "I am 13.",
+                    "blank": true,
+                    "answer": "13",
+                    "options": ["13", "12", "14", "15"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Somos casi ___!", 
+                    "translation": "We are almost the same!",
+                    "blank": true,
+                    "answer": "iguales",
+                    "options": ["iguales", "diferentes", "jóvenes", "mayores"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About the Day",
+            "context": "Two friends discussing the day of the week",
+            "vocabularyPreview": "Key words to remember: Día (Day), Hoy (Today), Lunes (Monday), Gusta (Like), Tampoco (Neither do I)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ es hoy?", 
+                    "translation": "What day is today?",
+                    "blank": true,
+                    "answer": "día",
+                    "options": ["día", "mes", "año", "hora"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Hoy es ___.", 
+                    "translation": "Today is Monday.",
+                    "blank": true,
+                    "answer": "lunes",
+                    "options": ["lunes", "martes", "miércoles", "jueves"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Oh ___!", 
+                    "translation": "Oh no!",
+                    "blank": true,
+                    "answer": "no",
+                    "options": ["no", "sí", "bien", "mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿No te ___ el lunes?", 
+                    "translation": "Don't you like Monday?",
+                    "blank": true,
+                    "answer": "gusta",
+                    "options": ["gusta", "gustan", "gustas", "gusto"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "No ___.", 
+                    "translation": "Not much.",
+                    "blank": true,
+                    "answer": "mucho",
+                    "options": ["mucho", "poco", "nada", "todo"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "A mí ___.", 
+                    "translation": "Neither do I.",
+                    "blank": true,
+                    "answer": "tampoco",
+                    "options": ["tampoco", "también", "nada", "mucho"]
+                }
+            ]
+        },
+        {
+            "title": "Colors",
+            "context": "Two friends discussing their favorite colors",
+            "vocabularyPreview": "Key words to remember: Color (Color), Rojo (Red), Azul (Blue), Bonito (Beautiful), Encantar (To love)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta el color ___?", 
+                    "translation": "Do you like the color red?",
+                    "blank": true,
+                    "answer": "rojo",
+                    "options": ["rojo", "azul", "verde", "amarillo"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, me gusta ___.", 
+                    "translation": "Yes, I like it a lot.",
+                    "blank": true,
+                    "answer": "mucho",
+                    "options": ["mucho", "poco", "nada", "todo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "A mí me gusta el ___.", 
+                    "translation": "I like blue.",
+                    "blank": true,
+                    "answer": "azul",
+                    "options": ["azul", "rojo", "verde", "amarillo"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "___ es bonito.", 
+                    "translation": "Blue is beautiful.",
+                    "blank": true,
+                    "answer": "Azul",
+                    "options": ["Azul", "Rojo", "Verde", "Amarillo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Yes!",
+                    "blank": true,
+                    "answer": "Sí",
+                    "options": ["Sí", "No", "Bien", "Mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Me ___ los colores!", 
+                    "translation": "I love colors!",
+                    "blank": true,
+                    "answer": "encantan",
+                    "options": ["encantan", "gustan", "gusta", "encanta"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Food",
+            "context": "Two friends discussing food preferences",
+            "vocabularyPreview": "Key words to remember: Hambre (Hunger), Mucha (A lot), Pizza (Pizza), Encantar (To love), Comer (To eat)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes ___?", 
+                    "translation": "Are you hungry?",
+                    "blank": true,
+                    "answer": "hambre",
+                    "options": ["hambre", "sed", "sueño", "frío"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, ___.", 
+                    "translation": "Yes, a lot.",
+                    "blank": true,
+                    "answer": "mucha",
+                    "options": ["mucha", "poca", "nada", "todo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta la ___?", 
+                    "translation": "Do you like pizza?",
+                    "blank": true,
+                    "answer": "pizza",
+                    "options": ["pizza", "hamburguesa", "ensalada", "sopa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Sí, me ___!", 
+                    "translation": "Yes, I love it!",
+                    "blank": true,
+                    "answer": "encanta",
+                    "options": ["encanta", "gusta", "gustan", "encantan"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "A mí ___.", 
+                    "translation": "Me too.",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Vamos a ___!", 
+                    "translation": "Let's eat!",
+                    "blank": true,
+                    "answer": "comer",
+                    "options": ["comer", "beber", "dormir", "jugar"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Pets",
+            "context": "Two friends discussing their pets",
+            "vocabularyPreview": "Key words to remember: Perro (Dog), Gato (Cat), Mascota (Pet), Lindo (Cute), Encantar (To love)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes un ___?", 
+                    "translation": "Do you have a dog?",
+                    "blank": true,
+                    "answer": "perro",
+                    "options": ["perro", "gato", "pájaro", "pez"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, se ___ Max.", 
+                    "translation": "Yes, his name is Max.",
+                    "blank": true,
+                    "answer": "llama",
+                    "options": ["llama", "llamo", "llamas", "llaman"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How cute!",
+                    "blank": true,
+                    "answer": "lindo",
+                    "options": ["lindo", "grande", "pequeño", "bonito"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Gracias. ¿Tienes ___?", 
+                    "translation": "Thank you. Do you have pets?",
+                    "blank": true,
+                    "answer": "mascotas",
+                    "options": ["mascotas", "perros", "gatos", "animales"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Sí, un ___.", 
+                    "translation": "Yes, a cat.",
+                    "blank": true,
+                    "answer": "gato",
+                    "options": ["gato", "perro", "pájaro", "pez"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Me ___ los gatos!", 
+                    "translation": "I love cats!",
+                    "blank": true,
+                    "answer": "encantan",
+                    "options": ["encantan", "gustan", "gusta", "encanta"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Where You're From",
+            "context": "Two people discussing their nationalities",
+            "vocabularyPreview": "Key words to remember: Dónde (Where), Eres (You are), México (Mexico), Argentina (Argentina), Mucho gusto (Nice to meet you)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿De ___ eres?", 
+                    "translation": "Where are you from?",
+                    "blank": true,
+                    "answer": "dónde",
+                    "options": ["dónde", "cuándo", "cómo", "qué"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Soy de ___.", 
+                    "translation": "I'm from Mexico.",
+                    "blank": true,
+                    "answer": "México",
+                    "options": ["México", "España", "Colombia", "Perú"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How nice!",
+                    "blank": true,
+                    "answer": "bien",
+                    "options": ["bien", "mal", "lindo", "bonito"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿Y ___?", 
+                    "translation": "And you?",
+                    "blank": true,
+                    "answer": "tú",
+                    "options": ["tú", "él", "ella", "usted"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Soy de ___.", 
+                    "translation": "I'm from Argentina.",
+                    "blank": true,
+                    "answer": "Argentina",
+                    "options": ["Argentina", "Chile", "Uruguay", "Paraguay"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___ gusto!", 
+                    "translation": "Nice to meet you!",
+                    "blank": true,
+                    "answer": "Mucho",
+                    "options": ["Mucho", "Poco", "Bien", "Mal"]
+                }
+            ]
+        },
+        {
+            "title": "Asking the Time",
+            "context": "Two people discussing the time",
+            "vocabularyPreview": "Key words to remember: Hora (Time), Son las (It is), Gracias (Thank you), Nada (Nothing), Prisa (Hurry)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ es?", 
+                    "translation": "What time is it?",
+                    "blank": true,
+                    "answer": "hora",
+                    "options": ["hora", "día", "mes", "año"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Son las ___.", 
+                    "translation": "It's three o'clock.",
+                    "blank": true,
+                    "answer": "tres",
+                    "options": ["tres", "cuatro", "cinco", "seis"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "De ___.", 
+                    "translation": "You're welcome.",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes ___?", 
+                    "translation": "Are you in a hurry?",
+                    "blank": true,
+                    "answer": "prisa",
+                    "options": ["prisa", "tiempo", "hambre", "sed"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Un ___, sí.", 
+                    "translation": "A little bit, yes.",
+                    "blank": true,
+                    "answer": "poco",
+                    "options": ["poco", "mucho", "nada", "todo"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Family",
+            "context": "Two friends discussing family members",
+            "vocabularyPreview": "Key words to remember: Hermana (Sister), Llamar (To call), Nombre (Name), Lindo (Nice), Gracias (Thank you)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes una ___?", 
+                    "translation": "Do you have a sister?",
+                    "blank": true,
+                    "answer": "hermana",
+                    "options": ["hermana", "hermano", "madre", "padre"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, ___.", 
+                    "translation": "Yes, one.",
+                    "blank": true,
+                    "answer": "una",
+                    "options": ["una", "dos", "tres", "cuatro"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cómo se ___?", 
+                    "translation": "What's her name?",
+                    "blank": true,
+                    "answer": "llama",
+                    "options": ["llama", "llamo", "llamas", "llaman"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Se llama ___.", 
+                    "translation": "Her name is Laura.",
+                    "blank": true,
+                    "answer": "Laura",
+                    "options": ["Laura", "María", "Ana", "Sofía"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ nombre!", 
+                    "translation": "Nice name!",
+                    "blank": true,
+                    "answer": "Lindo",
+                    "options": ["Lindo", "Bonito", "Grande", "Pequeño"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "___", 
+                    "translation": "Thank you.",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Sports",
+            "context": "Two friends discussing sports preferences",
+            "vocabularyPreview": "Key words to remember: Fútbol (Soccer), Equipo (Team), Favorito (Favorite), Barcelona (Barcelona), Bien (Good)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta el ___?", 
+                    "translation": "Do you like soccer?",
+                    "blank": true,
+                    "answer": "fútbol",
+                    "options": ["fútbol", "béisbol", "baloncesto", "tenis"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Sí, ___!", 
+                    "translation": "Yes, a lot!",
+                    "blank": true,
+                    "answer": "mucho",
+                    "options": ["mucho", "poco", "nada", "todo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes un ___ favorito?", 
+                    "translation": "Do you have a favorite team?",
+                    "blank": true,
+                    "answer": "equipo",
+                    "options": ["equipo", "jugador", "partido", "estadio"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, el ___.", 
+                    "translation": "Yes, Barcelona.",
+                    "blank": true,
+                    "answer": "Barcelona",
+                    "options": ["Barcelona", "Madrid", "Milan", "París"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡A mí ___!", 
+                    "translation": "Me too!",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How nice!",
+                    "blank": true,
+                    "answer": "bien",
+                    "options": ["bien", "mal", "lindo", "bonito"]
+                }
+            ]
+        },
+        {
+            "title": "Feeling Sick",
+            "context": "Two friends discussing health",
+            "vocabularyPreview": "Key words to remember: Bien (Well), Enfermo (Sick), Siento (Sorry), Médico (Doctor), Tarde (Afternoon)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Estás ___?", 
+                    "translation": "Are you okay?",
+                    "blank": true,
+                    "answer": "bien",
+                    "options": ["bien", "mal", "cansado", "feliz"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No, estoy ___.", 
+                    "translation": "No, I'm sick.",
+                    "blank": true,
+                    "answer": "enfermo",
+                    "options": ["enfermo", "cansado", "feliz", "triste"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Lo ___.", 
+                    "translation": "I'm sorry.",
+                    "blank": true,
+                    "answer": "siento",
+                    "options": ["siento", "gusta", "encanta", "quiero"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "___", 
+                    "translation": "Thank you.",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Vas al ___?", 
+                    "translation": "Are you going to the doctor?",
+                    "blank": true,
+                    "answer": "médico",
+                    "options": ["médico", "hospital", "farmacia", "casa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, esta ___.", 
+                    "translation": "Yes, this afternoon.",
+                    "blank": true,
+                    "answer": "tarde",
+                    "options": ["tarde", "mañana", "noche", "día"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Music",
+            "context": "Two friends discussing music preferences",
+            "vocabularyPreview": "Key words to remember: Música (Music), Escuchar (To listen), Pop (Pop), Rock (Rock), Genial (Great)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta la ___?", 
+                    "translation": "Do you like music?",
+                    "blank": true,
+                    "answer": "música",
+                    "options": ["música", "película", "comida", "deporte"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Sí, me ___!", 
+                    "translation": "Yes, I love it!",
+                    "blank": true,
+                    "answer": "encanta",
+                    "options": ["encanta", "gusta", "gustan", "encantan"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___?", 
+                    "translation": "What do you listen to?",
+                    "blank": true,
+                    "answer": "escuchas",
+                    "options": ["escuchas", "miras", "comes", "bebes"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Pop y ___.", 
+                    "translation": "Pop and rock.",
+                    "blank": true,
+                    "answer": "rock",
+                    "options": ["rock", "jazz", "clásica", "reggae"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Yo ___.", 
+                    "translation": "Me too.",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Great!",
+                    "blank": true,
+                    "answer": "Genial",
+                    "options": ["Genial", "Bien", "Mal", "Regular"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About School Supplies",
+            "context": "Two students sharing school supplies",
+            "vocabularyPreview": "Key words to remember: Lápiz (Pencil), Papel (Paper), Gracias (Thank you), Nada (You're welcome), Momento (Moment)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes un ___?", 
+                    "translation": "Do you have a pencil?",
+                    "blank": true,
+                    "answer": "lápiz",
+                    "options": ["lápiz", "bolígrafo", "goma", "regla"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, aquí ___.", 
+                    "translation": "Yes, here it is.",
+                    "blank": true,
+                    "answer": "está",
+                    "options": ["está", "están", "estoy", "estamos"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "De ___.", 
+                    "translation": "You're welcome.",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes ___ también?", 
+                    "translation": "Do you have paper too?",
+                    "blank": true,
+                    "answer": "papel",
+                    "options": ["papel", "cuaderno", "libro", "carpeta"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, un ___.", 
+                    "translation": "Yes, one moment.",
+                    "blank": true,
+                    "answer": "momento",
+                    "options": ["momento", "segundo", "minuto", "hora"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Weather",
+            "context": "Two friends discussing the weather",
+            "vocabularyPreview": "Key words to remember: Frío (Cold), Abrigo (Coat), Bufanda (Scarf), Idea (Idea), Cuídate (Take care)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Hace ___ hoy, ¿verdad?", 
+                    "translation": "It's cold today, right?",
+                    "blank": true,
+                    "answer": "frío",
+                    "options": ["frío", "calor", "sol", "viento"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, y también mucho ___.", 
+                    "translation": "Yes, and very windy too.",
+                    "blank": true,
+                    "answer": "viento",
+                    "options": ["viento", "sol", "lluvia", "nieve"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Voy a ponerme mi ___.", 
+                    "translation": "I'm going to put on my coat.",
+                    "blank": true,
+                    "answer": "abrigo",
+                    "options": ["abrigo", "chaqueta", "suéter", "camisa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Yo traje ___ y guantes.", 
+                    "translation": "I brought a hat and gloves.",
+                    "blank": true,
+                    "answer": "gorro",
+                    "options": ["gorro", "bufanda", "guantes", "botas"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ idea!", 
+                    "translation": "Good idea!",
+                    "blank": true,
+                    "answer": "Buena",
+                    "options": ["Buena", "Mala", "Regular", "Grande"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No quiero ___.", 
+                    "translation": "I don't want to catch a cold.",
+                    "blank": true,
+                    "answer": "resfriarme",
+                    "options": ["resfriarme", "enfermarme", "mojarme", "cansarme"]
+                }
+            ]
+        },
+        {
+            "title": "Weekend Plans",
+            "context": "Two friends discussing weekend activities",
+            "vocabularyPreview": "Key words to remember: Sábado (Saturday), Cine (Cinema), Amigos (Friends), Divertir (To have fun), Gracias (Thank you)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué haces el ___?", 
+                    "translation": "What are you doing on Saturday?",
+                    "blank": true,
+                    "answer": "sábado",
+                    "options": ["sábado", "domingo", "lunes", "martes"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Voy al ___.", 
+                    "translation": "I'm going to the cinema.",
+                    "blank": true,
+                    "answer": "cine",
+                    "options": ["cine", "parque", "centro", "casa"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Con ___?", 
+                    "translation": "With whom?",
+                    "blank": true,
+                    "answer": "quién",
+                    "options": ["quién", "dónde", "cuándo", "qué"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Con mis ___.", 
+                    "translation": "With my friends.",
+                    "blank": true,
+                    "answer": "amigos",
+                    "options": ["amigos", "familia", "hermanos", "padres"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Have fun!",
+                    "blank": true,
+                    "answer": "Diviértete",
+                    "options": ["Diviértete", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                }
+            ]
+        },
+        {
+            "title": "Expressing Likes",
+            "context": "Two friends discussing their favorite foods",
+            "vocabularyPreview": "Key words to remember: Chocolate (Chocolate), Pizza (Pizza), Favorita (Favorite), Rico (Delicious), También (Also)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "Me gusta el ___.", 
+                    "translation": "I like chocolate.",
+                    "blank": true,
+                    "answer": "chocolate",
+                    "options": ["chocolate", "helado", "pastel", "pan"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡A mí ___!", 
+                    "translation": "Me too!",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta la ___?", 
+                    "translation": "Do you like pizza?",
+                    "blank": true,
+                    "answer": "pizza",
+                    "options": ["pizza", "hamburguesa", "ensalada", "sopa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, es mi ___.", 
+                    "translation": "Yes, it's my favorite.",
+                    "blank": true,
+                    "answer": "favorita",
+                    "options": ["favorita", "preferida", "mejor", "peor"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How delicious!",
+                    "blank": true,
+                    "answer": "rico",
+                    "options": ["rico", "bueno", "malo", "regular"]
+                }
+            ]
+        },
+        {
+            "title": "At the Library",
+            "context": "Two people discussing books at a library",
+            "vocabularyPreview": "Key words to remember: Libros (Books), Allá (There), Buscar (To look for), Cuentos (Stories), Elección (Choice)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Dónde están los ___?", 
+                    "translation": "Where are the books?",
+                    "blank": true,
+                    "answer": "libros",
+                    "options": ["libros", "cuentos", "revistas", "periódicos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Están ___.", 
+                    "translation": "They are there.",
+                    "blank": true,
+                    "answer": "allá",
+                    "options": ["allá", "aquí", "allí", "cerca"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿Qué libro ___?", 
+                    "translation": "What book are you looking for?",
+                    "blank": true,
+                    "answer": "buscas",
+                    "options": ["buscas", "lees", "quieres", "necesitas"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Uno de ___.", 
+                    "translation": "A story book.",
+                    "blank": true,
+                    "answer": "cuentos",
+                    "options": ["cuentos", "historias", "poemas", "novelas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Buena ___!", 
+                    "translation": "Good choice!",
+                    "blank": true,
+                    "answer": "elección",
+                    "options": ["elección", "idea", "opción", "decisión"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About TV",
+            "context": "Two friends discussing TV shows",
+            "vocabularyPreview": "Key words to remember: Tele (TV), Noche (Night), Ver (To watch), Dibujos animados (Cartoons), Divertidos (Fun)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Miras la ___?", 
+                    "translation": "Do you watch TV?",
+                    "blank": true,
+                    "answer": "tele",
+                    "options": ["tele", "radio", "internet", "película"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, por la ___.", 
+                    "translation": "Yes, at night.",
+                    "blank": true,
+                    "answer": "noche",
+                    "options": ["noche", "tarde", "mañana", "día"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___?", 
+                    "translation": "What do you watch?",
+                    "blank": true,
+                    "answer": "ves",
+                    "options": ["ves", "miras", "escuchas", "lees"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Dibujos ___.", 
+                    "translation": "Cartoons.",
+                    "blank": true,
+                    "answer": "animados",
+                    "options": ["animados", "educativos", "deportivos", "musicales"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Yo ___!", 
+                    "translation": "Me too!",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Son ___!", 
+                    "translation": "They are fun!",
+                    "blank": true,
+                    "answer": "divertidos",
+                    "options": ["divertidos", "aburridos", "interesantes", "educativos"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Daily Routine",
+            "context": "Two friends discussing daily schedules",
+            "vocabularyPreview": "Key words to remember: Levantarse (To get up), Temprano (Early), Escuela (School), Caminar (To walk), Bus (Bus)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿A qué hora te ___?", 
+                    "translation": "What time do you get up?",
+                    "blank": true,
+                    "answer": "levantas",
+                    "options": ["levantas", "duermes", "comes", "vas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "A las ___.", 
+                    "translation": "At seven.",
+                    "blank": true,
+                    "answer": "siete",
+                    "options": ["siete", "ocho", "nueve", "diez"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Early!",
+                    "blank": true,
+                    "answer": "Temprano",
+                    "options": ["Temprano", "Tarde", "Bien", "Mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, voy a la ___.", 
+                    "translation": "Yes, I go to school.",
+                    "blank": true,
+                    "answer": "escuela",
+                    "options": ["escuela", "casa", "parque", "biblioteca"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿___ o tomas bus?", 
+                    "translation": "Do you walk or take the bus?",
+                    "blank": true,
+                    "answer": "Caminas",
+                    "options": ["Caminas", "Corres", "Vas", "Sales"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Tomo el ___.", 
+                    "translation": "I take the bus.",
+                    "blank": true,
+                    "answer": "bus",
+                    "options": ["bus", "metro", "taxi", "auto"]
+                }
+            ]
+        },
+        {
+            "title": "Asking for Help",
+            "context": "Two friends helping with homework",
+            "vocabularyPreview": "Key words to remember: Ayudar (To help), Por favor (Please), Tarea (Homework), Está bien (It's okay), Nada (You're welcome)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Me ___, por favor?", 
+                    "translation": "Can you help me, please?",
+                    "blank": true,
+                    "answer": "ayudas",
+                    "options": ["ayudas", "ayuda", "ayudan", "ayudamos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Claro, ¿con ___?", 
+                    "translation": "Of course, with what?",
+                    "blank": true,
+                    "answer": "qué",
+                    "options": ["qué", "dónde", "cuándo", "cómo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Con mi ___.", 
+                    "translation": "With my homework.",
+                    "blank": true,
+                    "answer": "tarea",
+                    "options": ["tarea", "libro", "cuaderno", "proyecto"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Está ___.", 
+                    "translation": "It's okay.",
+                    "blank": true,
+                    "answer": "bien",
+                    "options": ["bien", "mal", "regular", "bueno"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "De ___.", 
+                    "translation": "You're welcome.",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Birthdays",
+            "context": "Two friends discussing birthdays",
+            "vocabularyPreview": "Key words to remember: Cumpleaños (Birthday), Mayo (May), Feliz (Happy), Fiesta (Party), Amigos (Friends)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cuándo es tu ___?", 
+                    "translation": "When is your birthday?",
+                    "blank": true,
+                    "answer": "cumpleaños",
+                    "options": ["cumpleaños", "aniversario", "fiesta", "día"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Es en ___.", 
+                    "translation": "It's in May.",
+                    "blank": true,
+                    "answer": "mayo",
+                    "options": ["mayo", "junio", "julio", "agosto"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ cumpleaños adelantado!", 
+                    "translation": "Happy early birthday!",
+                    "blank": true,
+                    "answer": "Feliz",
+                    "options": ["Feliz", "Triste", "Buen", "Mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Harás una ___?", 
+                    "translation": "Will you have a party?",
+                    "blank": true,
+                    "answer": "fiesta",
+                    "options": ["fiesta", "reunión", "cena", "comida"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, con ___.", 
+                    "translation": "Yes, with friends.",
+                    "blank": true,
+                    "answer": "amigos",
+                    "options": ["amigos", "familia", "hermanos", "padres"]
+                }
+            ]
+        },
+        {
+            "title": "Asking for Directions",
+            "context": "A tourist asking for directions",
+            "vocabularyPreview": "Key words to remember: Calle (Street), Izquierda (Left), Derecha (Right), Cerca (Near), Lejos (Far)\nGrammar Tips:\n- 'Dónde está' means 'Where is' for locations\n- 'Gira' means 'Turn'\n- 'Sigue recto' means 'Go straight'",
+            "dialogue": [
+                {
+                    "speaker": "Tourist",
+                    "line": "Perdón, ¿dónde ___ la estación?",
+                    "translation": "Excuse me, where is the station?",
+                    "blank": true,
+                    "answer": "está",
+                    "options": ["está", "es", "hay", "tiene"]
+                },
+                {
+                    "speaker": "Local",
+                    "line": "Está en la siguiente ___.",
+                    "translation": "It’s on the next street.",
+                    "blank": true,
+                    "answer": "calle",
+                    "options": ["calle", "plaza", "casa", "parque"]
+                },
+                {
+                    "speaker": "Tourist",
+                    "line": "¿Debo girar a la ___?",
+                    "translation": "Should I turn left?",
+                    "blank": true,
+                    "answer": "izquierda",
+                    "options": ["izquierda", "derecha", "adelante", "detrás"]
+                },
+                {
+                    "speaker": "Local",
+                    "line": "No, sigue ___ y gira a la derecha.",
+                    "translation": "No, go straight and turn right.",
+                    "blank": true,
+                    "answer": "recto",
+                    "options": ["recto", "rápido", "lento", "cerca"]
+                },
+                {
+                    "speaker": "Tourist",
+                    "line": "Gracias, ¿está muy ___?",
+                    "translation": "Thanks, is it very far?",
+                    "blank": true,
+                    "answer": "lejos",
+                    "options": ["lejos", "cerca", "rápido", "grande"]
+                },
+                {
+                    "speaker": "Local",
+                    "line": "No, está muy ___. Son dos minutos caminando.",
+                    "translation": "No, it's very close. It's two minutes walking.",
+                    "blank": true,
+                    "answer": "cerca",
+                    "options": ["cerca", "lejos", "grande", "alto"]
+                }
+            ]
+        }  
+    ],
+    "situations": [
+        {
+            "title": "At the Restaurant",
+            "context": "Ordering dinner at a Spanish restaurant",
+            "vocabularyPreview": "Key words to remember: Buenas noches (Good evening), Reserva (Reservation), Mesa (Table), Carta (Menu), Nombre (Name)",
+            "dialogue": [
+                { 
+                    "speaker": "Waiter", 
+                    "line": "Buenas noches, ¿tienen ___?", 
+                    "translation": "Good evening, do you have a reservation?",
+                    "blank": true,
+                    "answer": "reserva",
+                    "options": ["reserva", "mesa", "carta", "menú"]
+                },
+                { 
+                    "speaker": "Guest", 
+                    "line": "Sí, para ___ personas.", 
+                    "translation": "Yes, for two people.",
+                    "blank": true,
+                    "answer": "dos",
+                    "options": ["dos", "tres", "cuatro", "cinco"]
+                },
+                { 
+                    "speaker": "Waiter", 
+                    "line": "¿A qué ___?", 
+                    "translation": "Under what name?",
+                    "blank": true,
+                    "answer": "nombre",
+                    "options": ["nombre", "hora", "mesa", "lugar"]
+                },
+                { 
+                    "speaker": "Guest", 
+                    "line": "A nombre ___ Martínez.", 
+                    "translation": "Under Martinez.",
+                    "blank": true,
+                    "answer": "de",
+                    "options": ["de", "del", "con", "para"]
+                }
+            ]
+        },
+        {
+            "title": "Asking for Directions",
+            "context": "On the street looking for a museum",
+            "vocabularyPreview": "Key words to remember: Disculpe (Excuse me), Dónde (Where), Cuadras (Blocks), Caminando (Walking), Cerca (Close)",
+            "dialogue": [
+                { 
+                    "speaker": "Tourist", 
+                    "line": "Disculpe, ¿___ está el museo?", 
+                    "translation": "Excuse me, where is the museum?",
+                    "blank": true,
+                    "answer": "dónde",
+                    "options": ["dónde", "cuándo", "cómo", "qué"]
+                },
+                { 
+                    "speaker": "Local", 
+                    "line": "Está a ___ cuadras de aquí.", 
+                    "translation": "It's two blocks from here.",
+                    "blank": true,
+                    "answer": "dos",
+                    "options": ["dos", "tres", "cuatro", "cinco"]
+                },
+                { 
+                    "speaker": "Tourist", 
+                    "line": "¿Se puede ir ___?", 
+                    "translation": "Can I walk there?",
+                    "blank": true,
+                    "answer": "caminando",
+                    "options": ["caminando", "corriendo", "manejando", "volando"]
+                },
+                { 
+                    "speaker": "Local", 
+                    "line": "Sí, es muy ___.", 
+                    "translation": "Yes, it's very close.",
+                    "blank": true,
+                    "answer": "cerca",
+                    "options": ["cerca", "lejos", "grande", "pequeño"]
+                }
+            ]
+        },
+        {
+            "title": "At the Doctor's Office",
+            "context": "Visiting a doctor for a check-up",
+            "vocabularyPreview": "Key words to remember: Dolor (Pain), Síntomas (Symptoms), Medicamento (Medicine), Receta (Prescription), Mejor (Better)",
+            "dialogue": [
+                { 
+                    "speaker": "Doctor", 
+                    "line": "¿Qué ___ le trae hoy?", 
+                    "translation": "What brings you here today?",
+                    "blank": true,
+                    "answer": "problema",
+                    "options": ["problema", "dolor", "síntoma", "medicamento"]
+                },
+                { 
+                    "speaker": "Patient", 
+                    "line": "Tengo ___ de cabeza.", 
+                    "translation": "I have a headache.",
+                    "blank": true,
+                    "answer": "dolor",
+                    "options": ["dolor", "fiebre", "tos", "gripe"]
+                },
+                { 
+                    "speaker": "Doctor", 
+                    "line": "¿Desde ___ tiene estos síntomas?", 
+                    "translation": "Since when do you have these symptoms?",
+                    "blank": true,
+                    "answer": "cuándo",
+                    "options": ["cuándo", "dónde", "cómo", "por qué"]
+                },
+                { 
+                    "speaker": "Patient", 
+                    "line": "Desde ___ días.", 
+                    "translation": "For two days.",
+                    "blank": true,
+                    "answer": "dos",
+                    "options": ["dos", "tres", "cuatro", "cinco"]
+                }
+            ]
+        },
+        {
+            "title": "At the Hotel",
+            "context": "Checking in at a hotel",
+            "vocabularyPreview": "Key words to remember: Reserva (Reservation), Habitación (Room), Llave (Key), Desayuno (Breakfast), Piso (Floor)",
+            "dialogue": [
+                { 
+                    "speaker": "Receptionist", 
+                    "line": "Buenas tardes, ¿tiene ___?", 
+                    "translation": "Good afternoon, do you have a reservation?",
+                    "blank": true,
+                    "answer": "reserva",
+                    "options": ["reserva", "habitación", "llave", "tarjeta"]
+                },
+                { 
+                    "speaker": "Guest", 
+                    "line": "Sí, a nombre de ___ López.", 
+                    "translation": "Yes, under the name López.",
+                    "blank": true,
+                    "answer": "López",
+                    "options": ["López", "García", "Martínez", "Rodríguez"]
+                },
+                { 
+                    "speaker": "Receptionist", 
+                    "line": "Su habitación está en el ___ piso.", 
+                    "translation": "Your room is on the third floor.",
+                    "blank": true,
+                    "answer": "tercer",
+                    "options": ["tercer", "primer", "segundo", "cuarto"]
+                },
+                { 
+                    "speaker": "Guest", 
+                    "line": "¿A qué ___ sirven el desayuno?", 
+                    "translation": "At what time is breakfast served?",
+                    "blank": true,
+                    "answer": "hora",
+                    "options": ["hora", "día", "lugar", "mesa"]
+                }
+            ]
+        },
+        {
+            "title": "Making Weekend Plans",
+            "context": "Two friends discussing weekend plans with family",
+            "vocabularyPreview": "Key words to remember: Planes (Plans), Fin de semana (Weekend), Abuelos (Grandparents), Ciudad (City), Coche (Car)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ tienes para el fin de semana?", 
+                    "translation": "What plans do you have for the weekend?",
+                    "blank": true,
+                    "answer": "planes",
+                    "options": ["planes", "ideas", "cosas", "actividades"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Voy a visitar a mis ___.", 
+                    "translation": "I'm going to visit my grandparents.",
+                    "blank": true,
+                    "answer": "abuelos",
+                    "options": ["abuelos", "padres", "tíos", "primos"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___! ¿Viven cerca?", 
+                    "translation": "How nice! Do they live nearby?",
+                    "blank": true,
+                    "answer": "bonito",
+                    "options": ["bonito", "bien", "mal", "regular"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No, están en otra ___.", 
+                    "translation": "No, they're in another city.",
+                    "blank": true,
+                    "answer": "ciudad",
+                    "options": ["ciudad", "casa", "pueblo", "país"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Vas en ___ o en tren?", 
+                    "translation": "Are you going by car or train?",
+                    "blank": true,
+                    "answer": "coche",
+                    "options": ["coche", "bus", "metro", "taxi"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Vamos en ___ con mi familia.", 
+                    "translation": "We're going by car with my family.",
+                    "blank": true,
+                    "answer": "coche",
+                    "options": ["coche", "bus", "metro", "taxi"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About School Subjects",
+            "context": "Two students discussing their favorite school subjects",
+            "vocabularyPreview": "Key words to remember: Materia (Subject), Ciencias (Science), Historia (History), Pasado (Past), Genial (Great)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ te gusta más?", 
+                    "translation": "What subject do you like the most?",
+                    "blank": true,
+                    "answer": "materia",
+                    "options": ["materia", "clase", "asignatura", "lección"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Me gusta ___, es muy interesante.", 
+                    "translation": "I like science, it's very interesting.",
+                    "blank": true,
+                    "answer": "ciencias",
+                    "options": ["ciencias", "matemáticas", "arte", "música"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "A mí me gusta ___.", 
+                    "translation": "I like history.",
+                    "blank": true,
+                    "answer": "historia",
+                    "options": ["historia", "geografía", "literatura", "física"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿Por qué te ___?", 
+                    "translation": "Why do you like it?",
+                    "blank": true,
+                    "answer": "gusta",
+                    "options": ["gusta", "gustan", "encanta", "encantan"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Me gusta aprender sobre el ___.", 
+                    "translation": "I like learning about the past.",
+                    "blank": true,
+                    "answer": "pasado",
+                    "options": ["pasado", "presente", "futuro", "mundo"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Eso suena ___!", 
+                    "translation": "That sounds great!",
+                    "blank": true,
+                    "answer": "genial",
+                    "options": ["genial", "bien", "mal", "regular"]
+                }
+            ]
+        },
+        {
+            "title": "Describing a Friend",
+            "context": "Two friends talking about their best friend",
+            "vocabularyPreview": "Key words to remember: Amigo (Friend), Simpático (Nice), Divertido (Fun), Nombre (Name), Clase (Class)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cómo es tu mejor ___?", 
+                    "translation": "What's your best friend like?",
+                    "blank": true,
+                    "answer": "amigo",
+                    "options": ["amigo", "amiga", "compañero", "compañera"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Es ___ y muy divertido.", 
+                    "translation": "He's nice and very fun.",
+                    "blank": true,
+                    "answer": "simpático",
+                    "options": ["simpático", "serio", "tímido", "callado"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cómo se ___?", 
+                    "translation": "What's his name?",
+                    "blank": true,
+                    "answer": "llama",
+                    "options": ["llama", "llaman", "llamas", "llamamos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Se llama ___.", 
+                    "translation": "His name is Tomás.",
+                    "blank": true,
+                    "answer": "Tomás",
+                    "options": ["Tomás", "Juan", "Pedro", "Carlos"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Estudian ___?", 
+                    "translation": "Do you study together?",
+                    "blank": true,
+                    "answer": "juntos",
+                    "options": ["juntos", "solos", "todos", "muchos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, en la misma ___.", 
+                    "translation": "Yes, in the same class.",
+                    "blank": true,
+                    "answer": "clase",
+                    "options": ["clase", "escuela", "aula", "curso"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Daily Routine",
+            "context": "Two friends discussing their morning routine",
+            "vocabularyPreview": "Key words to remember: Mañana (Morning), Ducharse (To shower), Desayunar (To have breakfast), Escuela (School), Tarde (Afternoon)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué haces todos los días por la ___?", 
+                    "translation": "What do you do every morning?",
+                    "blank": true,
+                    "answer": "mañana",
+                    "options": ["mañana", "tarde", "noche", "día"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Me levanto, me ___ y desayuno.", 
+                    "translation": "I get up, shower, and have breakfast.",
+                    "blank": true,
+                    "answer": "ducho",
+                    "options": ["ducho", "lavo", "visto", "peino"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿A qué hora vas a la ___?", 
+                    "translation": "What time do you go to school?",
+                    "blank": true,
+                    "answer": "escuela",
+                    "options": ["escuela", "casa", "parque", "biblioteca"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Salgo de casa a las ___.", 
+                    "translation": "I leave home at eight.",
+                    "blank": true,
+                    "answer": "ocho",
+                    "options": ["ocho", "siete", "nueve", "diez"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Y vuelves a qué ___?", 
+                    "translation": "And what time do you return?",
+                    "blank": true,
+                    "answer": "hora",
+                    "options": ["hora", "tiempo", "momento", "día"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "A las tres de la ___.", 
+                    "translation": "At three in the afternoon.",
+                    "blank": true,
+                    "answer": "tarde",
+                    "options": ["tarde", "mañana", "noche", "día"]
+                }
+            ]
+        },
+        {
+            "title": "Going Shopping",
+            "context": "Two friends discussing shopping for clothes",
+            "vocabularyPreview": "Key words to remember: Comprar (To buy), Chaqueta (Jacket), Color (Color), Tienda (Store), Abierta (Open)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "Quiero ___ una chaqueta nueva.", 
+                    "translation": "I want to buy a new jacket.",
+                    "blank": true,
+                    "answer": "comprar",
+                    "options": ["comprar", "vender", "llevar", "usar"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿De qué ___ la quieres?", 
+                    "translation": "What color do you want it?",
+                    "blank": true,
+                    "answer": "color",
+                    "options": ["color", "talla", "precio", "marca"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "___ o negra.", 
+                    "translation": "Blue or black.",
+                    "blank": true,
+                    "answer": "Azul",
+                    "options": ["Azul", "Roja", "Verde", "Blanca"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Hay una ___ cerca de aquí.", 
+                    "translation": "There's a store nearby.",
+                    "blank": true,
+                    "answer": "tienda",
+                    "options": ["tienda", "casa", "oficina", "escuela"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Está ___ ahora?", 
+                    "translation": "Is it open now?",
+                    "blank": true,
+                    "answer": "abierta",
+                    "options": ["abierta", "cerrada", "lejos", "cerca"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, hasta las ___.", 
+                    "translation": "Yes, until eight.",
+                    "blank": true,
+                    "answer": "ocho",
+                    "options": ["ocho", "siete", "nueve", "diez"]
+                }
+            ]
+        },
+        {
+            "title": "Describing Weather and Clothes",
+            "context": "Two friends discussing weather and appropriate clothing",
+            "vocabularyPreview": "Key words to remember: Frío (Cold), Viento (Wind), Abrigo (Coat), Gorro (Hat), Guantes (Gloves)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "Hace ___ hoy, ¿verdad?", 
+                    "translation": "It's cold today, right?",
+                    "blank": true,
+                    "answer": "frío",
+                    "options": ["frío", "calor", "sol", "viento"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, y también mucho ___.", 
+                    "translation": "Yes, and very windy too.",
+                    "blank": true,
+                    "answer": "viento",
+                    "options": ["viento", "sol", "lluvia", "nieve"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Voy a ponerme mi ___.", 
+                    "translation": "I'm going to put on my coat.",
+                    "blank": true,
+                    "answer": "abrigo",
+                    "options": ["abrigo", "chaqueta", "suéter", "camisa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Yo traje ___ y guantes.", 
+                    "translation": "I brought a hat and gloves.",
+                    "blank": true,
+                    "answer": "gorro",
+                    "options": ["gorro", "bufanda", "guantes", "botas"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ idea!", 
+                    "translation": "Good idea!",
+                    "blank": true,
+                    "answer": "Buena",
+                    "options": ["Buena", "Mala", "Regular", "Grande"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No quiero ___.", 
+                    "translation": "I don't want to catch a cold.",
+                    "blank": true,
+                    "answer": "resfriarme",
+                    "options": ["resfriarme", "enfermarme", "mojarme", "cansarme"]
+                }
+            ]
+        },
+        {
+            "title": "Ordering at a Restaurant",
+            "context": "A customer ordering food at a restaurant",
+            "vocabularyPreview": "Key words to remember: Pedir (To order), Hamburguesa (Hamburger), Papas (Fries), Beber (To drink), Postre (Dessert)",
+            "dialogue": [
+                { 
+                    "speaker": "Waiter", 
+                    "line": "Buenas tardes, ¿qué va a ___?", 
+                    "translation": "Good afternoon, what would you like to order?",
+                    "blank": true,
+                    "answer": "pedir",
+                    "options": ["pedir", "comer", "beber", "tomar"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "Quiero una ___ con papas, por favor.", 
+                    "translation": "I want a hamburger with fries, please.",
+                    "blank": true,
+                    "answer": "hamburguesa",
+                    "options": ["hamburguesa", "pizza", "ensalada", "sopa"]
+                },
+                { 
+                    "speaker": "Waiter", 
+                    "line": "¿Algo para ___?", 
+                    "translation": "Anything to drink?",
+                    "blank": true,
+                    "answer": "beber",
+                    "options": ["beber", "comer", "tomar", "pedir"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "Un jugo de naranja, ___.", 
+                    "translation": "An orange juice, thank you.",
+                    "blank": true,
+                    "answer": "gracias",
+                    "options": ["gracias", "por favor", "adiós", "hola"]
+                },
+                { 
+                    "speaker": "Waiter", 
+                    "line": "¿Desea ___?", 
+                    "translation": "Would you like dessert?",
+                    "blank": true,
+                    "answer": "postre",
+                    "options": ["postre", "café", "té", "pan"]
+                },
+                { 
+                    "speaker": "Customer", 
+                    "line": "No, solo eso por ___.", 
+                    "translation": "No, just that for now.",
+                    "blank": true,
+                    "answer": "ahora",
+                    "options": ["ahora", "después", "luego", "más tarde"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Hobbies",
+            "context": "Two friends discussing their hobbies",
+            "vocabularyPreview": "Key words to remember: Tiempo libre (Free time), Guitarra (Guitar), Dibujar (To draw), Pintar (To paint), Encantar (To love)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué haces en tu ___ libre?", 
+                    "translation": "What do you do in your free time?",
+                    "blank": true,
+                    "answer": "tiempo",
+                    "options": ["tiempo", "día", "noche", "semana"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Me gusta tocar la ___.", 
+                    "translation": "I like playing the guitar.",
+                    "blank": true,
+                    "answer": "guitarra",
+                    "options": ["guitarra", "piano", "flauta", "violín"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How interesting!",
+                    "blank": true,
+                    "answer": "interesante",
+                    "options": ["interesante", "bonito", "bien", "mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿Y ___?", 
+                    "translation": "And you?",
+                    "blank": true,
+                    "answer": "tú",
+                    "options": ["tú", "él", "ella", "usted"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Yo ___ y pinto.", 
+                    "translation": "I draw and paint.",
+                    "blank": true,
+                    "answer": "dibujo",
+                    "options": ["dibujo", "canto", "bailo", "leo"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Me ___ ver tus dibujos!", 
+                    "translation": "I'd love to see your drawings!",
+                    "blank": true,
+                    "answer": "encantaría",
+                    "options": ["encantaría", "gustaría", "quiero", "puedo"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About a Trip",
+            "context": "Two friends discussing a beach trip",
+            "vocabularyPreview": "Key words to remember: Viajar (To travel), Playa (Beach), Verano (Summer), Nadar (To swim), Helado (Ice cream)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Has ___ alguna vez a la playa?", 
+                    "translation": "Have you ever traveled to the beach?",
+                    "blank": true,
+                    "answer": "viajado",
+                    "options": ["viajado", "ido", "estado", "visitado"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, el ___ pasado fui con mis padres.", 
+                    "translation": "Yes, last summer I went with my parents.",
+                    "blank": true,
+                    "answer": "verano",
+                    "options": ["verano", "invierno", "primavera", "otoño"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te ___?", 
+                    "translation": "Did you like it?",
+                    "blank": true,
+                    "answer": "gustó",
+                    "options": ["gustó", "gusta", "gustan", "gustas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___! Nadamos y comimos helado.", 
+                    "translation": "A lot! We swam and ate ice cream.",
+                    "blank": true,
+                    "answer": "Mucho",
+                    "options": ["Mucho", "Poco", "Nada", "Todo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿A qué ___ fuiste?", 
+                    "translation": "Which beach did you go to?",
+                    "blank": true,
+                    "answer": "playa",
+                    "options": ["playa", "ciudad", "pueblo", "lugar"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "A una que se llama Playa ___.", 
+                    "translation": "One called Playa Blanca.",
+                    "blank": true,
+                    "answer": "Blanca",
+                    "options": ["Blanca", "Azul", "Verde", "Roja"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Health",
+            "context": "Two friends discussing health",
+            "vocabularyPreview": "Key words to remember: Sentirse (To feel), Doler (To hurt), Cabeza (Head), Médico (Doctor), Descansar (To rest)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te ___ bien hoy?", 
+                    "translation": "Do you feel well today?",
+                    "blank": true,
+                    "answer": "sientes",
+                    "options": ["sientes", "siente", "sienten", "sentimos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No, me ___ la cabeza.", 
+                    "translation": "No, my head hurts.",
+                    "blank": true,
+                    "answer": "duele",
+                    "options": ["duele", "duelen", "dolor", "dolores"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Fuiste al ___?", 
+                    "translation": "Did you go to the doctor?",
+                    "blank": true,
+                    "answer": "médico",
+                    "options": ["médico", "hospital", "farmacia", "casa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No todavía. Voy ___.", 
+                    "translation": "Not yet. I'm going tomorrow.",
+                    "blank": true,
+                    "answer": "mañana",
+                    "options": ["mañana", "hoy", "tarde", "noche"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "___ y toma agua.", 
+                    "translation": "Rest and drink water.",
+                    "blank": true,
+                    "answer": "Descansa",
+                    "options": ["Descansa", "Duerme", "Come", "Bebe"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Gracias, lo ___.", 
+                    "translation": "Thank you, I will.",
+                    "blank": true,
+                    "answer": "haré",
+                    "options": ["haré", "hago", "haces", "hace"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Music",
+            "context": "Two friends discussing music preferences",
+            "vocabularyPreview": "Key words to remember: Música (Music), Escuchar (To listen), Pop (Pop), Rock (Rock), Genial (Great)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta la ___?", 
+                    "translation": "Do you like music?",
+                    "blank": true,
+                    "answer": "música",
+                    "options": ["música", "película", "comida", "deporte"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Sí, me ___!", 
+                    "translation": "Yes, I love it!",
+                    "blank": true,
+                    "answer": "encanta",
+                    "options": ["encanta", "gusta", "gustan", "encantan"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___?", 
+                    "translation": "What do you listen to?",
+                    "blank": true,
+                    "answer": "escuchas",
+                    "options": ["escuchas", "miras", "comes", "bebes"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Pop y ___.", 
+                    "translation": "Pop and rock.",
+                    "blank": true,
+                    "answer": "rock",
+                    "options": ["rock", "jazz", "clásica", "reggae"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Yo ___.", 
+                    "translation": "Me too.",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Great!",
+                    "blank": true,
+                    "answer": "Genial",
+                    "options": ["Genial", "Bien", "Mal", "Regular"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About School Supplies",
+            "context": "Two students sharing school supplies",
+            "vocabularyPreview": "Key words to remember: Lápiz (Pencil), Papel (Paper), Gracias (Thank you), Nada (You're welcome), Momento (Moment)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes un ___?", 
+                    "translation": "Do you have a pencil?",
+                    "blank": true,
+                    "answer": "lápiz",
+                    "options": ["lápiz", "bolígrafo", "goma", "regla"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, aquí ___.", 
+                    "translation": "Yes, here it is.",
+                    "blank": true,
+                    "answer": "está",
+                    "options": ["está", "están", "estoy", "estamos"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "De ___.", 
+                    "translation": "You're welcome.",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes ___ también?", 
+                    "translation": "Do you have paper too?",
+                    "blank": true,
+                    "answer": "papel",
+                    "options": ["papel", "cuaderno", "libro", "carpeta"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, un ___.", 
+                    "translation": "Yes, one moment.",
+                    "blank": true,
+                    "answer": "momento",
+                    "options": ["momento", "segundo", "minuto", "hora"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Weather",
+            "context": "Two friends discussing the weather",
+            "vocabularyPreview": "Key words to remember: Frío (Cold), Abrigo (Coat), Bufanda (Scarf), Idea (Idea), Cuídate (Take care)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Hace ___ hoy?", 
+                    "translation": "Is it cold today?",
+                    "blank": true,
+                    "answer": "frío",
+                    "options": ["frío", "calor", "sol", "viento"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, y también mucho ___.", 
+                    "translation": "Yes, and very windy too.",
+                    "blank": true,
+                    "answer": "viento",
+                    "options": ["viento", "sol", "lluvia", "nieve"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Voy a ponerme mi ___.", 
+                    "translation": "I'm going to put on my coat.",
+                    "blank": true,
+                    "answer": "abrigo",
+                    "options": ["abrigo", "chaqueta", "suéter", "camisa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Yo traje ___ y guantes.", 
+                    "translation": "I brought a hat and gloves.",
+                    "blank": true,
+                    "answer": "gorro",
+                    "options": ["gorro", "bufanda", "guantes", "botas"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ idea!", 
+                    "translation": "Good idea!",
+                    "blank": true,
+                    "answer": "Buena",
+                    "options": ["Buena", "Mala", "Regular", "Grande"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No quiero ___.", 
+                    "translation": "I don't want to catch a cold.",
+                    "blank": true,
+                    "answer": "resfriarme",
+                    "options": ["resfriarme", "enfermarme", "mojarme", "cansarme"]
+                }
+            ]
+        },
+        {
+            "title": "Weekend Plans",
+            "context": "Two friends discussing weekend activities",
+            "vocabularyPreview": "Key words to remember: Sábado (Saturday), Cine (Cinema), Amigos (Friends), Divertir (To have fun), Gracias (Thank you)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué haces el ___?", 
+                    "translation": "What are you doing on Saturday?",
+                    "blank": true,
+                    "answer": "sábado",
+                    "options": ["sábado", "domingo", "lunes", "martes"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Voy al ___.", 
+                    "translation": "I'm going to the cinema.",
+                    "blank": true,
+                    "answer": "cine",
+                    "options": ["cine", "parque", "centro", "casa"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Con ___?", 
+                    "translation": "With whom?",
+                    "blank": true,
+                    "answer": "quién",
+                    "options": ["quién", "dónde", "cuándo", "qué"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Con mis ___.", 
+                    "translation": "With my friends.",
+                    "blank": true,
+                    "answer": "amigos",
+                    "options": ["amigos", "familia", "hermanos", "padres"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Have fun!",
+                    "blank": true,
+                    "answer": "Diviértete",
+                    "options": ["Diviértete", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                }
+            ]
+        },
+        {
+            "title": "Expressing Likes",
+            "context": "Two friends discussing their favorite foods",
+            "vocabularyPreview": "Key words to remember: Chocolate (Chocolate), Pizza (Pizza), Favorita (Favorite), Rico (Delicious), También (Also)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "Me gusta el ___.", 
+                    "translation": "I like chocolate.",
+                    "blank": true,
+                    "answer": "chocolate",
+                    "options": ["chocolate", "helado", "pastel", "pan"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡A mí ___!", 
+                    "translation": "Me too!",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Te gusta la ___?", 
+                    "translation": "Do you like pizza?",
+                    "blank": true,
+                    "answer": "pizza",
+                    "options": ["pizza", "hamburguesa", "ensalada", "sopa"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, es mi ___.", 
+                    "translation": "Yes, it's my favorite.",
+                    "blank": true,
+                    "answer": "favorita",
+                    "options": ["favorita", "preferida", "mejor", "peor"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Qué ___!", 
+                    "translation": "How delicious!",
+                    "blank": true,
+                    "answer": "rico",
+                    "options": ["rico", "bueno", "malo", "regular"]
+                }
+            ]
+        },
+        {
+            "title": "At the Library",
+            "context": "Two people discussing books at a library",
+            "vocabularyPreview": "Key words to remember: Libros (Books), Allá (There), Buscar (To look for), Cuentos (Stories), Elección (Choice)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Dónde están los ___?", 
+                    "translation": "Where are the books?",
+                    "blank": true,
+                    "answer": "libros",
+                    "options": ["libros", "cuentos", "revistas", "periódicos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Están ___.", 
+                    "translation": "They are there.",
+                    "blank": true,
+                    "answer": "allá",
+                    "options": ["allá", "aquí", "allí", "cerca"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¿Qué libro ___?", 
+                    "translation": "What book are you looking for?",
+                    "blank": true,
+                    "answer": "buscas",
+                    "options": ["buscas", "lees", "quieres", "necesitas"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Uno de ___.", 
+                    "translation": "A story book.",
+                    "blank": true,
+                    "answer": "cuentos",
+                    "options": ["cuentos", "historias", "poemas", "novelas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Buena ___!", 
+                    "translation": "Good choice!",
+                    "blank": true,
+                    "answer": "elección",
+                    "options": ["elección", "idea", "opción", "decisión"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About TV",
+            "context": "Two friends discussing TV shows",
+            "vocabularyPreview": "Key words to remember: Tele (TV), Noche (Night), Ver (To watch), Dibujos animados (Cartoons), Divertidos (Fun)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Miras la ___?", 
+                    "translation": "Do you watch TV?",
+                    "blank": true,
+                    "answer": "tele",
+                    "options": ["tele", "radio", "internet", "película"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, por la ___.", 
+                    "translation": "Yes, at night.",
+                    "blank": true,
+                    "answer": "noche",
+                    "options": ["noche", "tarde", "mañana", "día"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___?", 
+                    "translation": "What do you watch?",
+                    "blank": true,
+                    "answer": "ves",
+                    "options": ["ves", "miras", "escuchas", "lees"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Dibujos ___.", 
+                    "translation": "Cartoons.",
+                    "blank": true,
+                    "answer": "animados",
+                    "options": ["animados", "educativos", "deportivos", "musicales"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡Yo ___!", 
+                    "translation": "Me too!",
+                    "blank": true,
+                    "answer": "también",
+                    "options": ["también", "tampoco", "nada", "mucho"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Son ___!", 
+                    "translation": "They are fun!",
+                    "blank": true,
+                    "answer": "divertidos",
+                    "options": ["divertidos", "aburridos", "interesantes", "educativos"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Daily Routine",
+            "context": "Two friends discussing daily schedules",
+            "vocabularyPreview": "Key words to remember: Levantarse (To get up), Temprano (Early), Escuela (School), Caminar (To walk), Bus (Bus)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿A qué hora te ___?", 
+                    "translation": "What time do you get up?",
+                    "blank": true,
+                    "answer": "levantas",
+                    "options": ["levantas", "duermes", "comes", "vas"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "A las ___.", 
+                    "translation": "At seven.",
+                    "blank": true,
+                    "answer": "siete",
+                    "options": ["siete", "ocho", "nueve", "diez"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Early!",
+                    "blank": true,
+                    "answer": "Temprano",
+                    "options": ["Temprano", "Tarde", "Bien", "Mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, voy a la ___.", 
+                    "translation": "Yes, I go to school.",
+                    "blank": true,
+                    "answer": "escuela",
+                    "options": ["escuela", "casa", "parque", "biblioteca"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿___ o tomas bus?", 
+                    "translation": "Do you walk or take the bus?",
+                    "blank": true,
+                    "answer": "Caminas",
+                    "options": ["Caminas", "Corres", "Vas", "Sales"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Tomo el ___.", 
+                    "translation": "I take the bus.",
+                    "blank": true,
+                    "answer": "bus",
+                    "options": ["bus", "metro", "taxi", "auto"]
+                }
+            ]
+        },
+        {
+            "title": "Asking for Help",
+            "context": "Two friends helping with homework",
+            "vocabularyPreview": "Key words to remember: Ayudar (To help), Por favor (Please), Tarea (Homework), Está bien (It's okay), Nada (You're welcome)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Me ___, por favor?", 
+                    "translation": "Can you help me, please?",
+                    "blank": true,
+                    "answer": "ayudas",
+                    "options": ["ayudas", "ayuda", "ayudan", "ayudamos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Claro, ¿con ___?", 
+                    "translation": "Of course, with what?",
+                    "blank": true,
+                    "answer": "qué",
+                    "options": ["qué", "dónde", "cuándo", "cómo"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "Con mi ___.", 
+                    "translation": "With my homework.",
+                    "blank": true,
+                    "answer": "tarea",
+                    "options": ["tarea", "libro", "cuaderno", "proyecto"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Está ___.", 
+                    "translation": "It's okay.",
+                    "blank": true,
+                    "answer": "bien",
+                    "options": ["bien", "mal", "regular", "bueno"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "De ___.", 
+                    "translation": "You're welcome.",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Birthdays",
+            "context": "Two friends discussing birthdays",
+            "vocabularyPreview": "Key words to remember: Cumpleaños (Birthday), Mayo (May), Feliz (Happy), Fiesta (Party), Amigos (Friends)",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cuándo es tu ___?", 
+                    "translation": "When is your birthday?",
+                    "blank": true,
+                    "answer": "cumpleaños",
+                    "options": ["cumpleaños", "aniversario", "fiesta", "día"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Es en ___.", 
+                    "translation": "It's in May.",
+                    "blank": true,
+                    "answer": "mayo",
+                    "options": ["mayo", "junio", "julio", "agosto"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¡___ cumpleaños adelantado!", 
+                    "translation": "Happy early birthday!",
+                    "blank": true,
+                    "answer": "Feliz",
+                    "options": ["Feliz", "Triste", "Buen", "Mal"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡___!", 
+                    "translation": "Thank you!",
+                    "blank": true,
+                    "answer": "Gracias",
+                    "options": ["Gracias", "Adiós", "Hola", "Buenos días"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Harás una ___?", 
+                    "translation": "Will you have a party?",
+                    "blank": true,
+                    "answer": "fiesta",
+                    "options": ["fiesta", "reunión", "cena", "comida"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, con ___.", 
+                    "translation": "Yes, with friends.",
+                    "blank": true,
+                    "answer": "amigos",
+                    "options": ["amigos", "familia", "hermanos", "padres"]
+                }
+            ]
+        },
+        {
+            "title": "At the Doctor",
+            "context": "A patient visiting the doctor with symptoms",
+            "vocabularyPreview": "Key words to remember: Síntomas (Symptoms), Garganta (Throat), Fiebre (Fever), Desde (Since), Descansar (To rest), Medicina (Medicine)\nGrammar Tips: \n- Use 'me duele' for expressing pain (singular) or 'me duelen' (plural)\n- 'Desde' is used to indicate when something started\n- 'Necesitas' is the informal 'you need' form\n- 'Lo haré' uses the future tense to express future actions",
+            "dialogue": [
+                { 
+                    "speaker": "Doctor", 
+                    "line": "¿Qué ___ tienes?", 
+                    "translation": "What symptoms do you have?",
+                    "blank": true,
+                    "answer": "síntomas",
+                    "options": ["síntomas", "dolores", "problemas", "enfermedades"]
+                },
+                { 
+                    "speaker": "Patient", 
+                    "line": "Me duele la ___ y tengo fiebre.", 
+                    "translation": "My throat hurts and I have a fever.",
+                    "blank": true,
+                    "answer": "garganta",
+                    "options": ["garganta", "cabeza", "espalda", "pierna"]
+                },
+                { 
+                    "speaker": "Doctor", 
+                    "line": "¿___ cuándo?", 
+                    "translation": "Since when?",
+                    "blank": true,
+                    "answer": "Desde",
+                    "options": ["Desde", "Hasta", "Por", "Para"]
+                },
+                { 
+                    "speaker": "Patient", 
+                    "line": "Desde ayer por la ___.", 
+                    "translation": "Since yesterday afternoon.",
+                    "blank": true,
+                    "answer": "tarde",
+                    "options": ["tarde", "mañana", "noche", "día"]
+                },
+                { 
+                    "speaker": "Doctor", 
+                    "line": "Necesitas ___ y tomar medicina.", 
+                    "translation": "You need to rest and take medicine.",
+                    "blank": true,
+                    "answer": "descansar",
+                    "options": ["descansar", "dormir", "comer", "beber"]
+                },
+                { 
+                    "speaker": "Patient", 
+                    "line": "Gracias, lo ___.", 
+                    "translation": "Thank you, I will.",
+                    "blank": true,
+                    "answer": "haré",
+                    "options": ["haré", "hago", "haces", "hace"]
+                }
+            ]
+        },
+        {
+            "title": "Asking for Directions",
+            "context": "A tourist asking for directions to a bank",
+            "vocabularyPreview": "Key words to remember: Banco (Bank), Supermercado (Supermarket), Lejos (Far), Caminando (Walking), Al lado de (Next to)\nGrammar Tips: \n- '¿Dónde está...?' is used to ask for location of singular objects\n- 'Al lado de' is a prepositional phrase meaning 'next to'\n- 'Caminando' is the gerund form of 'caminar'\n- 'De nada' is a common response to 'gracias'",
+            "dialogue": [
+                { 
+                    "speaker": "Tourist", 
+                    "line": "Perdón, ¿dónde está el ___?", 
+                    "translation": "Excuse me, where is the bank?",
+                    "blank": true,
+                    "answer": "banco",
+                    "options": ["banco", "supermercado", "restaurante", "hotel"]
+                },
+                { 
+                    "speaker": "Local", 
+                    "line": "Está al lado del ___.", 
+                    "translation": "It's next to the supermarket.",
+                    "blank": true,
+                    "answer": "supermercado",
+                    "options": ["supermercado", "banco", "restaurante", "hotel"]
+                },
+                { 
+                    "speaker": "Tourist", 
+                    "line": "¿Está ___ de aquí?", 
+                    "translation": "Is it far from here?",
+                    "blank": true,
+                    "answer": "lejos",
+                    "options": ["lejos", "cerca", "allí", "aquí"]
+                },
+                { 
+                    "speaker": "Local", 
+                    "line": "No, solo cinco minutos ___.", 
+                    "translation": "No, just five minutes walking.",
+                    "blank": true,
+                    "answer": "caminando",
+                    "options": ["caminando", "corriendo", "manejando", "volando"]
+                },
+                { 
+                    "speaker": "Tourist", 
+                    "line": "Muchas ___.", 
+                    "translation": "Thank you very much.",
+                    "blank": true,
+                    "answer": "gracias",
+                    "options": ["gracias", "hola", "adiós", "buenos días"]
+                },
+                { 
+                    "speaker": "Local", 
+                    "line": "¡De ___!", 
+                    "translation": "You're welcome!",
+                    "blank": true,
+                    "answer": "nada",
+                    "options": ["nada", "todo", "algo", "mucho"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Pets",
+            "context": "Two friends discussing their pets",
+            "vocabularyPreview": "Key words to remember: Mascotas (Pets), Perro (Dog), Se llama (Is named), Raza (Breed), Labrador (Labrador)\nGrammar Tips: \n- 'Se llama' is the reflexive form of 'llamar'\n- 'Tienes' is the informal 'you have' form\n- 'Es un' is used for masculine singular nouns\n- 'Qué' is used for asking 'what' in questions",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Tienes ___?", 
+                    "translation": "Do you have pets?",
+                    "blank": true,
+                    "answer": "mascotas",
+                    "options": ["mascotas", "perros", "gatos", "animales"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Sí, tengo un ___.", 
+                    "translation": "Yes, I have a dog.",
+                    "blank": true,
+                    "answer": "perro",
+                    "options": ["perro", "gato", "pájaro", "pez"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Cómo se ___?", 
+                    "translation": "What's his name?",
+                    "blank": true,
+                    "answer": "llama",
+                    "options": ["llama", "llamo", "llamas", "llaman"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Se llama ___.", 
+                    "translation": "His name is Rocky.",
+                    "blank": true,
+                    "answer": "Rocky",
+                    "options": ["Rocky", "Max", "Luna", "Toby"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ es?", 
+                    "translation": "What breed is he?",
+                    "blank": true,
+                    "answer": "raza",
+                    "options": ["raza", "color", "tamaño", "edad"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Es un ___.", 
+                    "translation": "He's a Labrador.",
+                    "blank": true,
+                    "answer": "labrador",
+                    "options": ["labrador", "pastor", "chihuahua", "poodle"]
+                }
+            ]
+        },
+        {
+            "title": "Making a Phone Call",
+            "context": "A person calling a friend's house",
+            "vocabularyPreview": "Key words to remember: Está (Is), En casa (At home), Regresa (Returns), Llamo (I call), Después (Later)\nGrammar Tips: \n- 'Está' is the third person singular form of 'estar'\n- 'Regresa' is the third person singular form of 'regresar'\n- 'Llamo' is the first person singular form of 'llamar'\n- 'Hasta luego' is a common farewell phrase",
+            "dialogue": [
+                { 
+                    "speaker": "Caller", 
+                    "line": "¿Hola, ___ Ana?", 
+                    "translation": "Hello, is Ana there?",
+                    "blank": true,
+                    "answer": "está",
+                    "options": ["está", "están", "estoy", "estamos"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No, no está en ___.", 
+                    "translation": "No, she's not at home.",
+                    "blank": true,
+                    "answer": "casa",
+                    "options": ["casa", "oficina", "escuela", "tienda"]
+                },
+                { 
+                    "speaker": "Caller", 
+                    "line": "¿Sabes a qué hora ___?", 
+                    "translation": "Do you know what time she returns?",
+                    "blank": true,
+                    "answer": "regresa",
+                    "options": ["regresa", "viene", "llega", "va"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Regresa a las ___.", 
+                    "translation": "She returns at five.",
+                    "blank": true,
+                    "answer": "cinco",
+                    "options": ["cinco", "seis", "siete", "ocho"]
+                },
+                { 
+                    "speaker": "Caller", 
+                    "line": "Gracias, ___ después.", 
+                    "translation": "Thank you, I'll call later.",
+                    "blank": true,
+                    "answer": "llamo",
+                    "options": ["llamo", "vengo", "voy", "estoy"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Muy bien, hasta ___.", 
+                    "translation": "Very well, see you later.",
+                    "blank": true,
+                    "answer": "luego",
+                    "options": ["luego", "mañana", "tarde", "noche"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Food",
+            "context": "Two friends discussing lunch",
+            "vocabularyPreview": "Key words to remember: Almorzar (To have lunch), Arroz (Rice), Pollo (Chicken), Cocinar (To cook), Preparar (To prepare)\nGrammar Tips: \n- 'Almorzaste' is the past tense form of 'almorzar'\n- 'Comí' is the first person singular past tense of 'comer'\n- 'Estaba' is the imperfect tense of 'estar'\n- 'Lo preparó' uses the third person singular past tense",
+            "dialogue": [
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Qué ___ hoy?", 
+                    "translation": "What did you have for lunch today?",
+                    "blank": true,
+                    "answer": "almorzaste",
+                    "options": ["almorzaste", "comiste", "bebiste", "cocinaste"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "Comí ___ con pollo.", 
+                    "translation": "I had rice with chicken.",
+                    "blank": true,
+                    "answer": "arroz",
+                    "options": ["arroz", "pasta", "pan", "sopa"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Estaba ___?", 
+                    "translation": "Was it good?",
+                    "blank": true,
+                    "answer": "rico",
+                    "options": ["rico", "malo", "regular", "frío"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "¡Sí, ___!", 
+                    "translation": "Yes, delicious!",
+                    "blank": true,
+                    "answer": "delicioso",
+                    "options": ["delicioso", "bueno", "malo", "regular"]
+                },
+                { 
+                    "speaker": "Person A", 
+                    "line": "¿Lo ___ tú?", 
+                    "translation": "Did you cook it?",
+                    "blank": true,
+                    "answer": "cocinaste",
+                    "options": ["cocinaste", "preparaste", "comiste", "bebiste"]
+                },
+                { 
+                    "speaker": "Person B", 
+                    "line": "No, lo preparó mi ___.", 
+                    "translation": "No, my mom prepared it.",
+                    "blank": true,
+                    "answer": "mamá",
+                    "options": ["mamá", "papá", "hermana", "abuela"]
+                }
+            ]
+        },
+        {
+            "title": "Planning a Trip",
+            "context": "Two friends talking about vacation plans",
+            "vocabularyPreview": "Key words to remember: Vacaciones (Vacation), Montaña (Mountain), Caminar (To walk/hike), Fotos (Photos), Emocionado (Excited)\nGrammar Tips:\n- 'Vas' is the second person singular of 'ir' (to go)\n- 'Vamos a' + infinitive is a way to express future plans (We are going to...)\n- 'Estoy emocionado' uses the present tense of 'estar' to express a feeling",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "¿A dónde ___ en vacaciones?",
+                    "translation": "Where are you going on vacation?",
+                    "blank": true,
+                    "answer": "vas",
+                    "options": ["vas", "fuiste", "eres", "vienes"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "A la ___ con mi familia.",
+                    "translation": "To the mountains with my family.",
+                    "blank": true,
+                    "answer": "montaña",
+                    "options": ["montaña", "playa", "ciudad", "selva"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Qué van a ___ allá?",
+                    "translation": "What are you all going to do there?",
+                    "blank": true,
+                    "answer": "hacer",
+                    "options": ["hacer", "ver", "comer", "beber"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Vamos a ___ y tomar fotos.",
+                    "translation": "We're going to walk and take photos.",
+                    "blank": true,
+                    "answer": "caminar",
+                    "options": ["caminar", "correr", "nadar", "jugar"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¡Suena ___!",
+                    "translation": "Sounds fun!",
+                    "blank": true,
+                    "answer": "divertido",
+                    "options": ["divertido", "aburrido", "extraño", "lento"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¡Sí, estoy ___!",
+                    "translation": "Yes, I’m excited!",
+                    "blank": true,
+                    "answer": "emocionado",
+                    "options": ["emocionado", "cansado", "preocupado", "ocupado"]
+                }
+            ]
+        },
+        {
+            "title": "Going to the Movies",
+            "context": "Two friends deciding to watch a movie",
+            "vocabularyPreview": "Key words to remember: Película (Movie), Cine (Cinema), Entradas (Tickets), Empezar (To start), Preferir (To prefer)\nGrammar Tips:\n- 'Quieres' is the second person singular of 'querer' (to want)\n- 'Empieza' is the third person singular present form of 'empezar'\n- 'Prefieres' is the second person singular present form of 'preferir'",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "¿___ ir al cine esta noche?",
+                    "translation": "Do you want to go to the movies tonight?",
+                    "blank": true,
+                    "answer": "Quieres",
+                    "options": ["Quieres", "Puedes", "Tienes", "Vas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¡Sí! ¿Qué ___ vamos a ver?",
+                    "translation": "Yes! What movie are we going to watch?",
+                    "blank": true,
+                    "answer": "película",
+                    "options": ["película", "serie", "libro", "canción"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Hay una comedia nueva en el ___.",
+                    "translation": "There’s a new comedy at the cinema.",
+                    "blank": true,
+                    "answer": "cine",
+                    "options": ["cine", "parque", "teatro", "restaurante"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¿A qué hora ___ la película?",
+                    "translation": "What time does the movie start?",
+                    "blank": true,
+                    "answer": "empieza",
+                    "options": ["empieza", "termina", "llega", "cierra"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "___ a las siete y media.",
+                    "translation": "It starts at seven thirty.",
+                    "blank": true,
+                    "answer": "Empieza",
+                    "options": ["Empieza", "Termina", "Llega", "Abre"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Perfecto. Yo compro las ___.",
+                    "translation": "Perfect. I’ll buy the tickets.",
+                    "blank": true,
+                    "answer": "entradas",
+                    "options": ["entradas", "comidas", "sillas", "ropas"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About Work",
+            "context": "Two friends discussing jobs",
+            "vocabularyPreview": "Key words to remember: Trabajar (To work), Empresa (Company), Gusta (To like), Estrés (Stress), Programador (Programmer)\nGrammar Tips:\n- 'Trabajas' is the second person singular present form of 'trabajar'\n- 'Te gusta' means 'do you like it?'\n- 'Es' is used for permanent states or identities (like professions)",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "¿Dónde ___ ahora?",
+                    "translation": "Where do you work now?",
+                    "blank": true,
+                    "answer": "trabajas",
+                    "options": ["trabajas", "vives", "estudias", "vas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "En una ___ de tecnología.",
+                    "translation": "At a technology company.",
+                    "blank": true,
+                    "answer": "empresa",
+                    "options": ["empresa", "escuela", "fábrica", "tienda"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Te ___ tu trabajo?",
+                    "translation": "Do you like your job?",
+                    "blank": true,
+                    "answer": "gusta",
+                    "options": ["gusta", "cuesta", "sirve", "molesta"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Sí, pero a veces hay mucho ___.",
+                    "translation": "Yes, but sometimes there's a lot of stress.",
+                    "blank": true,
+                    "answer": "estrés",
+                    "options": ["estrés", "ruido", "café", "frío"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Qué ___ exactamente?",
+                    "translation": "What do you do exactly?",
+                    "blank": true,
+                    "answer": "haces",
+                    "options": ["haces", "comes", "sabes", "vas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Soy ___. Diseño aplicaciones móviles.",
+                    "translation": "I’m a programmer. I design mobile apps.",
+                    "blank": true,
+                    "answer": "programador",
+                    "options": ["programador", "doctor", "pintor", "vendedor"]
+                }
+            ]
+        },
+        {
+            "title": "Meeting Someone New",
+            "context": "Two people meeting for the first time",
+            "vocabularyPreview": "Key words to remember: Nombre (Name), Encantado/a (Nice to meet you), Conocer (To meet), Edad (Age), Lugar (Place)\nGrammar Tips:\n- '¿Cómo te llamas?' means 'What is your name?'\n- 'Tengo' is used to express age (literally: I have __ years)\n- 'Soy de' means 'I am from'",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Hola, ¿cómo te ___?",
+                    "translation": "Hi, what’s your name?",
+                    "blank": true,
+                    "answer": "llamas",
+                    "options": ["llamas", "dices", "sientes", "vas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Me llamo Ana. ¿Y tú? ¿Cuál es tu ___?",
+                    "translation": "My name is Ana. And you? What’s your name?",
+                    "blank": true,
+                    "answer": "nombre",
+                    "options": ["nombre", "edad", "clase", "ciudad"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Soy Marcos. ___ de conocerte.",
+                    "translation": "I’m Marcos. Nice to meet you.",
+                    "blank": true,
+                    "answer": "Encantado",
+                    "options": ["Encantado", "Adiós", "Gracias", "Perdón"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Igualmente. ¿De dónde ___?",
+                    "translation": "Same here. Where are you from?",
+                    "blank": true,
+                    "answer": "eres",
+                    "options": ["eres", "vienes", "vas", "vives"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "___ de México.",
+                    "translation": "I’m from Mexico.",
+                    "blank": true,
+                    "answer": "Soy",
+                    "options": ["Soy", "Estoy", "Voy", "Tengo"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¡Qué bien! ¿Cuántos años ___?",
+                    "translation": "Nice! How old are you?",
+                    "blank": true,
+                    "answer": "tienes",
+                    "options": ["tienes", "eres", "haces", "puedes"]
+                }
+            ]
+        }                                
+    ],
+    "practiceDialogues": [
+        {
+            "context": "At a Shop",
+            "vocabularyPreview": "Key words to remember: Camisa (Shirt), Talla (Size), Mediana (Medium), Color (Color), Precio (Price)",
+            "dialogue": [
+                {
+                    "speaker": "Clerk",
+                    "line": "¡Hola! ¿Puedo ayudarle?",
+                    "translation": "Hello! Can I help you?",
+                    "blank": false
+                },
+                {
+                    "speaker": "You",
+                    "line": "Sí, gracias. Busco una camisa.",
+                    "translation": "Yes, thanks. I'm looking for a shirt.",
+                    "blank": false
+                },
+                {
+                    "speaker": "Clerk",
+                    "line": "¿Qué ___ necesita?",
+                    "translation": "What size do you need?",
+                    "blank": true,
+                    "answer": "talla",
+                    "options": ["talla", "color", "precio", "marca"]
+                },
+                {
+                    "speaker": "You",
+                    "line": "Necesito ___ mediana.",
+                    "translation": "I need a medium.",
+                    "blank": true,
+                    "answer": "talla",
+                    "options": ["talla", "color", "precio", "marca"]
+                }
+            ]
+        },
+        {
+            "context": "Making Plans",
+            "vocabularyPreview": "Key words to remember: Cine (Cinema), Noche (Night), Hora (Time), Película (Movie), Vemos (We'll see each other)",
+            "dialogue": [
+                {
+                    "speaker": "Friend",
+                    "line": "¿Quieres ir al cine esta noche?",
+                    "translation": "Do you want to go to the movies tonight?",
+                    "blank": false
+                },
+                {
+                    "speaker": "You",
+                    "line": "Sí, me gustaría. ¿A qué ___?",
+                    "translation": "Yes, I'd like to. What time?",
+                    "blank": true,
+                    "answer": "hora",
+                    "options": ["hora", "día", "lugar", "película"]
+                },
+                {
+                    "speaker": "Friend",
+                    "line": "A las ___ de la noche.",
+                    "translation": "At 8 o'clock at night.",
+                    "blank": true,
+                    "answer": "ocho",
+                    "options": ["ocho", "nueve", "diez", "once"]
+                },
+                {
+                    "speaker": "You",
+                    "line": "Perfecto, nos ___ allí.",
+                    "translation": "Perfect, we'll see each other there.",
+                    "blank": true,
+                    "answer": "vemos",
+                    "options": ["vemos", "encontramos", "quedamos", "vamos"]
+                }
+            ]
+        },
+        {
+            "title": "Making a Reservation",
+            "context": "A customer making a restaurant reservation",
+            "vocabularyPreview": "Key words to remember: Reserva (Reservation), Personas (People), Día (Day), Hora (Time), Nombre (Name)\nGrammar Tips: \n- 'Quisiera' is the conditional form of 'querer' used for polite requests\n- 'Para' is used to indicate purpose or destination\n- 'A las ocho' uses the preposition 'a' for specific times\n- 'A nombre de' is a fixed phrase meaning 'under the name of'",
+            "dialogue": [
+                { 
+                    "speaker": "A", 
+                    "line": "Buenas tardes, ¿en qué puedo ___?", 
+                    "translation": "Good afternoon, how can I help you?",
+                    "blank": true,
+                    "answer": "ayudarle",
+                    "options": ["ayudarle", "ayudarte", "ayudar", "ayudarme"]
+                },
+                { 
+                    "speaker": "B", 
+                    "line": "Quisiera hacer una ___ para dos personas.", 
+                    "translation": "I would like to make a reservation for two people.",
+                    "blank": true,
+                    "answer": "reserva",
+                    "options": ["reserva", "cita", "mesa", "pedido"]
+                },
+                { 
+                    "speaker": "A", 
+                    "line": "¿Para qué ___ y a qué hora?", 
+                    "translation": "For what day and at what time?",
+                    "blank": true,
+                    "answer": "día",
+                    "options": ["día", "mes", "año", "semana"]
+                },
+                { 
+                    "speaker": "B", 
+                    "line": "Para el sábado a las ___ de la noche.", 
+                    "translation": "For Saturday at eight in the evening.",
+                    "blank": true,
+                    "answer": "ocho",
+                    "options": ["ocho", "siete", "nueve", "diez"]
+                },
+                { 
+                    "speaker": "A", 
+                    "line": "Perfecto, ¿a ___ de quién?", 
+                    "translation": "Perfect, under whose name?",
+                    "blank": true,
+                    "answer": "nombre",
+                    "options": ["nombre", "apellido", "dirección", "teléfono"]
+                },
+                { 
+                    "speaker": "B", 
+                    "line": "A nombre de Carla ___.", 
+                    "translation": "Under the name of Carla Gómez.",
+                    "blank": true,
+                    "answer": "Gómez",
+                    "options": ["Gómez", "López", "Martínez", "Rodríguez"]
+                }
+            ]
+        },
+        {
+            "title": "Talking About a Book",
+            "context": "Two people discussing a book one of them read",
+            "vocabularyPreview": "Key words to remember: Libro (Book), Viajes (Travel), Prestar (To lend), Descripciones (Descriptions)\nGrammar Tips:\n- '¿Has leído?' uses the present perfect tense (Have you read?)\n- 'Te lo traigo' = I’ll bring it to you",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "¿Has ___ algún libro interesante últimamente?",
+                "translation": "Have you read any interesting book lately?",
+                "blank": true,
+                "answer": "leído",
+                "options": ["leído", "visto", "comprado", "hecho"]
+              },
+              {
+                "speaker": "B",
+                "line": "Sí, terminé uno sobre ___ por Europa.",
+                "translation": "Yes, I finished one about travels through Europe.",
+                "blank": true,
+                "answer": "viajes",
+                "options": ["viajes", "comidas", "idiomas", "personas"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Te ___?",
+                "translation": "Did you like it?",
+                "blank": true,
+                "answer": "gustó",
+                "options": ["gustó", "interesó", "sirvió", "molestó"]
+              },
+              {
+                "speaker": "B",
+                "line": "Mucho. Las ___ eran muy detalladas.",
+                "translation": "A lot. The descriptions were very detailed.",
+                "blank": true,
+                "answer": "descripciones",
+                "options": ["descripciones", "imágenes", "portadas", "notas"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Me lo puedes ___?",
+                "translation": "Can you lend it to me?",
+                "blank": true,
+                "answer": "prestar",
+                "options": ["prestar", "leer", "dejar", "traer"]
+              },
+              {
+                "speaker": "B",
+                "line": "Claro, te lo ___ mañana.",
+                "translation": "Sure, I’ll bring it to you tomorrow.",
+                "blank": true,
+                "answer": "traigo",
+                "options": ["traigo", "doy", "presto", "llevo"]
+              }
+            ]
+          },
+          {
+            "title": "Asking About Work",
+            "context": "Two friends talking about a job",
+            "vocabularyPreview": "Key words to remember: Empresa (Company), Programador (Programmer), Estrés (Stress), Aplicaciones (Apps)\nGrammar Tips:\n- 'Dónde trabajas' = Where do you work?\n- 'Diseño' is first person present tense of 'diseñar' (to design)",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "¿Dónde ___ ahora?",
+                "translation": "Where do you work now?",
+                "blank": true,
+                "answer": "trabajas",
+                "options": ["trabajas", "vives", "comes", "estás"]
+              },
+              {
+                "speaker": "B",
+                "line": "En una ___ de tecnología.",
+                "translation": "In a tech company.",
+                "blank": true,
+                "answer": "empresa",
+                "options": ["empresa", "oficina", "tienda", "escuela"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Te ___ tu trabajo?",
+                "translation": "Do you like your job?",
+                "blank": true,
+                "answer": "gusta",
+                "options": ["gusta", "sirve", "interesa", "cuesta"]
+              },
+              {
+                "speaker": "B",
+                "line": "Sí, pero a veces es un poco ___.",
+                "translation": "Yes, but sometimes it’s a bit stressful.",
+                "blank": true,
+                "answer": "estresante",
+                "options": ["estresante", "tranquilo", "divertido", "fácil"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Y qué ___ exactamente?",
+                "translation": "And what do you do exactly?",
+                "blank": true,
+                "answer": "haces",
+                "options": ["haces", "eres", "tienes", "dices"]
+              },
+              {
+                "speaker": "B",
+                "line": "Soy programador y ___ aplicaciones móviles.",
+                "translation": "I’m a programmer and I design mobile apps.",
+                "blank": true,
+                "answer": "diseño",
+                "options": ["diseño", "vendo", "comparto", "estudio"]
+              }
+            ]
+          },
+          {
+            "title": "Going to the Doctor",
+            "context": "A patient visiting the doctor due to fatigue",
+            "vocabularyPreview": "Key words to remember: Cansado (Tired), Dormir (To sleep), Análisis (Tests), Ayunar (To fast)\nGrammar Tips:\n- 'Me siento' means 'I feel'\n- 'Duerme' is third-person form of 'dormir'",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "Doctor, me ___ muy cansado últimamente.",
+                "translation": "Doctor, I feel very tired lately.",
+                "blank": true,
+                "answer": "siento",
+                "options": ["siento", "quedo", "tomo", "veo"]
+              },
+              {
+                "speaker": "B",
+                "line": "¿___ bien por las noches?",
+                "translation": "Do you sleep well at night?",
+                "blank": true,
+                "answer": "Duerme",
+                "options": ["Duerme", "Come", "Bebe", "Camina"]
+              },
+              {
+                "speaker": "A",
+                "line": "Duermo poco, y me ___ varias veces.",
+                "translation": "I sleep little and wake up several times.",
+                "blank": true,
+                "answer": "despierto",
+                "options": ["despierto", "levanto", "paro", "llamo"]
+              },
+              {
+                "speaker": "B",
+                "line": "Vamos a hacer unos ___ para revisar.",
+                "translation": "We’ll do some tests to check.",
+                "blank": true,
+                "answer": "análisis",
+                "options": ["análisis", "ejercicios", "cambios", "planes"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Necesito ___?",
+                "translation": "Do I need to fast?",
+                "blank": true,
+                "answer": "ayunar",
+                "options": ["ayunar", "comer", "esperar", "beber"]
+              },
+              {
+                "speaker": "B",
+                "line": "Sí, por lo menos ocho horas antes del ___.",
+                "translation": "Yes, at least 8 hours before the exam.",
+                "blank": true,
+                "answer": "examen",
+                "options": ["examen", "café", "día", "hospital"]
+              }
+            ]
+          },
+          {
+            "title": "Talking About a Hobby",
+            "context": "Two friends discussing pastimes",
+            "vocabularyPreview": "Key words to remember: Pintar (To paint), Manualidades (Crafts), Pasatiempo (Hobby), Obras (Works)\nGrammar Tips:\n- 'Desde hace' means 'for (a period of time)'\n- 'Te las enseño' = I’ll show them to you",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "¿Qué haces cuando no estás ___?",
+                "translation": "What do you do when you're not working?",
+                "blank": true,
+                "answer": "trabajando",
+                "options": ["trabajando", "durmiendo", "comiendo", "viajando"]
+              },
+              {
+                "speaker": "B",
+                "line": "Me gusta pintar y hacer ___.",
+                "translation": "I like to paint and do crafts.",
+                "blank": true,
+                "answer": "manualidades",
+                "options": ["manualidades", "deporte", "caminar", "fotografía"]
+              },
+              {
+                "speaker": "A",
+                "line": "¡Qué interesante! ¿Desde cuándo ___?",
+                "translation": "How long have you been painting?",
+                "blank": true,
+                "answer": "pintas",
+                "options": ["pintas", "escribes", "corres", "viajas"]
+              },
+              {
+                "speaker": "B",
+                "line": "Desde hace cinco años, como ___.",
+                "translation": "For five years, as a hobby.",
+                "blank": true,
+                "answer": "pasatiempo",
+                "options": ["pasatiempo", "trabajo", "arte", "clase"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Tienes fotos de tus ___?",
+                "translation": "Do you have photos of your works?",
+                "blank": true,
+                "answer": "obras",
+                "options": ["obras", "colores", "cuartos", "manos"]
+              },
+              {
+                "speaker": "B",
+                "line": "Sí, te las ___ luego.",
+                "translation": "Yes, I’ll show them to you later.",
+                "blank": true,
+                "answer": "enseño",
+                "options": ["enseño", "mando", "cuento", "traigo"]
+              }
+            ]
+          },
+          {
+            "title": "Discussing a Movie",
+            "context": "Two people talking about a film they saw",
+            "vocabularyPreview": "Key words to remember: Cine (Cinema), Película (Movie), Acción (Action), Comedia (Comedy)\nGrammar Tips:\n- 'Fuiste' is the past tense of 'ir' (you went)\n- 'Valió la pena' = Was it worth it?",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "¿___ al cine el fin de semana?",
+                "translation": "Did you go to the movies this weekend?",
+                "blank": true,
+                "answer": "Fuiste",
+                "options": ["Fuiste", "Viniste", "Comiste", "Saliste"]
+              },
+              {
+                "speaker": "B",
+                "line": "Sí, vi la nueva ___ de acción.",
+                "translation": "Yes, I saw the new action movie.",
+                "blank": true,
+                "answer": "película",
+                "options": ["película", "serie", "obra", "historia"]
+              },
+              {
+                "speaker": "A",
+                "line": "¿Valió la ___?",
+                "translation": "Was it worth it?",
+                "blank": true,
+                "answer": "pena",
+                "options": ["pena", "espera", "entrada", "noche"]
+              },
+              {
+                "speaker": "B",
+                "line": "Fue entretenida, pero algo ___.",
+                "translation": "It was entertaining, but a bit predictable.",
+                "blank": true,
+                "answer": "predecible",
+                "options": ["predecible", "larga", "divertida", "misteriosa"]
+              },
+              {
+                "speaker": "A",
+                "line": "A mí me gustan más las ___.",
+                "translation": "I like comedies more.",
+                "blank": true,
+                "answer": "comedias",
+                "options": ["comedias", "dramas", "películas", "series"]
+              },
+              {
+                "speaker": "B",
+                "line": "Entonces esa no es para ___.",
+                "translation": "Then that one’s not for you.",
+                "blank": true,
+                "answer": "ti",
+                "options": ["ti", "mí", "ella", "ellos"]
+              }
+            ]
+          },
+          {
+            "title": "Talking About Travel Plans",
+            "context": "Friends discussing a summer trip to Spain",
+            "vocabularyPreview": "Key words to remember: Viajar (To travel), Ciudades (Cities), Reservar (To book), Vuelos (Flights)\nGrammar Tips:\n- 'Estoy pensando en' = I'm thinking about\n- 'Vas solo' = Are you going alone?",
+            "dialogue": [
+              {
+                "speaker": "A",
+                "line": "Estoy pensando en ___ a España este verano.",
+                "translation": "I’m thinking about traveling to Spain this summer.",
+                "blank": true,
+                "answer": "viajar",
+                "options": ["viajar", "mudarse", "correr", "visitar"]
+              },
+              {
+                "speaker": "B",
+                "line": "¡Qué emocionante! ¿A qué ___ irás?",
+                "translation": "How exciting! Which cities will you go to?",
+                "blank": true,
+                "answer": "ciudades",
+                "options": ["ciudades", "países", "lugares", "personas"]
+              },
+              {
+                "speaker": "A",
+                "line": "Madrid, Barcelona y tal vez ___.",
+                "translation": "Madrid, Barcelona, and maybe Seville.",
+                "blank": true,
+                "answer": "Sevilla",
+                "options": ["Sevilla", "Granada", "Valencia", "Toledo"]
+              },
+              {
+                "speaker": "B",
+                "line": "¿Vas solo o con ___?",
+                "translation": "Are you going alone or with someone?",
+                "blank": true,
+                "answer": "alguien",
+                "options": ["alguien", "todos", "ellos", "nadie"]
+              },
+              {
+                "speaker": "A",
+                "line": "Voy con mi ___. Ya reservamos los vuelos.",
+                "translation": "I’m going with my sister. We already booked the flights.",
+                "blank": true,
+                "answer": "hermana",
+                "options": ["hermana", "amiga", "madre", "novia"]
+              },
+              {
+                "speaker": "B",
+                "line": "¡Van a ___ genial!",
+                "translation": "You're going to have a great time!",
+                "blank": true,
+                "answer": "pasarlo",
+                "options": ["pasarlo", "vivirlo", "llegarlo", "salirlo"]
+              }
+            ]
+          },
+          {
+            "title": "At the Supermarket",
+            "context": "A customer asks for help in the supermarket",
+            "vocabularyPreview": "Key words to remember: Frutas (Fruits), Vegetales (Vegetables), Estantería (Shelf), Kilo (Kilogram), Precio (Price)\nGrammar Tips:\n- '¿Dónde están...?' is used to ask for the location of something.\n- 'Cuánto cuestan' is used to ask for the price in plural.\n- 'Quiero' is the first person singular of 'querer' (to want).",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Hola, ¿dónde están las ___?",
+                    "translation": "Hello, where are the fruits?",
+                    "blank": true,
+                    "answer": "frutas",
+                    "options": ["frutas", "bebidas", "panes", "lácteos"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Al fondo, junto a los ___.",
+                    "translation": "At the back, next to the vegetables.",
+                    "blank": true,
+                    "answer": "vegetales",
+                    "options": ["vegetales", "refrescos", "carnes", "panes"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Gracias. ¿Tienen manzanas ___?",
+                    "translation": "Thank you. Do you have green apples?",
+                    "blank": true,
+                    "answer": "verdes",
+                    "options": ["verdes", "rojas", "grandes", "pequeñas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Sí, están en la segunda ___.",
+                    "translation": "Yes, they are on the second shelf.",
+                    "blank": true,
+                    "answer": "estantería",
+                    "options": ["estantería", "mesa", "caja", "bolsa"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Cuánto cuestan por ___?",
+                    "translation": "How much do they cost per kilo?",
+                    "blank": true,
+                    "answer": "kilo",
+                    "options": ["kilo", "gramo", "paquete", "docena"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Tres euros el ___.",
+                    "translation": "Three euros per kilo.",
+                    "blank": true,
+                    "answer": "kilo",
+                    "options": ["kilo", "gramo", "paquete", "botella"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Perfecto, quiero dos ___.",
+                    "translation": "Perfect, I want two kilos.",
+                    "blank": true,
+                    "answer": "kilos",
+                    "options": ["kilos", "gramos", "paquetes", "botellas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Claro, aquí ___.",
+                    "translation": "Sure, here you go.",
+                    "blank": true,
+                    "answer": "tiene",
+                    "options": ["tiene", "es", "voy", "veo"]
+                }
+            ]
+        },
+        {
+            "title": "Ordering Coffee",
+            "context": "A customer orders coffee at a café",
+            "vocabularyPreview": "Key words to remember: Café (Coffee), Leche (Milk), Azúcar (Sugar), Grande (Large), Pequeño (Small), Tostada (Toast)\nGrammar Tips:\n- '¿Qué desea tomar?' is a polite way to ask what someone wants to drink.\n- 'Para llevar o para aquí' is used to ask if the order is for takeout or to consume at the café.\n- 'Quisiera' is a more polite way of saying 'I would like'.",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Buenos días, ¿qué ___ tomar?",
+                    "translation": "Good morning, what would you like to drink?",
+                    "blank": true,
+                    "answer": "desea",
+                    "options": ["desea", "quieres", "tienes", "prefieres"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Un café con ___, por favor.",
+                    "translation": "A coffee with milk, please.",
+                    "blank": true,
+                    "answer": "leche",
+                    "options": ["leche", "agua", "azúcar", "miel"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿___ o pequeño?",
+                    "translation": "Large or small?",
+                    "blank": true,
+                    "answer": "Grande",
+                    "options": ["Grande", "Pequeño", "Mediano", "Doble"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Grande, y sin ___.",
+                    "translation": "Large, and without sugar.",
+                    "blank": true,
+                    "answer": "azúcar",
+                    "options": ["azúcar", "leche", "agua", "miel"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Algo para ___?",
+                    "translation": "Anything to eat?",
+                    "blank": true,
+                    "answer": "comer",
+                    "options": ["comer", "beber", "llevar", "tomar"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Sí, una ___ con mantequilla.",
+                    "translation": "Yes, a toast with butter.",
+                    "blank": true,
+                    "answer": "tostada",
+                    "options": ["tostada", "galleta", "tarta", "ensalada"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Muy bien. ¿Para llevar o para ___?",
+                    "translation": "Very well. To go or for here?",
+                    "blank": true,
+                    "answer": "aquí",
+                    "options": ["aquí", "fuera", "casa", "noche"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Para ___, gracias.",
+                    "translation": "For here, thanks.",
+                    "blank": true,
+                    "answer": "aquí",
+                    "options": ["aquí", "llevar", "mañana", "tarde"]
+                }
+            ]
+        },
+        {
+            "title": "Renting an Apartment",
+            "context": "A person is looking for an apartment to rent",
+            "vocabularyPreview": "Key words to remember: Apartamento (Apartment), Alquiler (Rent), Habitaciones (Rooms), Iluminación (Lighting), Planta (Floor)\nGrammar Tips:\n- 'Estoy buscando' is the present progressive form, meaning 'I am looking for'.\n- 'Tenemos' is the present form of 'tener' (to have).\n- 'Me gustaría' is a polite way to say 'I would like'.",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Hola, estoy ___ un apartamento en esta zona.",
+                    "translation": "Hello, I am looking for an apartment in this area.",
+                    "blank": true,
+                    "answer": "buscando",
+                    "options": ["buscando", "mirando", "viendo", "esperando"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Claro, ¿qué tipo de ___ necesita?",
+                    "translation": "Of course, what type of apartment do you need?",
+                    "blank": true,
+                    "answer": "apartamento",
+                    "options": ["apartamento", "casa", "habitación", "hotel"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Uno de dos ___ y con buena iluminación.",
+                    "translation": "One with two rooms and good lighting.",
+                    "blank": true,
+                    "answer": "habitaciones",
+                    "options": ["habitaciones", "salas", "baños", "cocinas"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Tenemos uno disponible en la tercera ___.",
+                    "translation": "We have one available on the third floor.",
+                    "blank": true,
+                    "answer": "planta",
+                    "options": ["planta", "habitación", "casa", "puerta"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Cuánto cuesta el ___ mensual?",
+                    "translation": "How much is the monthly rent?",
+                    "blank": true,
+                    "answer": "alquiler",
+                    "options": ["alquiler", "pago", "dinero", "precio"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Son 800 euros, con servicios ___.",
+                    "translation": "It's 800 euros, with utilities included.",
+                    "blank": true,
+                    "answer": "incluidos",
+                    "options": ["incluidos", "apagados", "abiertos", "cerrados"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Me gustaría ___ antes de decidir.",
+                    "translation": "I would like to see it before deciding.",
+                    "blank": true,
+                    "answer": "verlo",
+                    "options": ["verlo", "vivir", "pagar", "alquilar"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Por supuesto, puedo ___ ahora mismo.",
+                    "translation": "Of course, I can show it right now.",
+                    "blank": true,
+                    "answer": "mostrarlo",
+                    "options": ["mostrarlo", "llevarlo", "comprarlo", "cerrarlo"]
+                }
+            ]
+        },
+        {
+            "title": "At the Pharmacy",
+            "context": "A person is buying medicine at the pharmacy",
+            "vocabularyPreview": "Key words to remember: Dolor (Pain), Cabeza (Head), Pastillas (Pills), Jarabe (Syrup), Tomar (To take)\nGrammar Tips:\n- 'Necesito' is the first-person singular form of 'necesitar' (to need).\n- '¿Cuál es mejor?' is used to compare two or more options.\n- 'Debe tomar' is a formal way to give instructions.",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Buenas tardes, necesito algo para el ___ de cabeza.",
+                    "translation": "Good afternoon, I need something for my headache.",
+                    "blank": true,
+                    "answer": "dolor",
+                    "options": ["dolor", "cuerpo", "estómago", "espalda"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¿Quiere ___ o jarabe?",
+                    "translation": "Do you want pills or syrup?",
+                    "blank": true,
+                    "answer": "pastillas",
+                    "options": ["pastillas", "agua", "inyección", "crema"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Prefiero pastillas. ¿Cuáles me ___?",
+                    "translation": "I prefer pills. Which ones do you recommend?",
+                    "blank": true,
+                    "answer": "recomienda",
+                    "options": ["recomienda", "vende", "gusta", "ofrece"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Tenemos ibuprofeno y ___.",
+                    "translation": "We have ibuprofen and paracetamol.",
+                    "blank": true,
+                    "answer": "paracetamol",
+                    "options": ["paracetamol", "antibiótico", "aspirina", "vitaminas"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "¿Cuál es ___ para el dolor fuerte?",
+                    "translation": "Which one is better for strong pain?",
+                    "blank": true,
+                    "answer": "mejor",
+                    "options": ["mejor", "más barato", "peor", "más grande"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "El ibuprofeno es más ___ en esos casos.",
+                    "translation": "Ibuprofen is more effective in those cases.",
+                    "blank": true,
+                    "answer": "efectivo",
+                    "options": ["efectivo", "lento", "rápido", "caro"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Perfecto, llevaré una ___.",
+                    "translation": "Perfect, I’ll take a box.",
+                    "blank": true,
+                    "answer": "caja",
+                    "options": ["caja", "bolsa", "botella", "taza"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Aquí tiene, debe tomar una cada ___ horas.",
+                    "translation": "Here you go, you must take one every eight hours.",
+                    "blank": true,
+                    "answer": "ocho",
+                    "options": ["ocho", "dos", "cuatro", "doce"]
+                }
+            ]
+        },
+        {
+            "title": "Booking a Flight",
+            "context": "A traveler books a flight at a travel agency",
+            "vocabularyPreview": "Key words to remember: Vuelo (Flight), Pasajero (Passenger), Equipaje (Luggage), Directo (Direct), Ventanilla (Window seat)\nGrammar Tips:\n- 'Quisiera' is a polite way of saying 'I would like'.\n- 'Tenemos un vuelo' means 'We have a flight available'.\n- '¿Puedo elegir?' is a way to ask for options.",
+            "dialogue": [
+                {
+                    "speaker": "Person A",
+                    "line": "Quisiera reservar un ___ a Buenos Aires.",
+                    "translation": "I would like to book a flight to Buenos Aires.",
+                    "blank": true,
+                    "answer": "vuelo",
+                    "options": ["vuelo", "tren", "barco", "hotel"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¿Para qué fecha y cuántos ___?",
+                    "translation": "For what date and how many passengers?",
+                    "blank": true,
+                    "answer": "pasajeros",
+                    "options": ["pasajeros", "vuelos", "días", "asientos"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Para el 15 de mayo, solo un ___.",
+                    "translation": "For May 15th, only one passenger.",
+                    "blank": true,
+                    "answer": "pasajero",
+                    "options": ["pasajero", "avión", "equipaje", "destino"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Tenemos un vuelo directo a las 10 de la ___ y otro con escala a las 5 de la tarde.",
+                    "translation": "We have a direct flight at 10 in the morning and another with a stopover at 5 in the afternoon.",
+                    "blank": true,
+                    "answer": "mañana",
+                    "options": ["mañana", "tarde", "noche", "semana"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "Prefiero el vuelo ___.",
+                    "translation": "I prefer the direct flight.",
+                    "blank": true,
+                    "answer": "directo",
+                    "options": ["directo", "corto", "rápido", "barato"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "¿Desea asiento de pasillo o de ___?",
+                    "translation": "Do you want an aisle seat or a window seat?",
+                    "blank": true,
+                    "answer": "ventanilla",
+                    "options": ["ventanilla", "salida", "avión", "escala"]
+                },
+                {
+                    "speaker": "Person A",
+                    "line": "De ventanilla, por ___.",
+                    "translation": "A window seat, please.",
+                    "blank": true,
+                    "answer": "favor",
+                    "options": ["favor", "supuesto", "eso", "tiempo"]
+                },
+                {
+                    "speaker": "Person B",
+                    "line": "Listo, su reserva está hecha. No olvide su ___ de identidad para el vuelo.",
+                    "translation": "Done, your reservation is confirmed. Don't forget your ID for the flight.",
+                    "blank": true,
+                    "answer": "documento",
+                    "options": ["documento", "maleta", "vuelo", "reserva"]
+                }
+            ]
+        },
+        {
+            "title": "At the Pharmacy",
+            "context": "A customer talks to a pharmacist about medicine",
+            "vocabularyPreview": "Key words to remember: medicina (medicine), receta (prescription), fiebre (fever), jarabe (syrup), farmacia (pharmacy)",
+            "dialogue": [
+              {
+                "speaker": "Person A",
+                "line": "Buenos días, necesito comprar una ___ para la fiebre.",
+                "translation": "Good morning, I need to buy medicine for the fever.",
+                "blank": true,
+                "answer": "medicina",
+                "options": ["medicina", "crema", "vitamina", "inyección"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "¿Tiene alguna ___ del médico?",
+                "translation": "Do you have a doctor's prescription?",
+                "blank": true,
+                "answer": "receta",
+                "options": ["receta", "nota", "lista", "cita"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "Sí, aquí está la ___.",
+                "translation": "Yes, here is the prescription.",
+                "blank": true,
+                "answer": "receta",
+                "options": ["receta", "enfermedad", "dirección", "dosis"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Muy bien. ¿Tiene alguna ___ a los medicamentos?",
+                "translation": "Very well. Are you allergic to any medications?",
+                "blank": true,
+                "answer": "alergia",
+                "options": ["alergia", "duda", "fiebre", "respuesta"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "No, no tengo ninguna ___.",
+                "translation": "No, I don’t have any allergies.",
+                "blank": true,
+                "answer": "alergia",
+                "options": ["alergia", "reacción", "fiebre", "enfermedad"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Le recomiendo este ___ para la fiebre.",
+                "translation": "I recommend this syrup for the fever.",
+                "blank": true,
+                "answer": "jarabe",
+                "options": ["jarabe", "agua", "café", "té"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Cada cuántas horas debo ___?",
+                "translation": "How often should I take it?",
+                "blank": true,
+                "answer": "tomarlo",
+                "options": ["tomarlo", "comerlo", "prepararlo", "mezclarlo"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Cada seis horas. Gracias por visitar nuestra ___.",
+                "translation": "Every six hours. Thanks for visiting our pharmacy.",
+                "blank": true,
+                "answer": "farmacia",
+                "options": ["farmacia", "clínica", "tienda", "oficina"]
+              }
+            ]
+          },
+          {
+            "title": "Job Interview",
+            "context": "A candidate is being interviewed for a job",
+            "vocabularyPreview": "Key words to remember: entrevista (interview), experiencia (experience), puesto (position), habilidades (skills), disponibilidad (availability)",
+            "dialogue": [
+              {
+                "speaker": "Person A",
+                "line": "Buenos días, gracias por venir a la ___.",
+                "translation": "Good morning, thank you for coming to the interview.",
+                "blank": true,
+                "answer": "entrevista",
+                "options": ["entrevista", "oficina", "cita", "reunión"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Gracias a usted por la ___.",
+                "translation": "Thank you for the opportunity.",
+                "blank": true,
+                "answer": "oportunidad",
+                "options": ["oportunidad", "reunión", "experiencia", "decisión"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Tiene ___ previa en este campo?",
+                "translation": "Do you have prior experience in this field?",
+                "blank": true,
+                "answer": "experiencia",
+                "options": ["experiencia", "título", "referencia", "contacto"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Sí, trabajé dos años en un puesto muy ___.",
+                "translation": "Yes, I worked for two years in a similar position.",
+                "blank": true,
+                "answer": "similar",
+                "options": ["similar", "fácil", "nuevo", "básico"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Cuáles son sus principales ___?",
+                "translation": "What are your main skills?",
+                "blank": true,
+                "answer": "habilidades",
+                "options": ["habilidades", "planes", "problemas", "metas"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Tengo habilidades en comunicación y en gestión de ___.",
+                "translation": "I have skills in communication and project management.",
+                "blank": true,
+                "answer": "proyectos",
+                "options": ["proyectos", "viajes", "datos", "equipos"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Cuál es su ___ para comenzar si lo contratamos?",
+                "translation": "What is your availability to start if we hire you?",
+                "blank": true,
+                "answer": "disponibilidad",
+                "options": ["disponibilidad", "intención", "motivación", "ubicación"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Estoy disponible para comenzar la próxima ___.",
+                "translation": "I’m available to start next week.",
+                "blank": true,
+                "answer": "semana",
+                "options": ["semana", "hora", "mañana", "entrevista"]
+              }
+            ]
+          },
+          {
+            "title": "Renting an Apartment",
+            "context": "A person visits a real estate agency to find an apartment",
+            "vocabularyPreview": "Key words to remember: alquiler (rent), contrato (contract), muebles (furniture), depósito (deposit), servicios (utilities)",
+            "dialogue": [
+              {
+                "speaker": "Person A",
+                "line": "Busco un apartamento en ___ para alquilar.",
+                "translation": "I'm looking for an apartment downtown to rent.",
+                "blank": true,
+                "answer": "el centro",
+                "options": ["el centro", "el campo", "la playa", "el norte"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "¿Qué ___ está buscando?",
+                "translation": "What budget are you looking for?",
+                "blank": true,
+                "answer": "presupuesto",
+                "options": ["presupuesto", "color", "mueble", "piso"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "Un máximo de 800 euros con los ___ incluidos.",
+                "translation": "A maximum of 800 euros with utilities included.",
+                "blank": true,
+                "answer": "servicios",
+                "options": ["servicios", "muebles", "gastos", "libros"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Tenemos uno disponible, completamente ___ y céntrico.",
+                "translation": "We have one available, fully furnished and central.",
+                "blank": true,
+                "answer": "amueblado",
+                "options": ["amueblado", "abierto", "grande", "nuevo"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Se firma un ___ mensual o anual?",
+                "translation": "Is it a monthly or yearly contract?",
+                "blank": true,
+                "answer": "contrato",
+                "options": ["contrato", "recibo", "pago", "papel"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "El contrato es por un año con un ___ de un mes.",
+                "translation": "The contract is for a year with a one-month deposit.",
+                "blank": true,
+                "answer": "depósito",
+                "options": ["depósito", "retiro", "cheque", "regalo"]
+              },
+              {
+                "speaker": "Person A",
+                "line": "¿Puedo ver el apartamento antes de ___?",
+                "translation": "Can I see the apartment before deciding?",
+                "blank": true,
+                "answer": "decidir",
+                "options": ["decidir", "entrar", "pagar", "vivir"]
+              },
+              {
+                "speaker": "Person B",
+                "line": "Claro, podemos ir a verlo esta misma ___.",
+                "translation": "Of course, we can go see it this afternoon.",
+                "blank": true,
+                "answer": "tarde",
+                "options": ["tarde", "semana", "hora", "mañana"]
+              }
+            ]
+          }     
+    ]
+} 

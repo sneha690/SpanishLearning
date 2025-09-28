@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Learning Hub</title>
+    <link rel="stylesheet" href="hub.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <div class="learning-hub">
+        <h2>Smart Learning Hub</h2>
+        <div id="particles-js"></div>
+
+
+        <!-- Interactive Quiz Section -->
+        <div class="quiz-section">
+            <h3>Quick Quiz</h3>
+            <p id="quiz-question"></p>
+            <div id="quiz-options"></div>
+            <p id="quiz-feedback"></p>
+        </div>
+
+        <!-- Flashcard Generator -->
+        <div class="flashcard-section">
+            <h3>Flashcards</h3>
+            <div class="flashcard" onclick="flipFlashcard()">
+                <p id="flashcard-front"></p>
+                <p id="flashcard-back" style="display:none;"></p>
+            </div>
+        </div>
+
+        <!-- Progress Tracker -->
+        <div class="progress-tracker">
+            <h3>Learning Progress</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;">70%</div>
+            </div>
+        </div>
+
+        <!-- Daily Learning Tip -->
+        <div class="learning-tip">
+            <h3>Daily Tip</h3>
+            <p id="daily-tip">Consistency beats intensity. Study a little every day!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

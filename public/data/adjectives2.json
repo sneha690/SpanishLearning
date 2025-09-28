@@ -1,0 +1,427 @@
+[
+    {
+      "question": "What is the English translation of 'ácido'?",
+      "choice1": "Sweet",
+      "choice2": "Sour",
+      "choice3": "Salty",
+      "choice4": "Spicy",
+      "answer": 2
+    },
+    {
+      "question": "Which word means 'appropriate' or 'suitable' in Spanish?",
+      "choice1": "Adecuada",
+      "choice2": "Amplia",
+      "choice3": "Escasa",
+      "choice4": "Eficaz",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'adecuada'?",
+      "choice1": "Adecuado",
+      "choice2": "Elevado",
+      "choice3": "Ideal",
+      "choice4": "Formal",
+      "answer": 1
+    },
+    {
+      "question": "What does 'amplia' mean in English?",
+      "choice1": "Narrow",
+      "choice2": "Large",
+      "choice3": "Wide",
+      "choice4": "Small",
+      "answer": 3
+    },
+    {
+      "question": "What is the masculine form of 'amplia'?",
+      "choice1": "Amplio",
+      "choice2": "Elevado",
+      "choice3": "Ideal",
+      "choice4": "Brillante",
+      "answer": 1
+    },
+    {
+      "question": "What does 'brillante' mean?",
+      "choice1": "Bright",
+      "choice2": "Effective",
+      "choice3": "Scarce",
+      "choice4": "Wide",
+      "answer": 1
+    },
+    {
+      "question": "Which word means 'common' in Spanish?",
+      "choice1": "Comunes",
+      "choice2": "Independiente",
+      "choice3": "Femenino",
+      "choice4": "Formal",
+      "answer": 1
+    },
+    {
+      "question": "What is the meaning of 'consciente'?",
+      "choice1": "Subconscious",
+      "choice2": "Aware",
+      "choice3": "Free",
+      "choice4": "Crazy",
+      "answer": 2
+    },
+    {
+      "question": "Which word means 'convenient' in Spanish?",
+      "choice1": "Conveniente",
+      "choice2": "Eficaz",
+      "choice3": "Elevado",
+      "choice4": "Lógico",
+      "answer": 1
+    },
+    {
+      "question": "What does 'eficaz' mean?",
+      "choice1": "Effective",
+      "choice2": "Limited",
+      "choice3": "Feminine",
+      "choice4": "Free",
+      "answer": 1
+    },
+    {
+      "question": "What is the translation of 'elevado'?",
+      "choice1": "Low",
+      "choice2": "High",
+      "choice3": "Small",
+      "choice4": "Scant",
+      "answer": 2
+    },
+    {
+      "question": "What is the feminine form of 'escaso'?",
+      "choice1": "Escasa",
+      "choice2": "Lógica",
+      "choice3": "Femenina",
+      "choice4": "Escaso",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'femenino'?",
+      "choice1": "Feminino",
+      "choice2": "Formal",
+      "choice3": "Loco",
+      "choice4": "Lógico",
+      "answer": 1
+    },
+    {
+      "question": "Which word means 'official' or 'reliable'?",
+      "choice1": "Formal",
+      "choice2": "Libre",
+      "choice3": "Lógica",
+      "choice4": "Ideal",
+      "answer": 1
+    },
+    {
+      "question": "What is the translation of 'ideal'?",
+      "choice1": "Dream",
+      "choice2": "Ideal",
+      "choice3": "Perfect",
+      "choice4": "Real",
+      "answer": 2
+    },
+    {
+      "question": "What does 'independiente' mean?",
+      "choice1": "Dependent",
+      "choice2": "Independent",
+      "choice3": "Natural",
+      "choice4": "Legal",
+      "answer": 2
+    },
+    {
+      "question": "Which word means 'industrial' in Spanish?",
+      "choice1": "Industrial",
+      "choice2": "Infantil",
+      "choice3": "Escaso",
+      "choice4": "Elevado",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'infantil'?",
+      "choice1": "Childish",
+      "choice2": "Mature",
+      "choice3": "Ideal",
+      "choice4": "Natural",
+      "answer": 1
+    },
+    {
+      "question": "What does 'inmediata' mean?",
+      "choice1": "Immediate",
+      "choice2": "Limited",
+      "choice3": "Free",
+      "choice4": "Necessary",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'inmediata'?",
+      "choice1": "Inmediato",
+      "choice2": "Ideal",
+      "choice3": "Escaso",
+      "choice4": "Libre",
+      "answer": 1
+    },
+    {
+      "question": "What does 'intelectual' mean?",
+      "choice1": "Physical",
+      "choice2": "Intellectual",
+      "choice3": "Logical",
+      "choice4": "Effective",
+      "answer": 2
+    },
+    {
+      "question": "What is the plural form of 'intelectual'?",
+      "choice1": "Intelectuales",
+      "choice2": "Intelectualas",
+      "choice3": "Intelectuosos",
+      "choice4": "Intelectuals",
+      "answer": 1
+    },
+    {
+      "question": "Which word means 'legal' in Spanish?",
+      "choice1": "Legal",
+      "choice2": "Loca",
+      "choice3": "Escasa",
+      "choice4": "Libre",
+      "answer": 1
+    },
+    {
+      "question": "What is the plural form of 'libre'?",
+      "choice1": "Libres",
+      "choice2": "Liberos",
+      "choice3": "Libra",
+      "choice4": "Libres",
+      "answer": 1
+    },
+    {
+      "question": "What does 'loca' mean?",
+      "choice1": "Crazy",
+      "choice2": "Lively",
+      "choice3": "Ideal",
+      "choice4": "Effective",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'loca'?",
+      "choice1": "Loco",
+      "choice2": "Libre",
+      "choice3": "Formal",
+      "choice4": "Escaso",
+      "answer": 1
+    },
+    {
+      "question": "What does 'lógica' mean?",
+      "choice1": "Natural",
+      "choice2": "Logical",
+      "choice3": "Ideal",
+      "choice4": "Effective",
+      "answer": 2
+    },
+    {
+      "question": "What is the masculine form of 'lógica'?",
+      "choice1": "Lógico",
+      "choice2": "Libre",
+      "choice3": "Loco",
+      "choice4": "Formal",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'mal'?",
+      "choice1": "Good",
+      "choice2": "Bad",
+      "choice3": "Neutral",
+      "choice4": "Right",
+      "answer": 2
+    },
+    {
+      "question": "Which word means 'minimum' or 'tiny' in Spanish?",
+      "choice1": "Mínima",
+      "choice2": "Mínimo",
+      "choice3": "Numerosos",
+      "choice4": "Presentes",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'mínima'?",
+      "choice1": "Mínimo",
+      "choice2": "Particular",
+      "choice3": "Privado",
+      "choice4": "Puro",
+      "answer": 1
+    },
+    {
+      "question": "What does 'múltiples' mean?",
+      "choice1": "Multiple",
+      "choice2": "Few",
+      "choice3": "Many",
+      "choice4": "Unique",
+      "answer": 1
+    },
+    {
+      "question": "What is the translation of 'numerosos'?",
+      "choice1": "Few",
+      "choice2": "Many",
+      "choice3": "Large",
+      "choice4": "Tiny",
+      "answer": 2
+    },
+    {
+      "question": "What does 'particular' mean?",
+      "choice1": "Private",
+      "choice2": "Special",
+      "choice3": "Private, peculiar, individual",
+      "choice4": "Both 1. & 2.",
+      "answer": 4
+    },
+    {
+      "question": "What is the plural form of 'particular'?",
+      "choice1": "Particulares",
+      "choice2": "Particulars",
+      "choice3": "Privadas",
+      "choice4": "Presentes",
+      "answer": 1
+    },
+    {
+      "question": "What is the translation of 'pendiente'?",
+      "choice1": "Hanging",
+      "choice2": "Inclined",
+      "choice3": "Pending",
+      "choice4": "Unresolved",
+      "answer": 3
+    },
+    {
+      "question": "What does 'presentes' mean?",
+      "choice1": "Absent",
+      "choice2": "Present",
+      "choice3": "Future",
+      "choice4": "Previous",
+      "answer": 2
+    },
+    {
+      "question": "What is the meaning of 'previa'?",
+      "choice1": "Future",
+      "choice2": "Previous",
+      "choice3": "Immediate",
+      "choice4": "Optional",
+      "answer": 2
+    },
+    {
+      "question": "What does 'privada' mean?",
+      "choice1": "Private",
+      "choice2": "Public",
+      "choice3": "Peculiar",
+      "choice4": "Normal",
+      "answer": 1
+    },
+    {
+      "question": "What is the masculine form of 'privada'?",
+      "choice1": "Privado",
+      "choice2": "Privados",
+      "choice3": "Privadas",
+      "choice4": "Presentes",
+      "answer": 1
+    },
+    {
+      "question": "What does 'probable' mean?",
+      "choice1": "Unlikely",
+      "choice2": "Likely",
+      "choice3": "Rare",
+      "choice4": "Impossible",
+      "answer": 2
+    },
+    {
+      "question": "What is the English translation of 'pura'?",
+      "choice1": "Pure",
+      "choice2": "Dirty",
+      "choice3": "Mixed",
+      "choice4": "Clean",
+      "answer": 1
+    },
+    {
+      "question": "What does 'puro' mean?",
+      "choice1": "Pure",
+      "choice2": "Impure",
+      "choice3": "Clean",
+      "choice4": "Contaminated",
+      "answer": 1
+    },
+    {
+      "question": "What is the feminine form of 'revolucionario'?",
+      "choice1": "Revolucionaria",
+      "choice2": "Revolucionarios",
+      "choice3": "Revolucionarias",
+      "choice4": "Revolución",
+      "answer": 3
+    },
+    {
+      "question": "What is the masculine form of 'revolucionaria'?",
+      "choice1": "Revolucionarios",
+      "choice2": "Revolucionario",
+      "choice3": "Revolución",
+      "choice4": "Revolucionarias",
+      "answer": 2
+    },
+    {
+      "question": "What does 'sencillo' mean?",
+      "choice1": "Complicated",
+      "choice2": "Simple",
+      "choice3": "Difficult",
+      "choice4": "Complex",
+      "answer": 2
+    },
+    {
+      "question": "What is the meaning of 'similar'?",
+      "choice1": "Different",
+      "choice2": "Similar",
+      "choice3": "Opposite",
+      "choice4": "Contrary",
+      "answer": 2
+    },
+    {
+      "question": "What is the plural form of 'similar'?",
+      "choice1": "Similares",
+      "choice2": "Similars",
+      "choice3": "Similaros",
+      "choice4": "Similare",
+      "answer": 1
+    },
+    {
+      "question": "What does 'superior' mean?",
+      "choice1": "Lower",
+      "choice2": "Higher",
+      "choice3": "Superior",
+      "choice4": "Both 2. & 3.",
+      "answer": 4
+    },
+    {
+      "question": "What is the plural form of 'superior'?",
+      "choice1": "Superiores",
+      "choice2": "Superiors",
+      "choice3": "Superioros",
+      "choice4": "Superioras",
+      "answer": 1
+    },
+    {
+      "question": "What does 'universal' mean?",
+      "choice1": "Particular",
+      "choice2": "Local",
+      "choice3": "Universal",
+      "choice4": "Special",
+      "answer": 3
+    },
+    {
+      "question": "What is the meaning of 'vivo'?",
+      "choice1": "Dead",
+      "choice2": "Alive",
+      "choice3": "Sick",
+      "choice4": "Inactive",
+      "answer": 2
+    },
+    {
+      "question": "What is the plural form of 'vivo'?",
+      "choice1": "Vivos",
+      "choice2": "Viva",
+      "choice3": "Vividos",
+      "choice4": "Vivas",
+      "answer": 1
+    }
+  ]
+  

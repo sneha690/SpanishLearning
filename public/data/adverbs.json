@@ -1,0 +1,139 @@
+[
+    {
+      "question": "What is the translation of 'adelante'?",
+      "choice1": "Backward",
+      "choice2": "Forward",
+      "choice3": "To the side",
+      "choice4": "Upward",
+      "answer": 2
+    },
+    {
+      "question": "What does 'alrededor' mean?",
+      "choice1": "Above",
+      "choice2": "Around",
+      "choice3": "Beside",
+      "choice4": "Between",
+      "answer": 2
+    },
+    {
+      "question": "What is the meaning of 'apenas'?",
+      "choice1": "Always",
+      "choice2": "Barely",
+      "choice3": "Usually",
+      "choice4": "Quickly",
+      "answer": 2
+    },
+    {
+      "question": "What does 'debajo' mean?",
+      "choice1": "Above",
+      "choice2": "Under",
+      "choice3": "Next to",
+      "choice4": "Inside",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'definitivamente'?",
+      "choice1": "Definitely",
+      "choice2": "Perhaps",
+      "choice3": "Maybe",
+      "choice4": "Possibly",
+      "answer": 1
+    },
+    {
+      "question": "What does 'igualmente' mean?",
+      "choice1": "Differently",
+      "choice2": "Equally",
+      "choice3": "Uniquely",
+      "choice4": "Specifically",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'menos'?",
+      "choice1": "More",
+      "choice2": "Less",
+      "choice3": "None",
+      "choice4": "Some",
+      "answer": 2
+    },
+    {
+      "question": "What does 'naturalmente' mean?",
+      "choice1": "Unnaturally",
+      "choice2": "Naturally",
+      "choice3": "Unusually",
+      "choice4": "Occasionally",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'necesariamente'?",
+      "choice1": "Necessarily",
+      "choice2": "Occasionally",
+      "choice3": "Rarely",
+      "choice4": "Temporarily",
+      "answer": 1
+    },
+    {
+      "question": "What does 'nuevamente' mean?",
+      "choice1": "Never",
+      "choice2": "Again",
+      "choice3": "First",
+      "choice4": "Last",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'prácticamente'?",
+      "choice1": "Virtually",
+      "choice2": "Rarely",
+      "choice3": "Always",
+      "choice4": "Unusually",
+      "answer": 1
+    },
+    {
+      "question": "What does 'quizá' mean?",
+      "choice1": "Certainly",
+      "choice2": "Perhaps",
+      "choice3": "Definitely",
+      "choice4": "Unlikely",
+      "answer": 2
+    },
+    {
+      "question": "What is the meaning of 'realmente'?",
+      "choice1": "Really",
+      "choice2": "Finally",
+      "choice3": "Lately",
+      "choice4": "Already",
+      "answer": 1
+    },
+    {
+      "question": "What does 'relativamente' mean?",
+      "choice1": "Absolutely",
+      "choice2": "Relatively",
+      "choice3": "Unconditionally",
+      "choice4": "Barely",
+      "answer": 2
+    },
+    {
+      "question": "What is the translation of 'simplemente'?",
+      "choice1": "Simply",
+      "choice2": "Hardly",
+      "choice3": "Usually",
+      "choice4": "Quickly",
+      "answer": 1
+    },
+    {
+      "question": "What does 'sólo' mean?",
+      "choice1": "Just",
+      "choice2": "Alone",
+      "choice3": "Only",
+      "choice4": "Forever",
+      "answer": 3
+    },
+    {
+      "question": "What is the translation of 'totalmente'?",
+      "choice1": "Completely",
+      "choice2": "Totally",
+      "choice3": "Absolutely",
+      "choice4": "Mostly",
+      "answer": 2
+    }
+  ]
+  

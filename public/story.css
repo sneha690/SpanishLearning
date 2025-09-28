@@ -1,0 +1,146 @@
+/* Full-page center alignment */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #D8B4FE, #A78BFA); /* Soft pastel gradient with dark purple */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Center the quiz container */
+.container {
+    background-color: #F8E5FD;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1, h2 {
+    color: #6f10b3; /* Dark Purple */
+    font-weight: bold;
+}
+
+/* Scrollable Home Page */
+#home-page {
+    max-height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background: rgba(248, 232, 255, 0.9); /* Light Purple */
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Scrollbar Styling */
+#home-page::-webkit-scrollbar {
+    width: 8px;
+}
+
+#home-page::-webkit-scrollbar-track {
+    background: #D8B4FE;
+}
+
+#home-page::-webkit-scrollbar-thumb {
+    background: #8f21de; /* Dark Purple */
+    border-radius: 4px;
+}
+
+#home-page::-webkit-scrollbar-thumb:hover {
+    background: #720eb9; /* Darker Purple */
+}
+
+/* Buttons Styling */
+button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    background: linear-gradient(to right, #D8B4FE, #A78BFA);    color: white;
+    color:rgb(110, 13, 158);
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Hover Effect */
+button:hover {
+    background: linear-gradient(to right, #A78BFA, #B5A3E6);
+    transform: scale(1.05);
+}
+
+/* Center Options Buttons */
+#options {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+/* Make option buttons equal width */
+#options button {
+    flex: 1;
+    max-width: 180px;
+}
+
+/* Speak Answer & Replay Phrase buttons */
+#quiz-controls {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#quiz-controls button {
+    flex: 1;
+    max-width: 180px;
+}
+
+/* Quit & Home buttons centered */
+#quit-button, #go-home {
+    width: 60%;
+}
+
+.modal {
+    display: none; /* Hide modal initially */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F8E5FD; /* Light Purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal-content button {
+    margin: 10px;
+    margin-left: 20px;
+    padding: 8px 12px;
+    background-color: #6A0DAD; /* Dark Purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #4B0082; /* Darker Purple */
+}

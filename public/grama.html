@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Grammar Guide</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #D8B4FE, #A78BFA); /* Soft pastel gradient with dark purple */
+        color: #ffffff; /* Adjusted text color for light contrast */
+        margin: 0;
+        padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #d8b4fe; /* Background color to match your gradient */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #561a8f; /* Light text for the header */
+        }
+
+        .accordion {
+            margin: 20px 0;
+        }
+
+        .accordion button {
+            background: linear-gradient(to right, #D8B4FE, #A78BFA);    color: white;
+            color:rgb(110, 13, 158);
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .accordion button:hover {
+            background: linear-gradient(to right, #A78BFA, #B5A3E6);
+        }
+
+        .accordion button.active {
+            background-color: #6a0dad; /* Active button color */
+        }
+
+        .accordion button::after {
+            content: '\002B';
+            color: white;
+            font-weight: bold;
+            float: right;
+        }
+
+        .accordion button.active::after {
+            content: "\2212";
+        }
+
+        .panel {
+            padding: 0 15px;
+            background-color: #f4f4f4; /* Panel background updated to light gray */
+            display: none;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .panel p {
+            padding: 15px 0;
+            color: #4e109a; /* Text color in the panel */
+        }
+
+        .panel ul {
+            padding-left: 20px;
+        }
+
+        .panel ul li {
+            margin-bottom: 10px;
+            color:#6a0dad;
+        }
+
+        .panel code {
+            background-color: #ffffff; /* Light gray for code sections */
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Spanish Grammar Guide</h1>
+        <div class="accordion">
+            <button>1. Nouns & Genders</button>
+            <div class="panel">
+                <p>In Spanish, nouns are either masculine or feminine. Generally:</p>
+                <ul>
+                    <li>Nouns ending in <code>-o</code> are masculine (e.g., <i>el libro</i> - the book).</li>
+                    <li>Nouns ending in <code>-a</code> are feminine (e.g., <i>la casa</i> - the house).</li>
+                </ul>
+                <p>However, there are exceptions, so it's essential to learn each noun's gender.</p>
+            </div>
+
+            <button>2. Articles</button>
+            <div class="panel">
+                <p>Articles must agree in gender and number with the noun they accompany:</p>
+                <ul>
+                    <li>Definite articles:
+                        <ul>
+                            <li>Masculine singular: <i>el</i></li>
+                            <li>Feminine singular: <i>la</i></li>
+                            <li>Masculine plural: <i>los</i></li>
+                            <li>Feminine plural: <i>las</i></li>
+                        </ul>
+                    </li>
+                    <li>Indefinite articles:
+                        <ul>
+                            <li>Masculine singular: <i>un</i></li>
+                            <li>Feminine singular: <i>una</i></li>
+                            <li>Masculine plural: <i>unos</i></li>
+                            <li>Feminine plural: <i>unas</i></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <button>3. Subject Pronouns</button>
+            <div class="panel">
+                <p>Subject pronouns in Spanish are:</p>
+                <ul>
+                    <li><i>yo</i> - I</li>
+                    <li><i>tú</i> - you (informal singular)</li>
+                    <li><i>él/ella/usted</i> - he/she/you (formal singular)</li>
+                    <li><i>nosotros/nosotras</i> - we (masculine/feminine)</li>
+                    <li><i>vosotros/vosotras</i> - you all (informal plural, used in Spain)</li>
+                    <li><i>ellos/ellas/ustedes</i> - they (masculine/feminine), you all (formal plural)</li>
+                </ul>
+            </div>
+
+            <button>4. Verb Conjugations</button>
+            <div class="panel">
+                <p>Spanish verbs are categorized based on their infinitive endings: <code>-ar</code>, <code>-er</code>, and <code>-ir</code>. Each category follows specific conjugation patterns. For example, the present tense conjugation of <i>hablar</i> (to speak) is:</p>
+                <ul>
+                    <li><i>yo hablo</i> - I speak</li>
+                    <li><i>tú hablas</i> - you speak</li>
+                    <li><i>él/ella/usted habla</i> - he/she/you speak</li>
+                    <li><i>nosotros/nosotras hablamos</i> - we speak</li>
+                    <li><i>vosotros/vosotras habláis</i> - you all speak</li>
+                    <li><i>ellos/ellas/ustedes hablan</i> - they/you all speak</li>
+                </ul>
+            </div>
+
+            <button>5. Adjectives</button>
+            <div class="panel">
+                <p>Adjectives in Spanish must agree in gender and number with the nouns they describe. Typically:</p>
+                <ul>
+                    <li>Masculine singular: <i>chico alto</i> (tall boy)</li>
+                    <li>Feminine singular: <i>chica alta</i> (tall girl)</li>
+                    <li>Masculine plural: <i>chicos altos</i> (tall boys)</li>
+                    <li>Feminine plural: <i>ch
+::contentReference[oaicite:0]{index=0}
+icas altas</i> (tall girls)</li>
+                </ul>
+                <p>Some adjectives remain the same for both genders, such as <i>inteligente</i> (intelligent).</p>
+            </div>
+
+            <button>6. Prepositions</button>
+            <div class="panel">
+                <p>Common Spanish prepositions include:</p>
+                <ul>
+                    <li><i>a</i> - to, at</li>
+                    <li><i>de</i> - of, from</li>
+                    <li><i>en</i> - in, on</li>
+                    <li><i>por</i> - by, through</li>
+                    <li><i>para</i> - for</li>
+                    <li><i>con</i> - with</li>
+                </ul>
+            </div>
+
+            <button>7. Ser vs. Estar</button>
+            <div class="panel">
+                <p>Both <i>ser</i> and <i>estar</i> mean "to be," but they are used differently:</p>
+                <ul>
+                    <li><b>Ser</b> is used for permanent traits, identity, and time: <i>Ella es doctora.</i> (She is a doctor.)</li>
+                    <li><b>Estar</b> is used for temporary states and locations: <i>Ella está cansada.</i> (She is tired.)</li>
+                </ul>
+            </div>
+
+            <button>8. Direct and Indirect Object Pronouns</button>
+            <div class="panel">
+                <p>Pronouns replace nouns to avoid repetition:</p>
+                <ul>
+                    <li><b>Direct object pronouns:</b> me, te, lo/la, nos, os, los/las</li>
+                    <li><b>Indirect object pronouns:</b> me, te, le, nos, os, les</li>
+                </ul>
+                <p>Example:</p>
+                <p><i>Juan me dio un libro.</i> (Juan gave me a book.)</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.accordion button').forEach(button => {
+            button.addEventListener('click', function () {
+                this.classList.toggle('active');
+                let panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        });
+    </script>
+
+<script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/02/02/15/20250202152007-XC1SNJN7.js"></script>
+
+<!-- Notepad Button & Modal -->
+<style>
+    /* Floating Button */
+    #notepadButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: transparent;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none;
+      z-index: 9999;
+      transition: background 0.3s ease;
+    }
+  
+    #notepadButton:hover {
+      background: linear-gradient(135deg, #ccb6ff, #8145d5);
+    }
+  
+    /* Modal Background */
+    #modalContainer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: center;
+      align-items: center;
+      z-index: 9998;
+      backdrop-filter: blur(6px);
+    }
+  
+    /* Modal Box */
+    .modal {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 520px;
+      padding: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      cursor: move;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #000;
+    }
+  
+    .modal header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  
+    .buttons, .editor-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .buttons button, .editor-toolbar button {
+      background: rgba(255, 255, 255, 0.25);
+      color: #000;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    .buttons button:hover, .editor-toolbar button:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  
+    #notepad {
+      width: 100%;
+      max-height: 400px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      color: #000;
+      font-size: 15px;
+    }
+  
+    /* Dark Mode */
+    .dark-mode .modal {
+      background: rgba(34, 34, 34, 0.8);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  
+    .dark-mode #notepad {
+      background-color: rgba(60, 60, 60, 0.5);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button,
+    .dark-mode .editor-toolbar button {
+      background: rgba(100, 100, 100, 0.3);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button:hover,
+    .dark-mode .editor-toolbar button:hover {
+      background: rgba(150, 150, 150, 0.4);
+    }
+  </style>
+  
+  
+  <!-- Button -->
+  <button id="notepadButton">
+    <img src="dasgbrd/sticky notes.png" alt="Note" style="width: 30px; height: 30px;">
+  </button>
+  
+  
+  <!-- Modal -->
+  <div id="modalContainer">
+    <div class="modal" id="notepadModal">
+      <header>
+        <h1>Notepad</h1>
+        <div class="buttons">
+          <button id="saveNote">Save</button>
+          <button id="loadNote">Load</button>
+          <button id="toggleMode">Dark Mode</button>
+          <button id="closeModal">Close</button>
+        </div>
+      </header>
+      <div class="editor-toolbar">
+        <button id="boldBtn">B</button>
+        <button id="italicBtn">I</button>
+        <button id="underlineBtn">U</button>
+        <button id="highlightBtn">Highlight</button>
+      </div>
+      <div id="notepad" contenteditable="true" placeholder="Start typing your notes here..."></div>
+    </div>
+  </div>
+  
+  <script>
+    const notepadButton = document.getElementById("notepadButton");
+    const modalContainer = document.getElementById("modalContainer");
+    const notepadModal = document.getElementById("notepadModal");
+    const closeModalButton = document.getElementById("closeModal");
+    const toggleModeButton = document.getElementById("toggleMode");
+  
+    notepadButton.onclick = () => {
+      modalContainer.style.display = "flex";
+      const savedNote = localStorage.getItem("note");
+      if (savedNote) {
+        document.getElementById("notepad").innerHTML = savedNote;
+      }
+    };
+  
+    closeModalButton.onclick = () => {
+      modalContainer.style.display = "none";
+    };
+  
+    let isDragging = false, offsetX, offsetY;
+    notepadModal.addEventListener('mousedown', e => {
+      isDragging = true;
+      offsetX = e.clientX - notepadModal.getBoundingClientRect().left;
+      offsetY = e.clientY - notepadModal.getBoundingClientRect().top;
+    });
+  
+    window.addEventListener('mousemove', e => {
+      if (isDragging) {
+        notepadModal.style.left = `${e.clientX - offsetX}px`;
+        notepadModal.style.top = `${e.clientY - offsetY}px`;
+      }
+    });
+  
+    window.addEventListener('mouseup', () => isDragging = false);
+  
+    toggleModeButton.onclick = function() {
+      document.body.classList.toggle("dark-mode");
+      this.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+    };
+  
+    // Save note to MongoDB
+      document.getElementById("saveNote").onclick = async () => {
+        const noteContent = document.getElementById("notepad").innerHTML;
+        if (noteContent.trim()) {
+          const response = await fetch('/api/save-note', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: noteContent })
+          });
+          const result = await response.json();
+          alert(result.message || "Note saved!");
+        } else {
+          alert("Cannot save an empty note!");
+        }
+      };
+  
+      // Load note from MongoDB
+      document.getElementById("loadNote").onclick = async () => {
+        const response = await fetch('/api/load-note');
+        const data = await response.json();
+        document.getElementById("notepad").innerHTML = data.note || '';
+      };
+  
+    document.getElementById("boldBtn").onclick = () => document.execCommand('bold');
+    document.getElementById("italicBtn").onclick = () => document.execCommand('italic');
+    document.getElementById("underlineBtn").onclick = () => document.execCommand('underline');
+    document.getElementById("highlightBtn").onclick = () => document.execCommand('backColor', false, 'yellow');
+  </script>
+
+</body>
+</html>

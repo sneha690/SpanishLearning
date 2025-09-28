@@ -1,0 +1,221 @@
+/* Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-page theme background */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #D8B4FE, #A78BFA); /* Soft pastel gradient */
+    color: #6b1795;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container styling */
+.container {
+    max-width: 800px;
+    background-color: #F8E5FD;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(81, 22, 126, 0.15);
+    text-align: center;
+}
+
+/* General hidden utility */
+.hidden {
+    display: none;
+}
+
+/* Home Page */
+#home {
+    text-align: center;
+    padding: 20px;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #6f10b3;
+}
+
+/* Categories Page */
+#categories {
+    padding: 20px;
+}
+
+#categories h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6f10b3;
+}
+
+.category-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.category-btn {
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: linear-gradient(to right, #D8B4FE, #A78BFA);
+    color: rgb(110, 13, 158);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(101, 18, 165, 0.1);
+}
+
+.category-btn:hover {
+    background: linear-gradient(to right, #A78BFA, #B5A3E6);
+    transform: scale(1.05);
+}
+
+/* Conversations Page */
+#conversations {
+    padding: 20px;
+}
+
+#conversations h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6f10b3;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.conversation-card {
+    background-color: #F8E5FD;
+    border: 1px solid #d9bdfd;
+    border-radius: 12px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.conversation-card:hover {
+    transform: translateY(-5px);
+}
+
+.conversation-card h3 {
+    color: #6f10b3;
+    margin-bottom: 0.5rem;
+}
+
+/* Practice Container */
+#practice-container {
+    padding: 20px;
+}
+
+.vocabulary-preview,
+.dialogue-box {
+    background-color: #fbeaff;
+    border: 1px solid #d9bdfd;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    color: #5e1485;
+}
+
+.line-container {
+    margin-bottom: 10px;
+}
+
+.speaker {
+    font-weight: bold;
+    color: #6f10b3;
+    margin-bottom: 5px;
+}
+
+.fill-blank-select {
+    padding: 5px;
+    border: 1px solid #a565e0;
+    border-radius: 4px;
+    background-color: rgb(230, 180, 255);
+    margin: 0 5px;
+}
+
+.fill-blank-select.correct {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.fill-blank-select.incorrect {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+.translation-box {
+    background-color: #e9ecef;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Button Controls */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(to right, #D8B4FE, #A78BFA);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #A78BFA, #B5A3E6);
+    transform: scale(1.05);
+}
+
+.btn:disabled {
+    background-color: #bba0d1;
+    cursor: not-allowed;
+}
+
+/* Speech Feedback */
+.speech-feedback-container {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#dialogue-speech-result {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#dialogue-feedback {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    color: #28a745;
+    font-size: 1.2rem;
+    padding: 1rem;
+}

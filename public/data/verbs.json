@@ -1,0 +1,19 @@
+{
+    "verbs": [
+        { "base": "hablar", "correct": "hablo", "options": ["hablo", "hablas", "hablan"] },
+        { "base": "comer", "correct": "como", "options": ["comes", "como", "comen"] },
+        { "base": "vivir", "correct": "vivo", "options": ["vivimos", "vivo", "viven"] },
+        { "base": "tener", "correct": "tengo", "options": ["tenemos", "tengo", "tienes"] },
+        { "base": "ser", "correct": "soy", "options": ["eres", "soy", "somos"] },
+        { "base": "estar", "correct": "estoy", "options": ["estás", "estoy", "estamos"] },
+        { "base": "ir", "correct": "voy", "options": ["vas", "voy", "vamos"] },
+        { "base": "hacer", "correct": "hago", "options": ["haces", "hago", "hacemos"] },
+        { "base": "poder", "correct": "puedo", "options": ["puedes", "puedo", "podemos"] },
+        { "base": "querer", "correct": "quiero", "options": ["quieres", "quiero", "queremos"] },
+        { "base": "decir", "correct": "digo", "options": ["dices", "digo", "decimos"] },
+        { "base": "venir", "correct": "vengo", "options": ["vienes", "vengo", "venimos"] },
+        { "base": "ver", "correct": "veo", "options": ["ves", "veo", "vemos"] },
+        { "base": "dar", "correct": "doy", "options": ["das", "doy", "damos"] },
+        { "base": "saber", "correct": "sé", "options": ["sabes", "sé", "sabemos"] }
+    ]
+}

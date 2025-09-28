@@ -1,0 +1,123 @@
+[
+    {
+      "question": "What is the English translation of 'bilingüe'?",
+      "choice1": "Bilingual",
+      "choice2": "Capable",
+      "choice3": "Familiar",
+      "choice4": "Final",
+      "answer": 1
+    },
+    {
+      "question": "What does 'capaz' mean in English?",
+      "choice1": "Natural",
+      "choice2": "Capable",
+      "choice3": "Certain",
+      "choice4": "Rich",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following means 'true' in Spanish?",
+      "choice1": "Ciertas",
+      "choice2": "Positiva",
+      "choice3": "Ricos",
+      "choice4": "Justo",
+      "answer": 1
+    },
+    {
+      "question": "What is the English translation of 'ciertos'?",
+      "choice1": "Certain",
+      "choice2": "Final",
+      "choice3": "Positive",
+      "choice4": "Delicious",
+      "answer": 1
+    },
+    {
+      "question": "Which word means 'familiar' in Spanish?",
+      "choice1": "Finales",
+      "choice2": "Natural",
+      "choice3": "Familiar",
+      "choice4": "Justo",
+      "answer": 3
+    },
+    {
+      "question": "What does 'finales' mean?",
+      "choice1": "Final",
+      "choice2": "Rich",
+      "choice3": "Flat",
+      "choice4": "Capable",
+      "answer": 1
+    },
+    {
+      "question": "Which Spanish word means 'fair' or 'just'?",
+      "choice1": "Justo",
+      "choice2": "Tanta",
+      "choice3": "Natural",
+      "choice4": "Plano",
+      "answer": 1
+    },
+    {
+      "question": "What does 'natural' mean?",
+      "choice1": "Flat",
+      "choice2": "Optimistic",
+      "choice3": "Natural",
+      "choice4": "Final",
+      "answer": 3
+    },
+    {
+      "question": "What is the plural form of 'natural'?",
+      "choice1": "Naturales",
+      "choice2": "Naturale",
+      "choice3": "Naturals",
+      "choice4": "Naturaleza",
+      "answer": 1
+    },
+    {
+      "question": "Which of these words means 'flat' in Spanish?",
+      "choice1": "Plano",
+      "choice2": "Positivo",
+      "choice3": "Ciertas",
+      "choice4": "Finales",
+      "answer": 1
+    },
+    {
+      "question": "What is the feminine form of 'positivo'?",
+      "choice1": "Positiva",
+      "choice2": "Positivos",
+      "choice3": "Positivas",
+      "choice4": "Positivé",
+      "answer": 1
+    },
+    {
+      "question": "What does 'rico' mean?",
+      "choice1": "Positive",
+      "choice2": "Rich",
+      "choice3": "Final",
+      "choice4": "Capable",
+      "answer": 2
+    },
+    {
+      "question": "What is the plural form of 'rico'?",
+      "choice1": "Ricos",
+      "choice2": "Rica",
+      "choice3": "Ricas",
+      "choice4": "Riquesa",
+      "answer": 1
+    },
+    {
+      "question": "What does 'tanta' mean?",
+      "choice1": "So much",
+      "choice2": "Rich",
+      "choice3": "Positive",
+      "choice4": "Flat",
+      "answer": 1
+    },
+    {
+      "question": "Which word means 'so much' in its masculine form?",
+      "choice1": "Tanto",
+      "choice2": "Tanta",
+      "choice3": "Tantas",
+      "choice4": "Tantos",
+      "answer": 1
+    }
+  ]
+  

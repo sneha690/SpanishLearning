@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the Spanish word for 'eagle'?",
+        "choice1": "Águila",
+        "choice2": "Búho",
+        "choice3": "Cuervo",
+        "choice4": "Ganso",
+        "answer": 1
+    },
+    {
+        "question": "'Búho' refers to which type of bird?",
+        "choice1": "Sparrow",
+        "choice2": "Hawk",
+        "choice3": "Owl",
+        "choice4": "Parrot",
+        "answer": 3
+    },
+    {
+        "question": "Which of the following birds is known for its ability to mimic human speech?",
+        "choice1": "Loro",
+        "choice2": "Colibrí",
+        "choice3": "Cisne",
+        "choice4": "Halcón",
+        "answer": 1
+    },
+    {
+        "question": "What type of bird is a 'cuervo'?",
+        "choice1": "Hawk",
+        "choice2": "Raven",
+        "choice3": "Pigeon",
+        "choice4": "Duck",
+        "answer": 2
+    },
+    {
+        "question": "Which bird is known as 'colibrí' in Spanish?",
+        "choice1": "Hummingbird",
+        "choice2": "Flamingo",
+        "choice3": "Ostrich",
+        "choice4": "Peacock",
+        "answer": 1
+    },
+    {
+        "question": "A 'cisne' is known for its?",
+        "choice1": "Large beak",
+        "choice2": "Graceful swimming",
+        "choice3": "Sharp claws",
+        "choice4": "Strong wings",
+        "answer": 2
+    },
+    {
+        "question": "Which bird is a national symbol in many countries and is called 'águila' in Spanish?",
+        "choice1": "Owl",
+        "choice2": "Eagle",
+        "choice3": "Parrot",
+        "choice4": "Crow",
+        "answer": 2
+    },
+    {
+        "question": "'Ganso' is which type of bird?",
+        "choice1": "Goose",
+        "choice2": "Hawk",
+        "choice3": "Pigeon",
+        "choice4": "Woodpecker",
+        "answer": 1
+    },
+    {
+        "question": "If you see a 'pato', what type of bird are you looking at?",
+        "choice1": "Pigeon",
+        "choice2": "Swan",
+        "choice3": "Duck",
+        "choice4": "Vulture",
+        "answer": 3
+    },
+    {
+        "question": "What does 'halcón' mean in English?",
+        "choice1": "Falcon",
+        "choice2": "Penguin",
+        "choice3": "Owl",
+        "choice4": "Seagull",
+        "answer": 1
+    },
+    {
+        "question": "'Flamenco' is a bird known for its?",
+        "choice1": "Bright pink color",
+        "choice2": "Fast flying",
+        "choice3": "Sharp beak",
+        "choice4": "Night vision",
+        "answer": 1
+    },
+    {
+        "question": "'Paloma' is commonly found in cities. What bird is it?",
+        "choice1": "Ostrich",
+        "choice2": "Dove",
+        "choice3": "Penguin",
+        "choice4": "Hawk",
+        "answer": 2
+    },
+    {
+        "question": "Which of these birds is a flightless bird?",
+        "choice1": "Pingüino",
+        "choice2": "Águila",
+        "choice3": "Halcón",
+        "choice4": "Loro",
+        "answer": 1
+    },
+    {
+        "question": "What is the Spanish word for 'sparrow'?",
+        "choice1": "Loro",
+        "choice2": "Gorrión",
+        "choice3": "Pavo",
+        "choice4": "Águila",
+        "answer": 2
+    },
+    {
+        "question": "'Pavo' is often associated with which holiday?",
+        "choice1": "Christmas",
+        "choice2": "Thanksgiving",
+        "choice3": "New Year",
+        "choice4": "Easter",
+        "answer": 2
+    },
+    {
+        "question": "'Pingüino' is known for its?",
+        "choice1": "Ability to fly",
+        "choice2": "Swimming skills",
+        "choice3": "Sharp talons",
+        "choice4": "Large wingspan",
+        "answer": 2
+    },
+    {
+        "question": "Which bird has the largest wingspan?",
+        "choice1": "Águila",
+        "choice2": "Cóndor",
+        "choice3": "Halcón",
+        "choice4": "Loro",
+        "answer": 2
+    },
+    {
+        "question": "'Buitre' refers to which type of bird?",
+        "choice1": "Vulture",
+        "choice2": "Swan",
+        "choice3": "Sparrow",
+        "choice4": "Pigeon",
+        "answer": 1
+    },
+    {
+        "question": "'Cotorra' is another name for which talkative bird?",
+        "choice1": "Ostrich",
+        "choice2": "Parrot",
+        "choice3": "Penguin",
+        "choice4": "Dove",
+        "answer": 2
+    },
+    {
+        "question": "Which bird is known for pecking wood?",
+        "choice1": "Pájaro carpintero",
+        "choice2": "Cisne",
+        "choice3": "Pavo",
+        "choice4": "Paloma",
+        "answer": 1
+    }
+]

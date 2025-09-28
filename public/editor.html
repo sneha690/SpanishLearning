@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Editor</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="container3">
+        <h1>Note Editor</h1>
+        <button onclick="goBack()">Back</button>
+        <div class="editor-container">
+            <p id="noteContent" contenteditable="true"></p>
+            <div class="toolbar">
+                <button onclick="formatText('bold')">Bold</button>
+                <button onclick="formatText('italic')">Italic</button>
+                <button onclick="formatText('underline')">Underline</button>
+                <button onclick="formatText('fontSize', '5')">Big</button>
+                <button onclick="formatText('fontSize', '3')">Small</button>
+                <button onclick="showColorPicker()">Color</button> <!-- Color button -->
+            </div>
+            <div id="colorPicker" style="display: none;">
+                <button style="background-color: red;" onclick="changeColor('red')"></button>
+                <button style="background-color: green;" onclick="changeColor('green')"></button>
+                <button style="background-color: blue;" onclick="changeColor('blue')"></button>
+                <button style="background-color: yellow;" onclick="changeColor('yellow')"></button>
+                <button style="background-color: orange;" onclick="changeColor('orange')"></button>
+                <button style="background-color: purple;" onclick="changeColor('purple')"></button>
+                <button style="background-color: pink;" onclick="changeColor('pink')"></button>
+                <button style="background-color: brown;" onclick="changeColor('brown')"></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            window.location.href = "notepad.html";
+        }
+
+        function formatText(command, value = null) {
+            document.execCommand(command, false, value);
+        }
+
+        // On page load, extract the note content from URL parameters
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            document.getElementById("noteContent").innerText = params.get("note") || "";
+        };
+
+        // Function to show the color picker
+        function showColorPicker() {
+            let colorPicker = document.getElementById('colorPicker');
+            colorPicker.style.display = colorPicker.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Function to change the text color
+        function changeColor(color) {
+            document.execCommand('foreColor', false, color);
+            document.getElementById('colorPicker').style.display = 'none'; // Hide color picker after selection
+        }
+    </script>
+</body>
+</html>

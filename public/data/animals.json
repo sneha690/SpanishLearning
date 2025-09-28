@@ -1,0 +1,162 @@
+[
+    {
+        "question": "What is the Spanish word for 'dog'?",
+        "choice1": "Gato",
+        "choice2": "Perro",
+        "choice3": "Caballo",
+        "choice4": "Vaca",
+        "answer": 2
+    },
+    {
+        "question": "'Gato' refers to which animal?",
+        "choice1": "Dog",
+        "choice2": "Cat",
+        "choice3": "Horse",
+        "choice4": "Rabbit",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a farm animal?",
+        "choice1": "Vaca",
+        "choice2": "Tiburón",
+        "choice3": "Águila",
+        "choice4": "Delfín",
+        "answer": 1
+    },
+    {
+        "question": "What type of animal is a 'caballo'?",
+        "choice1": "Horse",
+        "choice2": "Cow",
+        "choice3": "Sheep",
+        "choice4": "Tiger",
+        "answer": 1
+    },
+    {
+        "question": "A 'tigre' is known for its?",
+        "choice1": "Stripes",
+        "choice2": "Spots",
+        "choice3": "Scales",
+        "choice4": "Shell",
+        "answer": 1
+    },
+    {
+        "question": "Which animal is known as 'león' in Spanish?",
+        "choice1": "Wolf",
+        "choice2": "Tiger",
+        "choice3": "Lion",
+        "choice4": "Jaguar",
+        "answer": 3
+    },
+    {
+        "question": "If you see a 'pez', what type of animal are you looking at?",
+        "choice1": "Bird",
+        "choice2": "Fish",
+        "choice3": "Lizard",
+        "choice4": "Horse",
+        "answer": 2
+    },
+    {
+        "question": "'Serpiente' is the Spanish word for which animal?",
+        "choice1": "Turtle",
+        "choice2": "Snake",
+        "choice3": "Frog",
+        "choice4": "Deer",
+        "answer": 2
+    },
+    {
+        "question": "What does 'conejo' mean?",
+        "choice1": "Rabbit",
+        "choice2": "Deer",
+        "choice3": "Rat",
+        "choice4": "Owl",
+        "answer": 1
+    },
+    {
+        "question": "'Oso' is which type of animal?",
+        "choice1": "Bear",
+        "choice2": "Fox",
+        "choice3": "Wolf",
+        "choice4": "Elephant",
+        "answer": 1
+    },
+    {
+        "question": "Which of these animals can fly?",
+        "choice1": "Águila",
+        "choice2": "Tiburón",
+        "choice3": "Caballo",
+        "choice4": "Serpiente",
+        "answer": 1
+    },
+    {
+        "question": "'Tiburón' refers to which marine animal?",
+        "choice1": "Shark",
+        "choice2": "Whale",
+        "choice3": "Dolphin",
+        "choice4": "Octopus",
+        "answer": 1
+    },
+    {
+        "question": "What does 'jirafa' mean in English?",
+        "choice1": "Giraffe",
+        "choice2": "Leopard",
+        "choice3": "Cheetah",
+        "choice4": "Hedgehog",
+        "answer": 1
+    },
+    {
+        "question": "'Elefante' is known for its?",
+        "choice1": "Sharp claws",
+        "choice2": "Long trunk",
+        "choice3": "Bright colors",
+        "choice4": "Small size",
+        "answer": 2
+    },
+    {
+        "question": "Which animal is known for its ability to climb trees?",
+        "choice1": "Mono",
+        "choice2": "Tiburón",
+        "choice3": "Delfín",
+        "choice4": "Oso polar",
+        "answer": 1
+    },
+    {
+        "question": "'Delfín' refers to which intelligent marine animal?",
+        "choice1": "Shark",
+        "choice2": "Dolphin",
+        "choice3": "Octopus",
+        "choice4": "Seal",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following animals is NOT a mammal?",
+        "choice1": "Vaca",
+        "choice2": "Perro",
+        "choice3": "Águila",
+        "choice4": "Oso",
+        "answer": 3
+    },
+    {
+        "question": "'Lobo' is the Spanish word for?",
+        "choice1": "Fox",
+        "choice2": "Wolf",
+        "choice3": "Coyote",
+        "choice4": "Jaguar",
+        "answer": 2
+    },
+    {
+        "question": "'Pájaro' is a general term for which group of animals?",
+        "choice1": "Reptiles",
+        "choice2": "Mammals",
+        "choice3": "Birds",
+        "choice4": "Fish",
+        "answer": 3
+    },
+    {
+        "question": "What is the Spanish word for 'fox'?",
+        "choice1": "Lobo",
+        "choice2": "Oso",
+        "choice3": "Zorro",
+        "choice4": "Águila",
+        "answer": 3
+    }
+]

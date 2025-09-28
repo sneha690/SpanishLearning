@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice-Based Spanish Quiz</title>
+    <link rel="stylesheet" href="story.css">
+    <script src="story.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn Spanish with Voice</h1>
+
+        <!-- Home Page -->
+        <div id="home-page">
+            <h2>Select a Quiz:</h2>
+            <button onclick="startQuiz('quiz1')">Greetings</button>
+            <button onclick="startQuiz('quiz2')">Introduction</button>
+            <button onclick="startQuiz('quiz3')">Numbers</button>
+            <button onclick="startQuiz('quiz4')">Days of the Week</button>
+            <button onclick="startQuiz('quiz5')">Common Verbs</button>
+            <button onclick="startQuiz('quiz6')">Common Questions</button>
+            <button onclick="startQuiz('quiz7')">Family Members</button>
+            <button onclick="startQuiz('quiz8')">Colors</button>
+            <button onclick="startQuiz('quiz9')">Body Parts</button> 
+            <button onclick="startQuiz('quiz10')">Food & Drinks</button>
+            <button onclick="startQuiz('quiz11')">Directions and Locations</button>
+            <button onclick="startQuiz('quiz12')">Weather</button>
+            <button onclick="startQuiz('quiz13')">Emotions</button>
+            <button onclick="startQuiz('quiz14')">Daily Routine</button>
+            <button onclick="startQuiz('quiz15')">Common Objects</button>
+            <button onclick="startQuiz('quiz16')">Transportation</button>
+            <button onclick="startQuiz('quiz17')">Shopping Vocabulary</button>
+            <button onclick="startQuiz('quiz18')">Animals</button>
+            <button onclick="startQuiz('quiz19')">Travel & Tourism</button>
+            <button onclick="startQuiz('quiz20')">School Vocabulary</button>
+            <button onclick="startQuiz('quiz21')">Adjectives</button>
+            <button onclick="startQuiz('quiz22')">Opposites</button>
+            <button onclick="startQuiz('quiz23')">Occupations</button>
+            <button onclick="startQuiz('quiz24')">Health and Wellness</button>
+            <button onclick="startQuiz('quiz25')">House Vocabulary</button>
+            <button onclick="startQuiz('quiz26')">Festivals and Holidays</button>
+            <button onclick="startQuiz('quiz27')">Technology</button>
+            <button onclick="startQuiz('quiz28')">Sentences for Communication</button>
+            <button onclick="startQuiz('quiz29')">Short Sentences</button>
+            <button onclick="startQuiz('quiz30')">Basic Conversations</button>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz-page" style="display:none;">
+            <p id="instruction">Listen to the phrase and choose the correct answer:</p>
+            <audio id="audio-player" controls></audio>
+            <div id="options">
+                <button onclick="checkAnswer(0)">Option 1</button>
+                <button onclick="checkAnswer(1)">Option 2</button>
+            </div>
+            <div id="quiz-controls">
+                <button onclick="startVoiceInput()"><i class="fas fa-microphone"></i> Speak Answer</button>
+                <button onclick="replayPhrase()"><i class="fas fa-volume-up"></i> Replay Phrase</button>
+            </div>
+            <p id="phrase-text"></p>
+            <p id="result"></p>
+            <button onclick="quitQuiz()" id="quit-button">Quit</button>
+            <button onclick="goHome()" id="go-home" style="display:none;">Go Home</button>
+        </div>
+    </div>
+
+     <!-- Quit Confirmation Modal -->
+     <div id="quit-modal" class="modal">
+        <div class="modal-content">
+            <p>Are you sure you want to quit?</p>
+            <button id="confirm-quit">Yes</button>
+            <button id="cancel-quit">No</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/02/02/15/20250202152007-XC1SNJN7.js"></script>
+
+<!-- Notepad Button & Modal -->
+<style>
+    /* Floating Button */
+    #notepadButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: transparent;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none;
+      z-index: 9999;
+      transition: background 0.3s ease;
+    }
+  
+    #notepadButton:hover {
+      background: linear-gradient(135deg, #ccb6ff, #8145d5);
+    }
+  
+    /* Modal Background */
+    #modalContainer {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: center;
+      align-items: center;
+      z-index: 9998;
+      backdrop-filter: blur(6px);
+    }
+  
+    /* Modal Box */
+    .modal {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px;
+      width: 90%;
+      max-width: 520px;
+      padding: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: absolute;
+      cursor: move;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #000;
+    }
+  
+    .modal header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+  
+    .buttons, .editor-toolbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  
+    .buttons button, .editor-toolbar button {
+      background: rgba(255, 255, 255, 0.25);
+      color: #000;
+      padding: 6px 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    .buttons button:hover, .editor-toolbar button:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+  
+    #notepad {
+      width: 100%;
+      max-height: 400px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      color: #000;
+      font-size: 15px;
+    }
+  
+    /* Dark Mode */
+    .dark-mode .modal {
+      background: rgba(34, 34, 34, 0.8);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+  
+    .dark-mode #notepad {
+      background-color: rgba(60, 60, 60, 0.5);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button,
+    .dark-mode .editor-toolbar button {
+      background: rgba(100, 100, 100, 0.3);
+      color: #fff;
+    }
+  
+    .dark-mode .buttons button:hover,
+    .dark-mode .editor-toolbar button:hover {
+      background: rgba(150, 150, 150, 0.4);
+    }
+  </style>
+  
+  
+  <!-- Button -->
+  <button id="notepadButton">
+    <img src="dasgbrd/sticky notes.png" alt="Note" style="width: 30px; height: 30px;">
+  </button>
+  
+  
+  <!-- Modal -->
+  <div id="modalContainer">
+    <div class="modal" id="notepadModal">
+      <header>
+        <h1>Notepad</h1>
+        <div class="buttons">
+          <button id="saveNote">Save</button>
+          <button id="loadNote">Load</button>
+          <button id="toggleMode">Dark Mode</button>
+          <button id="closeModal">Close</button>
+        </div>
+      </header>
+      <div class="editor-toolbar">
+        <button id="boldBtn">B</button>
+        <button id="italicBtn">I</button>
+        <button id="underlineBtn">U</button>
+        <button id="highlightBtn">Highlight</button>
+      </div>
+      <div id="notepad" contenteditable="true" placeholder="Start typing your notes here..."></div>
+    </div>
+  </div>
+  
+  <script>
+    const notepadButton = document.getElementById("notepadButton");
+    const modalContainer = document.getElementById("modalContainer");
+    const notepadModal = document.getElementById("notepadModal");
+    const closeModalButton = document.getElementById("closeModal");
+    const toggleModeButton = document.getElementById("toggleMode");
+  
+    notepadButton.onclick = () => {
+      modalContainer.style.display = "flex";
+      const savedNote = localStorage.getItem("note");
+      if (savedNote) {
+        document.getElementById("notepad").innerHTML = savedNote;
+      }
+    };
+  
+    closeModalButton.onclick = () => {
+      modalContainer.style.display = "none";
+    };
+  
+    let isDragging = false, offsetX, offsetY;
+    notepadModal.addEventListener('mousedown', e => {
+      isDragging = true;
+      offsetX = e.clientX - notepadModal.getBoundingClientRect().left;
+      offsetY = e.clientY - notepadModal.getBoundingClientRect().top;
+    });
+  
+    window.addEventListener('mousemove', e => {
+      if (isDragging) {
+        notepadModal.style.left = `${e.clientX - offsetX}px`;
+        notepadModal.style.top = `${e.clientY - offsetY}px`;
+      }
+    });
+  
+    window.addEventListener('mouseup', () => isDragging = false);
+  
+    toggleModeButton.onclick = function() {
+      document.body.classList.toggle("dark-mode");
+      this.textContent = document.body.classList.contains("dark-mode") ? "Light Mode" : "Dark Mode";
+    };
+  
+    // Save note to MongoDB
+      document.getElementById("saveNote").onclick = async () => {
+        const noteContent = document.getElementById("notepad").innerHTML;
+        if (noteContent.trim()) {
+          const response = await fetch('/api/save-note', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: noteContent })
+          });
+          const result = await response.json();
+          alert(result.message || "Note saved!");
+        } else {
+          alert("Cannot save an empty note!");
+        }
+      };
+  
+      // Load note from MongoDB
+      document.getElementById("loadNote").onclick = async () => {
+        const response = await fetch('/api/load-note');
+        const data = await response.json();
+        document.getElementById("notepad").innerHTML = data.note || '';
+      };
+  
+    document.getElementById("boldBtn").onclick = () => document.execCommand('bold');
+    document.getElementById("italicBtn").onclick = () => document.execCommand('italic');
+    document.getElementById("underlineBtn").onclick = () => document.execCommand('underline');
+    document.getElementById("highlightBtn").onclick = () => document.execCommand('backColor', false, 'yellow');
+  </script>
+
+
+</body>
+</html>
